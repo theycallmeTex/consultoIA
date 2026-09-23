@@ -1,0 +1,302 @@
+[
+  {
+    "diagnosis_id": "DX_INSOM",
+    "diagnosis_name": "Insomnia Disorder",
+    "diagnostic_code": "F51.01",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Complaint of sleep quality/amount (initial, interval, or terminal insomnia)",
+    "duration_rule": "3+ nights/week for 3+ months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_INIT",
+        "symptom_name": "Difficulty Falling Asleep",
+        "description": "The patient has persistent difficulty initiating or falling asleep."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_MAINT",
+        "symptom_name": "Difficulty Maintaining Sleep",
+        "description": "The patient has difficulty maintaining sleep, frequently awakening during the night."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_TERM",
+        "symptom_name": "Early Morning Awakening",
+        "description": "The patient awakens too early in the morning and is unable to return to sleep."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_UNREFRESH",
+        "symptom_name": "Unrefreshing Sleep",
+        "description": "The patient frequently wakes up feeling that their sleep was unrestful or unrefreshing."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_HYPERSOM",
+    "diagnosis_name": "Hypersomnolence Disorder",
+    "diagnostic_code": "F51.11",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Severe daytime drowsiness despite 7+ hours of sleep (e.g., naps, sleep inertia)",
+    "duration_rule": "3+ times a week for 3+ months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_NAP",
+        "symptom_name": "Daytime Napping",
+        "description": "The patient takes repeated daytime naps or unintentionally falls asleep during the day despite having had sufficient nighttime sleep."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_LONG",
+        "symptom_name": "Prolonged Unrefreshing Sleep",
+        "description": "The patient experiences prolonged sleep episodes of nine or more hours that remain unrefreshing."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_INERTIA",
+        "symptom_name": "Sleep Inertia",
+        "description": "The patient experiences sleep inertia, feeling groggy, disoriented, or having difficulty remaining fully awake upon abrupt awakening."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NARCO",
+    "diagnosis_name": "Narcolepsy",
+    "diagnostic_code": "G47.411",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Irresistible attacks of waketime sleep associated with cataplexy or physiological markers (hypocretin deficiency)",
+    "duration_rule": "3+ times/week for 3+ months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_ATTACK",
+        "symptom_name": "Sleep Attacks",
+        "description": "The patient experiences irrepressible attacks of sleep or an overwhelming need to sleep during the daytime."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_CATAPLEXY",
+        "symptom_name": "Cataplexy",
+        "description": "The patient experiences sudden, brief episodes of muscle weakness or paralysis, known as cataplexy, which are often triggered by strong emotions."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_HALLUC",
+        "symptom_name": "Sleep Hallucinations",
+        "description": "The patient experiences vivid, often frightening, visual or auditory hallucinations when falling asleep or waking up."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_PARALYSIS",
+        "symptom_name": "Sleep Paralysis",
+        "description": "The patient is temporarily unable to move or speak while transitioning between sleep and wakefulness."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OSAH",
+    "diagnosis_name": "Obstructive Sleep Apnea Hypopnea",
+    "diagnostic_code": "G47.33",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "5+ apneas/hypopneas per hour + symptoms (snoring, drowsiness) OR 15+ episodes/hour regardless of symptoms",
+    "duration_rule": "Persistent (confirmed by polysomnography)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BREATH_PAUSE",
+        "symptom_name": "Breathing Pauses",
+        "description": "The patient experiences frequent pauses in breathing, such as apneas or hypopneas, during sleep due to airway obstruction."
+      },
+      {
+        "symptom_id": "SYM_BREATH_SNORT",
+        "symptom_name": "Loud Snoring",
+        "description": "The patient exhibits loud snoring, snorting, or gasping during sleep."
+      },
+      {
+        "symptom_id": "SYM_BREATH_DROWSY",
+        "symptom_name": "Daytime Sleepiness",
+        "description": "The patient experiences daytime sleepiness, fatigue, or unrefreshing sleep resulting from nighttime breathing disturbances."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CSA",
+    "diagnosis_name": "Central Sleep Apnea",
+    "diagnostic_code": "G47.31",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Polysomnography shows 5+ central sleep apneas per hour of sleep",
+    "duration_rule": "Persistent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BREATH_PAUSE_CENTRAL",
+        "symptom_name": "Central Sleep Apnea",
+        "description": "The patient experiences frequent central sleep apneas during sleep, characterized by a cessation of breathing effort."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SRH",
+    "diagnosis_name": "Sleep-Related Hypoventilation",
+    "diagnostic_code": "G47.34",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Polysomnography shows periods of reduced breathing with elevated CO2 levels",
+    "duration_rule": "Persistent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BREATH_SHALLOW",
+        "symptom_name": "Shallow Breathing",
+        "description": "The patient experiences episodes of shallow breathing or hypoventilation during sleep that lead to abnormal blood gas levels."
+      },
+      {
+        "symptom_id": "SYM_BREATH_CO2",
+        "symptom_name": "Elevated Carbon Dioxide",
+        "description": "The patient demonstrates periods of reduced breathing accompanied by elevated carbon dioxide levels during polysomnography."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CIRC_RYTHM",
+    "diagnosis_name": "Circadian Rhythm Sleep–Wake Disorder",
+    "diagnostic_code": "G47.21",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Mismatch between natural body rhythms and environmental/work demands (e.g., Shift Work, Delayed Phase)",
+    "duration_rule": "Recurring",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_MISMATCH",
+        "symptom_name": "Sleep-Wake Mismatch",
+        "description": "The patient experiences a recurring mismatch between their biological sleep-wake cycle and the environmental or social demands placed upon them."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_INSOM_HYPER",
+        "symptom_name": "Circadian Sleep Disruption",
+        "description": "The patient experiences notable insomnia or hypersomnolence as a result of a circadian rhythm misalignment."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NREM_AROUSAL",
+    "diagnosis_name": "Non-Rapid Eye Movement Sleep Arousal Disorder",
+    "diagnostic_code": "F51.3",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Repeated incomplete awakenings featuring sleepwalking or sleep terrors",
+    "duration_rule": "Recurrent; typically in first third of the night",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_WALK",
+        "symptom_name": "Sleepwalking",
+        "description": "The patient exhibits episodes of rising from bed during sleep and walking about with a blank, staring expression, often remaining unresponsive to others."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_TERROR",
+        "symptom_name": "Sleep Terrors",
+        "description": "The patient abruptly awakens from sleep with a terrified scream, accompanied by intense fear and signs of autonomic arousal."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_AMNESIA",
+        "symptom_name": "Sleep Episode Amnesia",
+        "description": "The patient tends to have little or no memory of the sleep arousal episode the following morning."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NIGHTMARE",
+    "diagnosis_name": "Nightmare Disorder",
+    "diagnostic_code": "F51.5",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Repeated instant awakenings from long, terrifying dreams with detailed recall",
+    "duration_rule": "Recurrent; typically in second half of the night",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_DREAM_RECALL",
+        "symptom_name": "Terrifying Dream Recall",
+        "description": "The patient instantly and fully awakens from terrifying dreams and recalls them in frightening detail."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_REM_BEH",
+    "diagnosis_name": "Rapid Eye Movement Sleep Behavior Disorder",
+    "diagnostic_code": "G47.52",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Complex physical actions/vocalizations during REM sleep (acting out dreams)",
+    "duration_rule": "Recurrent (often associated with synucleinopathy)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_ACT_OUT",
+        "symptom_name": "Acting Out Dreams",
+        "description": "The patient exhibits vocalizations or complex motor behaviors during REM sleep, often acting out vivid dreams."
+      },
+      {
+        "symptom_id": "SYM_SLEEP_REM_TONE",
+        "symptom_name": "Absent Muscle Atonia",
+        "description": "The patient lacks the normal muscle atonia that typically accompanies REM sleep, as revealed by polysomnography."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_RLS",
+    "diagnosis_name": "Restless Legs Syndrome",
+    "diagnostic_code": "G25.81",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Irresistible urge to move legs due to unpleasant sensations, worse during rest/evenings",
+    "duration_rule": "3+ times a week for 3+ months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_RLS_URGE",
+        "symptom_name": "Urge to Move",
+        "description": "The patient experiences an irresistible urge to move the legs, usually accompanied by uncomfortable or unpleasant sensations in the lower limbs."
+      },
+      {
+        "symptom_id": "SYM_RLS_REST",
+        "symptom_name": "Worsening at Rest",
+        "description": "The patient experiences an urge to move the legs that begins or worsens during periods of rest or inactivity."
+      },
+      {
+        "symptom_id": "SYM_RLS_EVE",
+        "symptom_name": "Evening Worsening",
+        "description": "The patient experiences an urge to move the legs that worsens in the evening or at night."
+      },
+      {
+        "symptom_id": "SYM_RLS_RELIEF",
+        "symptom_name": "Relief by Movement",
+        "description": "The patient experiences an urge to move that is partially or totally relieved by movement, such as walking or stretching."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SUB_SLEEP",
+    "diagnosis_name": "Substance/Medication-Induced Sleep Disorder",
+    "diagnostic_code": "F19.982",
+    "chapter_category": "Sleep–Wake Disorders",
+    "threshold_count": "Prominent and severe sleep disturbance caused by a substance",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLEEP_DISTURB",
+        "symptom_name": "Induced Sleep Disturbance",
+        "description": "The patient complains of a severe sleep disturbance, such as insomnia or hypersomnolence, directly resulting from substance or medication use."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

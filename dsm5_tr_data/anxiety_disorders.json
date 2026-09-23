@@ -1,0 +1,352 @@
+[
+  {
+    "diagnosis_id": "DX_PANIC",
+    "diagnosis_name": "Panic Disorder",
+    "diagnostic_code": "F41.0",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Repeated unexpected panic attacks followed by 1 or both listed changes",
+    "duration_rule": "1 month",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PAN_WORRY",
+        "symptom_name": "Persistent Panic Worry",
+        "description": "The patient experiences persistent concern or worry about having additional panic attacks or their consequences."
+      },
+      {
+        "symptom_id": "SYM_PAN_BEH",
+        "symptom_name": "Panic Avoidance",
+        "description": "The patient exhibits a significant maladaptive change in behavior related to panic attacks, such as adopting behaviors designed to avoid having them."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+        "symptom_name": "Not Substance Induced",
+        "description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_AGOR",
+    "diagnosis_name": "Agoraphobia",
+    "diagnostic_code": "F40.00",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Marked fear or anxiety in at least 2 of 5 specific situations",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_AGOR_SITU_TRANS",
+        "symptom_name": "Fear Public Transit",
+        "description": "The patient experiences marked fear or anxiety about using public transportation, such as automobiles, buses, trains, ships, or planes."
+      },
+      {
+        "symptom_id": "SYM_AGOR_SITU_OPEN",
+        "symptom_name": "Fear Open Spaces",
+        "description": "The patient experiences marked fear or anxiety about being in open spaces, such as parking lots, marketplaces, or bridges."
+      },
+      {
+        "symptom_id": "SYM_AGOR_SITU_ENCLOSED",
+        "symptom_name": "Fear Enclosed Spaces",
+        "description": "The patient experiences marked fear or anxiety about being in enclosed places, such as shops, theaters, or cinemas."
+      },
+      {
+        "symptom_id": "SYM_AGOR_SITU_CROWDS",
+        "symptom_name": "Fear of Crowds",
+        "description": "The patient experiences marked fear or anxiety about standing in line or being in a crowd."
+      },
+      {
+        "symptom_id": "SYM_AGOR_SITU_ALONE",
+        "symptom_name": "Fear Outside Alone",
+        "description": "The patient experiences marked fear or anxiety about being outside of the home alone."
+      },
+      {
+        "symptom_id": "SYM_AGOR_FEAR_HELP",
+        "symptom_name": "Fear of Trapping",
+        "description": "The patient fears or avoids situations because of thoughts that escape might be difficult or help might not be available in the event of developing panic-like, incapacitating, or embarrassing symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PHOBIA",
+    "diagnosis_name": "Specific Phobia",
+    "diagnostic_code": "F40.218",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Habitual immediate, inordinate dread of a specific object or situation",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PHOBIA_SITU",
+        "symptom_name": "Situational Phobia",
+        "description": "The patient avoids or endures with intense anxiety specific situations, such as flying, driving, or being in enclosed spaces."
+      },
+      {
+        "symptom_id": "SYM_PHOBIA_AVOID",
+        "symptom_name": "Phobic Avoidance",
+        "description": "The patient actively avoids the phobic object or situation, or endures it with intense fear or anxiety."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SAD",
+    "diagnosis_name": "Social Anxiety Disorder",
+    "diagnostic_code": "F40.10",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Inordinate anxiety regarding circumstances where others could closely observe the patient",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SAD_SCRUTINY",
+        "symptom_name": "Social Scrutiny Anxiety",
+        "description": "The patient experiences inordinate anxiety in social situations where they are exposed to possible close observation or scrutiny by others."
+      },
+      {
+        "symptom_id": "SYM_SAD_NEG_EVAL",
+        "symptom_name": "Fear of Evaluation",
+        "description": "The patient fears acting in a way or showing anxiety symptoms that will be negatively evaluated, leading to humiliation or rejection."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SEL_MUT",
+    "diagnosis_name": "Selective Mutism",
+    "diagnostic_code": "F94.0",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Consistent failure to speak in specific social situations despite speaking normally at other times",
+    "duration_rule": "1 month (excluding the first month of school)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SEL_MUT_SPEAK",
+        "symptom_name": "Selective Mutism",
+        "description": "The patient consistently fails to speak in specific social situations where there is an expectation for speaking, despite speaking normally in other situations."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_GAD",
+    "diagnosis_name": "Generalized Anxiety Disorder",
+    "diagnostic_code": "F41.1",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Excessive worry plus 3 or more physical/cognitive symptoms (1 for children)",
+    "duration_rule": "6 months (most days)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GAD_WORRY",
+        "symptom_name": "Excessive Worry",
+        "description": "The patient experiences excessive, hard-to-control anxiety and worry about a variety of everyday events or activities."
+      },
+      {
+        "symptom_id": "SYM_GAD_RESTLESS",
+        "symptom_name": "Restlessness",
+        "description": "The patient feels restless, keyed up, or on edge."
+      },
+      {
+        "symptom_id": "SYM_GAD_FATIGUE",
+        "symptom_name": "Easy Fatigability",
+        "description": "The patient becomes easily fatigued or tired."
+      },
+      {
+        "symptom_id": "SYM_GAD_CONC",
+        "symptom_name": "Poor Concentration",
+        "description": "The patient experiences difficulty concentrating or their mind going blank."
+      },
+      {
+        "symptom_id": "SYM_GAD_IRRIT",
+        "symptom_name": "Irritability",
+        "description": "The patient feels easily irritated or expresses irritability."
+      },
+      {
+        "symptom_id": "SYM_GAD_MUSCLE",
+        "symptom_name": "Muscle Tension",
+        "description": "The patient experiences muscle tension."
+      },
+      {
+        "symptom_id": "SYM_GAD_SLEEP",
+        "symptom_name": "Sleep Disturbance",
+        "description": "The patient experiences trouble falling asleep, staying asleep, or has restless, unsatisfying sleep."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SEP_ANX",
+    "diagnosis_name": "Separation Anxiety Disorder",
+    "diagnostic_code": "F93.0",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "3 or more symptoms concerning separation from attachment figures",
+    "duration_rule": "6 months for adults; 4 weeks for children",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SEP_ANX_DISTRESS",
+        "symptom_name": "Separation Distress",
+        "description": "The patient experiences severe anxiety or distress when anticipating or experiencing separation from home or major attachment figures."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_LOSE",
+        "symptom_name": "Worry About Harm",
+        "description": "The patient excessively worries about losing major attachment figures or about possible harm coming to them, such as illness, injury, disasters, or death."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_EVENT",
+        "symptom_name": "Fear of Mishap",
+        "description": "The patient excessively worries about experiencing an untoward event, such as getting lost or being kidnapped, that would cause separation from a major attachment figure."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_RELUCT_OUT",
+        "symptom_name": "Reluctance to Leave",
+        "description": "The patient is persistently reluctant or refuses to go out, attend school, or sleep away from home due to fear of separation."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_FEAR_ALONE",
+        "symptom_name": "Avoiding Being Alone",
+        "description": "The patient experiences excessive fear or reluctance about being alone or without major attachment figures."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_RELUCT_SLEEP",
+        "symptom_name": "Reluctance to Sleep",
+        "description": "The patient exhibits reluctance or refusal to sleep away from home or to go to sleep without being near a major attachment figure."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_NIGHTMARE",
+        "symptom_name": "Separation Nightmares",
+        "description": "The patient has repeated nightmares involving themes of separation."
+      },
+      {
+        "symptom_id": "SYM_SEP_ANX_PHYS",
+        "symptom_name": "Physical Symptoms",
+        "description": "The patient repeatedly complains of physical symptoms, such as headaches or nausea, when separated from major attachment figures."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ANX_MED",
+    "diagnosis_name": "Anxiety Disorder Due to Another Medical Condition",
+    "diagnostic_code": "F06.4",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Physiological cause of prominent panic attacks or marked anxiety",
+    "duration_rule": "Not specified (physiological consequence of medical condition)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ANX_MED_ETIOLOGY",
+        "symptom_name": "Medical Etiology",
+        "description": "The patient has a disturbance that is the direct pathophysiological consequence of another medical condition, as evidenced by history, physical examination, or laboratory findings."
+      },
+      {
+        "symptom_id": "SYM_PAN_ATTACK",
+        "symptom_name": "Panic Attacks",
+        "description": "The patient experiences recurrent or isolated panic attacks, characterized by sudden surges of intense fear or discomfort accompanied by physical and cognitive symptoms."
+      },
+      {
+        "symptom_id": "SYM_ANX_MARKED",
+        "symptom_name": "Severe Anxiety",
+        "description": "The patient experiences prominent and severe anxiety symptoms or panic attacks."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ANX_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Anxiety Disorder",
+    "diagnostic_code": "F19.94",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Panic attacks or anxiety predominant in the clinical picture following substance use",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ANX_SUB_ETIOLOGY",
+        "symptom_name": "Substance Etiology",
+        "description": "The patient developed symptoms during or soon after substance intoxication, withdrawal, or medication exposure, and the substance is capable of producing the anxiety symptoms."
+      },
+      {
+        "symptom_id": "SYM_PAN_ATTACK",
+        "symptom_name": "Panic Attacks",
+        "description": "The patient experiences recurrent or isolated panic attacks, characterized by sudden surges of intense fear or discomfort accompanied by physical and cognitive symptoms."
+      },
+      {
+        "symptom_id": "SYM_ANX_MARKED",
+        "symptom_name": "Severe Anxiety",
+        "description": "The patient experiences prominent and severe anxiety symptoms or panic attacks."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_ANX",
+    "diagnosis_name": "Other Specified Anxiety Disorder",
+    "diagnostic_code": "F41.8",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Clinically important symptoms that fall below threshold for defined disorders",
+    "duration_rule": "Variable (e.g., limited-symptom attacks; atypical GAD frequency)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ANX_SUBTH",
+        "symptom_name": "Subthreshold Anxiety",
+        "description": "The patient experiences clinically important anxiety symptoms that fall below diagnostic thresholds."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_ANX",
+    "diagnosis_name": "Unspecified Anxiety Disorder",
+    "diagnostic_code": "F41.9",
+    "chapter_category": "Anxiety Disorders",
+    "threshold_count": "Anxiety symptoms present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ANX_UNSPEC",
+        "symptom_name": "Unspecified Anxiety",
+        "description": "The patient presents with anxiety symptoms, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

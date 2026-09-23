@@ -1,0 +1,217 @@
+[
+  {
+    "diagnosis_id": "DX_SSD",
+    "diagnosis_name": "Somatic Symptom Disorder",
+    "diagnostic_code": "F45.1",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "1 or more distressing or disruptive somatic symptoms plus 1 or more health-related thoughts/behaviors",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SSD_SOMATIC",
+        "symptom_name": "Distressing Somatic Symptoms",
+        "description": "The patient experiences one or more distressing physical symptoms that significantly disrupt their daily life."
+      },
+      {
+        "symptom_id": "SYM_SSD_COG",
+        "symptom_name": "Excessive Health Anxiety",
+        "description": "The patient invests excessive time and energy in health care or experiences persistent, high-level anxiety about the seriousness of their symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SSD_PAIN",
+    "diagnosis_name": "Somatic Symptom Disorder, with Predominant Pain",
+    "diagnostic_code": "F45.1",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "1 or more distressing somatic symptoms (primarily pain) plus 1 or more health-related thoughts/behaviors",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SSD_PAIN",
+        "symptom_name": "Severe Somatic Pain",
+        "description": "The patient experiences severe, often chronic physical pain as their predominant somatic complaint, which lacks an apparent physical cause or exceeds typical expectations."
+      },
+      {
+        "symptom_id": "SYM_SSD_COG",
+        "symptom_name": "Excessive Health Anxiety",
+        "description": "The patient invests excessive time and energy in health care or experiences persistent, high-level anxiety about the seriousness of their symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FNSD",
+    "diagnosis_name": "Functional Neurological Symptom Disorder (Conversion Disorder)",
+    "diagnostic_code": "F44.4",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "1 or more symptoms of altered voluntary motor or sensory function",
+    "duration_rule": "Not specified; can be acute (<6 months) or persistent (6+ months)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FNSD_MOTOR_SENSORY",
+        "symptom_name": "Altered Motor Function",
+        "description": "The patient experiences altered voluntary motor or sensory functioning, such as weakness, paralysis, or abnormal movements."
+      },
+      {
+        "symptom_id": "SYM_FNSD_INCONSISTENT",
+        "symptom_name": "Inconsistent Neurological Symptoms",
+        "description": "The patient exhibits sensory or voluntary motor symptoms that are clinically inconsistent with any recognized medical or neurological condition."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_IAD",
+    "diagnosis_name": "Illness Anxiety Disorder",
+    "diagnostic_code": "F45.21",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "Preoccupation with having/acquiring serious illness plus high health anxiety and excessive health-related behaviors",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_IAD_PREOCC",
+        "symptom_name": "Illness Preoccupation",
+        "description": "The patient is preoccupied with fears of having or acquiring a serious, undiagnosed illness."
+      },
+      {
+        "symptom_id": "SYM_IAD_ANX",
+        "symptom_name": "Health Anxiety",
+        "description": "The patient has a high level of anxiety about health and is easily alarmed about their personal health status."
+      },
+      {
+        "symptom_id": "SYM_IAD_BEH",
+        "symptom_name": "Excessive Health Behaviors",
+        "description": "The patient performs excessive health-related behaviors, such as repeatedly checking their body for signs of illness, or exhibits maladaptive avoidance of medical care."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PFAMC",
+    "diagnosis_name": "Psychological Factors Affecting Other Medical Conditions",
+    "diagnostic_code": "F54",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "1 or more psychological or behavioral factors that adversely affect a medical condition",
+    "duration_rule": "Persistent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PF_AFFECT_MED",
+        "symptom_name": "Adverse Psychological Factor",
+        "description": "The patient exhibits a psychological or behavioral factor that adversely affects a medical condition, interferes with treatment, or constitutes an additional health risk."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FAC_SELF",
+    "diagnosis_name": "Factitious Disorder Imposed on Self",
+    "diagnostic_code": "F68.10",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "Intentional falsification of physical or psychological signs/symptoms or induction of injury/disease",
+    "duration_rule": "Not specified",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FAC_FEIGN",
+        "symptom_name": "Falsifying Symptoms",
+        "description": "The patient intentionally falsifies physical or psychological signs or symptoms, or induces injury or disease in themselves, to present as ill, impaired, or injured."
+      },
+      {
+        "symptom_id": "SYM_FAC_NO_REWARD",
+        "symptom_name": "Deception Without Reward",
+        "description": "The patient exhibits deceptive behavior that is evident even in the absence of obvious external rewards, such as financial gain or avoiding legal responsibility."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FAC_ANOTHER",
+    "diagnosis_name": "Factitious Disorder Imposed on Another",
+    "diagnostic_code": "F68.A",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "Perpetrator intentionally falsifies or induces illness/injury in another person",
+    "duration_rule": "Not specified",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FAC_FEIGN_ANOTHER",
+        "symptom_name": "Falsifying Others' Symptoms",
+        "description": "The patient intentionally falsifies physical or psychological signs or symptoms, or induces injury or disease in another person, presenting the victim as ill, impaired, or injured."
+      },
+      {
+        "symptom_id": "SYM_FAC_NO_REWARD",
+        "symptom_name": "Deception Without Reward",
+        "description": "The patient exhibits deceptive behavior that is evident even in the absence of obvious external rewards, such as financial gain or avoiding legal responsibility."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_SSD",
+    "diagnosis_name": "Other Specified Somatic Symptom and Related Disorder",
+    "diagnostic_code": "F45.8",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "Symptoms characteristic of somatic symptom disorder that cause distress but do not meet full criteria",
+    "duration_rule": "Variable (e.g., pseudocyesis, brief SSD < 6 months)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SSD_SUBTH",
+        "symptom_name": "Subthreshold Somatic Symptoms",
+        "description": "The patient experiences characteristic and distressing somatic symptoms that do not meet the full diagnostic threshold for a specific disorder."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_SSD",
+    "diagnosis_name": "Unspecified Somatic Symptom and Related Disorder",
+    "diagnostic_code": "F45.9",
+    "chapter_category": "Somatic Symptom and Related Disorders",
+    "threshold_count": "Somatic symptoms present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SSD_UNSPEC",
+        "symptom_name": "Unspecified Somatic Symptoms",
+        "description": "The patient presents with somatic symptoms, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

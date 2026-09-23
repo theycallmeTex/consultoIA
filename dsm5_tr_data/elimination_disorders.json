@@ -1,0 +1,82 @@
+[
+  {
+    "diagnosis_id": "DX_ENUR",
+    "diagnosis_name": "Enuresis",
+    "diagnostic_code": "F98.0",
+    "chapter_category": "Elimination Disorders",
+    "threshold_count": "Recurrent urination into clothing or bedding (voluntary or involuntary)",
+    "duration_rule": "2+ times/week for 3+ months; patient is at least 5 years old",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ENUR_VOID",
+        "symptom_name": "Inappropriate Urination",
+        "description": "The patient repeatedly voids urine into bedding or clothing, whether involuntarily or intentionally."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ENCO",
+    "diagnosis_name": "Encopresis",
+    "diagnostic_code": "F98.1",
+    "chapter_category": "Elimination Disorders",
+    "threshold_count": "Recurrent defecation in improper locations (voluntary or accidental)",
+    "duration_rule": "1+ times/month for 3+ months; patient is at least 4 years old",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ENCO_PASS",
+        "symptom_name": "Inappropriate Defecation",
+        "description": "The patient repeatedly passes feces into inappropriate places, such as clothing or the floor, whether voluntarily or accidentally."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_ELIM",
+    "diagnosis_name": "Other Specified Elimination Disorder",
+    "diagnostic_code": "N39.498",
+    "chapter_category": "Elimination Disorders",
+    "threshold_count": "Symptoms of encopresis or enuresis that cause distress but do not meet full criteria",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ELIM_SUBTH",
+        "symptom_name": "Subthreshold Elimination Symptoms",
+        "description": "The patient exhibits symptoms of encopresis or enuresis that fall below the diagnostic threshold."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_ELIM",
+    "diagnosis_name": "Unspecified Elimination Disorder",
+    "diagnostic_code": "R32",
+    "chapter_category": "Elimination Disorders",
+    "threshold_count": "Elimination symptoms present but insufficient information for specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ELIM_UNSPEC",
+        "symptom_name": "Unspecified Elimination",
+        "description": "The patient exhibits symptoms of an elimination disorder, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

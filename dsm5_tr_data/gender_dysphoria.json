@@ -1,0 +1,142 @@
+[
+  {
+    "diagnosis_id": "DX_GD_ADULT",
+    "diagnosis_name": "Gender Dysphoria in Adolescents and Adults",
+    "diagnostic_code": "F64.0",
+    "chapter_category": "Gender Dysphoria",
+    "threshold_count": "At least 2 of 6 specific symptoms",
+    "duration_rule": "6 months or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GD_DISPARITY",
+        "symptom_name": "Gender Incongruence",
+        "description": "The patient experiences a marked disparity between their experienced gender and their assigned gender."
+      },
+      {
+        "symptom_id": "SYM_GD_RID_CHAR",
+        "symptom_name": "Reject Sex Characteristics",
+        "description": "The patient has a strong desire to be rid of their primary or secondary sex characteristics."
+      },
+      {
+        "symptom_id": "SYM_GD_WANT_CHAR",
+        "symptom_name": "Desire Sex Characteristics",
+        "description": "The patient strongly desires the primary or secondary sex characteristics of another gender."
+      },
+      {
+        "symptom_id": "SYM_GD_DESIRE_OTHER",
+        "symptom_name": "Desire Another Gender",
+        "description": "The patient expresses a powerful desire to be of another gender."
+      },
+      {
+        "symptom_id": "SYM_GD_TREAT_OTHER",
+        "symptom_name": "Desire Cross-Gender Recognition",
+        "description": "The patient desires to be treated by others as another gender."
+      },
+      {
+        "symptom_id": "SYM_GD_FEEL_OTHER",
+        "symptom_name": "Cross-Gender Feelings",
+        "description": "The patient strongly believes they possess the typical feelings and reactions of another gender."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_GD_CHILD",
+    "diagnosis_name": "Gender Dysphoria in Children",
+    "diagnostic_code": "F64.2",
+    "chapter_category": "Gender Dysphoria",
+    "threshold_count": "At least 6 of 8 specific symptoms",
+    "duration_rule": "6 months or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GD_DESIRE_OTHER",
+        "symptom_name": "Desire Another Gender",
+        "description": "The patient expresses a powerful desire to be of another gender."
+      },
+      {
+        "symptom_id": "SYM_GD_CHILD_CLOTHES",
+        "symptom_name": "Cross-Gender Clothing",
+        "description": "The patient expresses a strong preference for wearing clothing typical of the experienced or expressed gender, and resists wearing typical clothing of their assigned gender."
+      },
+      {
+        "symptom_id": "SYM_GD_CHILD_ROLES",
+        "symptom_name": "Cross-Gender Roles",
+        "description": "The patient strongly prefers cross-gender roles in make-believe or fantasy play."
+      },
+      {
+        "symptom_id": "SYM_GD_CHILD_TOYS",
+        "symptom_name": "Cross-Gender Play",
+        "description": "The patient exhibits a strong preference for toys, games, or activities typical of another gender."
+      },
+      {
+        "symptom_id": "SYM_GD_CHILD_PLAYMATES",
+        "symptom_name": "Cross-Gender Playmates",
+        "description": "The patient exhibits a strong preference for playmates of the experienced or expressed gender."
+      },
+      {
+        "symptom_id": "SYM_GD_CHILD_REJECT",
+        "symptom_name": "Rejecting Assigned Toys",
+        "description": "The patient strongly rejects toys, games, and activities that are typical of their assigned gender."
+      },
+      {
+        "symptom_id": "SYM_GD_RID_CHAR",
+        "symptom_name": "Reject Sex Characteristics",
+        "description": "The patient has a strong desire to be rid of their primary or secondary sex characteristics."
+      },
+      {
+        "symptom_id": "SYM_GD_WANT_CHAR",
+        "symptom_name": "Desire Sex Characteristics",
+        "description": "The patient strongly desires the primary or secondary sex characteristics of another gender."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_GD",
+    "diagnosis_name": "Other Specified Gender Dysphoria",
+    "diagnostic_code": "F64.8",
+    "chapter_category": "Gender Dysphoria",
+    "threshold_count": "Symptoms characteristic of gender dysphoria that cause distress but do not meet full criteria",
+    "duration_rule": "Variable (e.g., symptoms met for less than 6 months)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GD_SUBTH",
+        "symptom_name": "Subthreshold Dysphoria",
+        "description": "The patient exhibits symptoms characteristic of gender dysphoria that fall below the full diagnostic threshold."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_GD",
+    "diagnosis_name": "Unspecified Gender Dysphoria",
+    "diagnostic_code": "F64.9",
+    "chapter_category": "Gender Dysphoria",
+    "threshold_count": "Gender dysphoria symptoms present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GD_UNSPEC",
+        "symptom_name": "Unspecified Dysphoria",
+        "description": "The patient presents with symptoms of gender dysphoria, but there is insufficient information to make a definitive diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

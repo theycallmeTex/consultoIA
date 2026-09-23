@@ -1,0 +1,2717 @@
+[
+  {
+    "symptom_id": "SYM_ADHD_HYPER_BLURT",
+    "symptom_name": "Blurts Out Answers",
+    "symptom_description": "The patient often blurts out an answer before a question has been completed."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_FIDGET",
+    "symptom_name": "Fidgets or Squirms",
+    "symptom_description": "The patient often fidgets with or taps their hands or feet, or squirms in their seat."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_INTERRUPT",
+    "symptom_name": "Interrupts Others",
+    "symptom_description": "The patient often interrupts or intrudes on others during conversations or activities."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_LEAVE_SEAT",
+    "symptom_name": "Leaves Seat",
+    "symptom_description": "The patient often leaves their seat in situations where remaining seated is expected."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_ON_THE_GO",
+    "symptom_name": "Constantly Active",
+    "symptom_description": "The patient is often \"on the go,\" acting as if they are driven by a motor."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_QUIET",
+    "symptom_name": "Loud Leisure",
+    "symptom_description": "The patient is often unable to play or engage in leisure activities quietly."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_RUN_CLIMB",
+    "symptom_name": "Inappropriate Running",
+    "symptom_description": "The patient often runs about or climbs in situations where it is inappropriate, or experiences subjective feelings of restlessness if an adolescent or adult."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_TALK",
+    "symptom_name": "Excessive Talking",
+    "symptom_description": "The patient often talks excessively."
+  },
+  {
+    "symptom_id": "SYM_ADHD_HYPER_WAIT",
+    "symptom_name": "Difficulty Waiting",
+    "symptom_description": "The patient often has difficulty waiting their turn."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_AVOID",
+    "symptom_name": "Avoids Mental Effort",
+    "symptom_description": "The patient often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_CARELESS",
+    "symptom_name": "Careless Mistakes",
+    "symptom_description": "The patient often fails to give close attention to details or makes careless mistakes in schoolwork, at work, or during other activities."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_DISTRACT",
+    "symptom_name": "Easily Distracted",
+    "symptom_description": "The patient is often easily distracted by extraneous stimuli."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_FOLLOW",
+    "symptom_name": "Incomplete Tasks",
+    "symptom_description": "The patient often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_FORGETFUL",
+    "symptom_name": "Forgetful",
+    "symptom_description": "The patient is often forgetful in daily activities."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_LISTEN",
+    "symptom_name": "Poor Listening",
+    "symptom_description": "The patient often does not seem to listen when spoken to directly."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_LOSE",
+    "symptom_name": "Loses Things",
+    "symptom_description": "The patient often loses things necessary for tasks or activities."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_ORGANIZE",
+    "symptom_name": "Poor Organization",
+    "symptom_description": "The patient often has difficulty organizing tasks and activities."
+  },
+  {
+    "symptom_id": "SYM_ADHD_INATT_SUSTAIN",
+    "symptom_name": "Poor Sustained Attention",
+    "symptom_description": "The patient often has difficulty sustaining attention in tasks or play activities."
+  },
+  {
+    "symptom_id": "SYM_ADHD_LATE",
+    "symptom_name": "Late Onset",
+    "symptom_description": "The patient first exhibited symptoms of ADHD after age 12."
+  },
+  {
+    "symptom_id": "SYM_ADHD_SUBTH",
+    "symptom_name": "Subthreshold Symptoms",
+    "symptom_description": "The patient exhibits prominent ADHD symptoms that fall below the required diagnostic threshold count."
+  },
+  {
+    "symptom_id": "SYM_AD_RESPONSE",
+    "symptom_name": "Disproportionate Distress",
+    "symptom_description": "The patient develops emotional or behavioral symptoms in response to a stressor that are out of proportion to the severity or intensity of the stressor."
+  },
+  {
+    "symptom_id": "SYM_AD_STRESSOR",
+    "symptom_name": "Stressor Response",
+    "symptom_description": "The patient develops emotional or behavioral symptoms in response to an identifiable stressor within 3 months of its onset."
+  },
+  {
+    "symptom_id": "SYM_AGOR_FEAR_HELP",
+    "symptom_name": "Fear of Trapping",
+    "symptom_description": "The patient fears or avoids situations because of thoughts that escape might be difficult or help might not be available in the event of developing panic-like, incapacitating, or embarrassing symptoms."
+  },
+  {
+    "symptom_id": "SYM_AGOR_SITU_ALONE",
+    "symptom_name": "Fear Outside Alone",
+    "symptom_description": "The patient experiences marked fear or anxiety about being outside of the home alone."
+  },
+  {
+    "symptom_id": "SYM_AGOR_SITU_CROWDS",
+    "symptom_name": "Fear of Crowds",
+    "symptom_description": "The patient experiences marked fear or anxiety about standing in line or being in a crowd."
+  },
+  {
+    "symptom_id": "SYM_AGOR_SITU_ENCLOSED",
+    "symptom_name": "Fear Enclosed Spaces",
+    "symptom_description": "The patient experiences marked fear or anxiety about being in enclosed places, such as shops, theaters, or cinemas."
+  },
+  {
+    "symptom_id": "SYM_AGOR_SITU_OPEN",
+    "symptom_name": "Fear Open Spaces",
+    "symptom_description": "The patient experiences marked fear or anxiety about being in open spaces, such as parking lots, marketplaces, or bridges."
+  },
+  {
+    "symptom_id": "SYM_AGOR_SITU_TRANS",
+    "symptom_name": "Fear Public Transit",
+    "symptom_description": "The patient experiences marked fear or anxiety about using public transportation, such as automobiles, buses, trains, ships, or planes."
+  },
+  {
+    "symptom_id": "SYM_ALC_ATTN",
+    "symptom_name": "Impaired Memory",
+    "symptom_description": "The patient exhibits an impairment in attention or memory shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ALC_BEHAVIOR",
+    "symptom_name": "Problematic Intoxication Behavior",
+    "symptom_description": "The patient exhibits clinically significant problematic behavioral or psychological changes, such as inappropriate sexual or aggressive behavior, mood lability, or impaired judgment, during or shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ALC_COMA",
+    "symptom_name": "Stupor or Coma",
+    "symptom_description": "The patient exhibits stupor or coma during or shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ALC_GAIT",
+    "symptom_name": "Unsteady Gait",
+    "symptom_description": "The patient exhibits an unsteady gait and poor coordination shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ALC_INCOOR",
+    "symptom_name": "Impaired Coordination",
+    "symptom_description": "The patient exhibits impaired coordination during or shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ALC_NYSTAG",
+    "symptom_name": "Nystagmus",
+    "symptom_description": "The patient exhibits nystagmus, or jerking eye movements, shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ALC_SLUR",
+    "symptom_name": "Slurred Speech",
+    "symptom_description": "The patient exhibits slurred, unclear speech shortly after alcohol ingestion."
+  },
+  {
+    "symptom_id": "SYM_ANX_MARKED",
+    "symptom_name": "Severe Anxiety",
+    "symptom_description": "The patient experiences prominent and severe anxiety symptoms or panic attacks."
+  },
+  {
+    "symptom_id": "SYM_ANX_MED_ETIOLOGY",
+    "symptom_name": "Medical Etiology",
+    "symptom_description": "The patient has a disturbance that is the direct pathophysiological consequence of another medical condition, as evidenced by history, physical examination, or laboratory findings."
+  },
+  {
+    "symptom_id": "SYM_ANX_SUBTH",
+    "symptom_name": "Subthreshold Anxiety",
+    "symptom_description": "The patient experiences clinically important anxiety symptoms that fall below diagnostic thresholds."
+  },
+  {
+    "symptom_id": "SYM_ANX_SUB_ETIOLOGY",
+    "symptom_name": "Substance Etiology",
+    "symptom_description": "The patient developed symptoms during or soon after substance intoxication, withdrawal, or medication exposure, and the substance is capable of producing the anxiety symptoms."
+  },
+  {
+    "symptom_id": "SYM_ANX_UNSPEC",
+    "symptom_name": "Unspecified Anxiety",
+    "symptom_description": "The patient presents with anxiety symptoms, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_AN_DISTORT",
+    "symptom_name": "Distorted Body Image",
+    "symptom_description": "The patient has a distorted self-perception of being overweight despite actually being severely underweight."
+  },
+  {
+    "symptom_id": "SYM_AN_FEAR",
+    "symptom_name": "Fear of Weight",
+    "symptom_description": "The patient exhibits an intense fear of gaining weight or becoming fat, or persistently behaves in ways that interfere with weight gain."
+  },
+  {
+    "symptom_id": "SYM_AN_RESTRICT",
+    "symptom_name": "Restricts Food Intake",
+    "symptom_description": "The patient severely restricts food intake, leading to a markedly reduced body weight that is less than minimally expected for their age and height."
+  },
+  {
+    "symptom_id": "SYM_APD_CRITIC",
+    "symptom_name": "Rejection Sensitivity",
+    "symptom_description": "The patient is overly sensitive to criticism, disapproval, or rejection, leading to profound social inhibition and avoidance of interpersonal contact."
+  },
+  {
+    "symptom_id": "SYM_APD_INFERIOR",
+    "symptom_name": "Feelings of Inferiority",
+    "symptom_description": "The patient views themselves as socially inept, personally unappealing, or inferior to others."
+  },
+  {
+    "symptom_id": "SYM_APD_INHIBITED",
+    "symptom_name": "Socially Inhibited",
+    "symptom_description": "The patient is inhibited in new interpersonal situations because of feelings of inadequacy."
+  },
+  {
+    "symptom_id": "SYM_APD_JOBS",
+    "symptom_name": "Avoids Interpersonal Work",
+    "symptom_description": "The patient avoids occupational activities that involve significant interpersonal contact due to fears of criticism, disapproval, or rejection."
+  },
+  {
+    "symptom_id": "SYM_APD_LIKED",
+    "symptom_name": "Requires Guaranteed Acceptance",
+    "symptom_description": "The patient is unwilling to get involved with people unless they are certain of being liked."
+  },
+  {
+    "symptom_id": "SYM_APD_RESTRAINT",
+    "symptom_name": "Intimacy Restraint",
+    "symptom_description": "The patient shows restraint within intimate relationships due to the fear of being shamed or ridiculed."
+  },
+  {
+    "symptom_id": "SYM_APD_RISKS",
+    "symptom_name": "Avoids Personal Risks",
+    "symptom_description": "The patient is unusually reluctant to take personal risks or to engage in any new activities because they may prove embarrassing."
+  },
+  {
+    "symptom_id": "SYM_ARFID_AVOID",
+    "symptom_name": "Food Avoidance",
+    "symptom_description": "The patient persistently avoids or restricts food intake based on a lack of interest, sensory characteristics of food, or concern about aversive consequences of eating."
+  },
+  {
+    "symptom_id": "SYM_ARFID_DEFICIENT",
+    "symptom_name": "Nutritional Deficiency",
+    "symptom_description": "The patient experiences a significant nutritional deficiency as a result of restrictive food intake."
+  },
+  {
+    "symptom_id": "SYM_ARFID_ENTERAL",
+    "symptom_name": "Enteral Dependence",
+    "symptom_description": "The patient is dependent on enteral feeding or oral nutritional supplements to meet their nutritional needs."
+  },
+  {
+    "symptom_id": "SYM_ARFID_PSYCHOSOCIAL",
+    "symptom_name": "Psychosocial Interference",
+    "symptom_description": "The patient experiences marked interference with psychosocial functioning as a result of food avoidance."
+  },
+  {
+    "symptom_id": "SYM_ARFID_WT_LOSS",
+    "symptom_name": "Weight Loss",
+    "symptom_description": "The patient exhibits significant weight loss or a failure to achieve expected weight gain due to food avoidance."
+  },
+  {
+    "symptom_id": "SYM_ASD_AROUSAL_ANGER",
+    "symptom_name": "Angry Outbursts",
+    "symptom_description": "The patient exhibits irritable behavior and angry outbursts with little or no provocation, typically expressed as verbal or physical aggression toward people or objects."
+  },
+  {
+    "symptom_id": "SYM_ASD_AROUSAL_CONC",
+    "symptom_name": "Concentration Difficulties",
+    "symptom_description": "The patient experiences problems with concentration."
+  },
+  {
+    "symptom_id": "SYM_ASD_AROUSAL_STARTLE",
+    "symptom_name": "Exaggerated Startle",
+    "symptom_description": "The patient exhibits an exaggerated startle response."
+  },
+  {
+    "symptom_id": "SYM_ASD_AROUSAL_VIGILANCE",
+    "symptom_name": "Hypervigilance",
+    "symptom_description": "The patient exhibits hypervigilance."
+  },
+  {
+    "symptom_id": "SYM_ASD_AVOID_EXTERNAL",
+    "symptom_name": "External Avoidance",
+    "symptom_description": "The patient makes efforts to avoid external reminders, such as people, places, conversations, activities, objects, or situations, that arouse distressing memories, thoughts, or feelings associated with the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_ASD_AVOID_INTERNAL",
+    "symptom_name": "Internal Avoidance",
+    "symptom_description": "The patient makes efforts to avoid distressing memories, thoughts, or feelings about or closely associated with the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_ASD_BEH_INTERESTS",
+    "symptom_name": "Fixated Interests",
+    "symptom_description": "The patient exhibits highly restricted, fixated interests that are abnormal in intensity or focus, such as a strong attachment to unusual objects or excessively circumscribed interests."
+  },
+  {
+    "symptom_id": "SYM_ASD_BEH_SAMENESS",
+    "symptom_name": "Inflexible Routines",
+    "symptom_description": "The patient insists on sameness, inflexible adherence to routines, or ritualized patterns of verbal or nonverbal behavior, often showing extreme distress at small changes."
+  },
+  {
+    "symptom_id": "SYM_ASD_BEH_SENSORY",
+    "symptom_name": "Sensory Reactivity",
+    "symptom_description": "The patient exhibits hyper- or hypo-reactivity to sensory input or an unusual interest in sensory aspects of the environment, such as indifference to pain or adverse responses to specific sounds."
+  },
+  {
+    "symptom_id": "SYM_ASD_BEH_STEREOTYPED",
+    "symptom_name": "Stereotyped Behaviors",
+    "symptom_description": "The patient engages in stereotyped or repetitive motor movements, use of objects, or speech, such as simple motor stereotypies, echolalia, or idiosyncratic phrases."
+  },
+  {
+    "symptom_id": "SYM_ASD_COMM_NONVERBAL",
+    "symptom_name": "Nonverbal Deficits",
+    "symptom_description": "The patient exhibits deficits in nonverbal communicative behaviors used for social interaction, ranging from poorly integrated communication to abnormalities in eye contact and body language."
+  },
+  {
+    "symptom_id": "SYM_ASD_COMM_RECIPROCITY",
+    "symptom_name": "Reciprocity Deficits",
+    "symptom_description": "The patient exhibits deficits in social-emotional reciprocity, ranging from abnormal social approach and failure of normal conversation to reduced sharing of interests, emotions, or affect."
+  },
+  {
+    "symptom_id": "SYM_ASD_COMM_RELATIONSHIPS",
+    "symptom_name": "Relationship Deficits",
+    "symptom_description": "The patient exhibits deficits in developing, maintaining, and understanding relationships, ranging from difficulties adjusting behavior to suit social contexts to difficulties in making friends."
+  },
+  {
+    "symptom_id": "SYM_ASD_DISSOC_AMNESIA",
+    "symptom_name": "Dissociative Amnesia",
+    "symptom_description": "The patient is unable to remember an important aspect of the traumatic event, typically due to dissociative amnesia rather than other factors like head injury or substances."
+  },
+  {
+    "symptom_id": "SYM_ASD_DISSOC_REALITY",
+    "symptom_name": "Altered Reality",
+    "symptom_description": "The patient experiences an altered sense of the reality of their surroundings or themselves, such as seeing themselves from another's perspective, being in a daze, or time slowing."
+  },
+  {
+    "symptom_id": "SYM_ASD_INTRU_DISTRESS",
+    "symptom_name": "Trigger Distress",
+    "symptom_description": "The patient experiences intense or prolonged psychological distress or marked physiological reactions in response to internal or external cues that symbolize or resemble an aspect of the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_ASD_INTRU_DREAMS",
+    "symptom_name": "Distressing Dreams",
+    "symptom_description": "The patient experiences recurrent distressing dreams in which the content or affect of the dream is related to the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_ASD_INTRU_FLASH",
+    "symptom_name": "Flashbacks",
+    "symptom_description": "The patient experiences dissociative reactions, such as flashbacks, in which they feel or act as if the traumatic event were recurring."
+  },
+  {
+    "symptom_id": "SYM_ASD_INTRU_MEMORIES",
+    "symptom_name": "Intrusive Memories",
+    "symptom_description": "The patient experiences recurrent, involuntary, and intrusive distressing memories of the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_ASD_MOOD_NEGATIVE",
+    "symptom_name": "Negative Mood",
+    "symptom_description": "The patient experiences a persistent inability to experience positive emotions, such as an inability to feel happiness, satisfaction, or loving feelings."
+  },
+  {
+    "symptom_id": "SYM_ASPD_CD_HISTORY",
+    "symptom_name": "Conduct Disorder History",
+    "symptom_description": "The patient has a history of conduct disorder with an onset before age 15 years."
+  },
+  {
+    "symptom_id": "SYM_ASPD_DECEIT",
+    "symptom_name": "Deceitfulness",
+    "symptom_description": "The patient exhibits deceitfulness, as indicated by repeated lying, use of aliases, or conning others for personal profit or pleasure."
+  },
+  {
+    "symptom_id": "SYM_ASPD_ILLEGAL",
+    "symptom_name": "Unlawful Behavior",
+    "symptom_description": "The patient fails to conform to social norms regarding lawful behaviors, repeatedly engaging in acts that are grounds for arrest."
+  },
+  {
+    "symptom_id": "SYM_ASPD_IMPULSE",
+    "symptom_name": "Impulsivity",
+    "symptom_description": "The patient exhibits impulsivity or a failure to plan ahead."
+  },
+  {
+    "symptom_id": "SYM_ASPD_IRRESP",
+    "symptom_name": "Consistent Irresponsibility",
+    "symptom_description": "The patient exhibits consistent irresponsibility, as indicated by a repeated failure to sustain consistent work behavior or honor financial obligations."
+  },
+  {
+    "symptom_id": "SYM_ASPD_IRRIT",
+    "symptom_name": "Irritability And Aggression",
+    "symptom_description": "The patient exhibits irritability and aggressiveness, as indicated by repeated physical fights or assaults."
+  },
+  {
+    "symptom_id": "SYM_ASPD_RECKLESS",
+    "symptom_name": "Reckless Disregard",
+    "symptom_description": "The patient exhibits a reckless disregard for the safety of themselves or others."
+  },
+  {
+    "symptom_id": "SYM_ASPD_REMORSE",
+    "symptom_name": "Lack Of Remorse",
+    "symptom_description": "The patient lacks remorse, showing indifference to or actively rationalizing having hurt, mistreated, or stolen from another person."
+  },
+  {
+    "symptom_id": "SYM_BDD_BEH",
+    "symptom_name": "Repetitive Behaviors",
+    "symptom_description": "The patient performs repetitive behaviors or mental acts, such as mirror checking or excessive grooming, in response to their appearance concerns."
+  },
+  {
+    "symptom_id": "SYM_BDD_PREOCC",
+    "symptom_name": "Appearance Preoccupation",
+    "symptom_description": "The patient is preoccupied with one or more perceived defects or flaws in their physical appearance that are unobservable or appear slight to others."
+  },
+  {
+    "symptom_id": "SYM_BED_ALONE",
+    "symptom_name": "Eating Alone",
+    "symptom_description": "The patient eats alone because of feeling embarrassed by how much they are eating during a binge episode."
+  },
+  {
+    "symptom_id": "SYM_BED_BINGE",
+    "symptom_name": "Binge Eating",
+    "symptom_description": "The patient experiences recurrent episodes of binge eating involving large quantities of food."
+  },
+  {
+    "symptom_id": "SYM_BED_CONTROL",
+    "symptom_name": "Loss Of Control",
+    "symptom_description": "The patient experiences a sense of loss of control over eating during a binge episode."
+  },
+  {
+    "symptom_id": "SYM_BED_DISGUST",
+    "symptom_name": "Post-Binge Guilt",
+    "symptom_description": "The patient feels disgusted with themselves, depressed, or very guilty after an episode of binge eating."
+  },
+  {
+    "symptom_id": "SYM_BED_FAST",
+    "symptom_name": "Rapid Eating",
+    "symptom_description": "The patient eats much more rapidly than normal during a binge eating episode."
+  },
+  {
+    "symptom_id": "SYM_BED_FULL",
+    "symptom_name": "Uncomfortable Fullness",
+    "symptom_description": "The patient eats until feeling uncomfortably full during a binge eating episode."
+  },
+  {
+    "symptom_id": "SYM_BED_HUNGER",
+    "symptom_name": "Eating Without Hunger",
+    "symptom_description": "The patient eats large amounts of food when not feeling physically hungry."
+  },
+  {
+    "symptom_id": "SYM_BIF_IQ",
+    "symptom_name": "Borderline IQ",
+    "symptom_description": "The patient has an IQ in the range of 71 to 84, indicating borderline intellectual functioning."
+  },
+  {
+    "symptom_id": "SYM_BIF_NO_COPING",
+    "symptom_name": "Adequate Coping",
+    "symptom_description": "The patient exhibits an absence of coping problems typically associated with intellectual developmental disorder."
+  },
+  {
+    "symptom_id": "SYM_BN_BINGE",
+    "symptom_name": "Binge Eating",
+    "symptom_description": "The patient recurrently consumes an objectively large amount of food in a discrete period of time, accompanied by a sense of lack of control over eating."
+  },
+  {
+    "symptom_id": "SYM_BN_COMPENSATE",
+    "symptom_name": "Compensatory Behaviors",
+    "symptom_description": "The patient recurrently engages in inappropriate compensatory behaviors, such as self-induced vomiting, misuse of laxatives, or excessive exercise, to prevent weight gain."
+  },
+  {
+    "symptom_id": "SYM_BN_CONTROL",
+    "symptom_name": "Loss Of Control",
+    "symptom_description": "The patient experiences a sense of loss of control over eating during a binge episode."
+  },
+  {
+    "symptom_id": "SYM_BN_SELF_EVAL",
+    "symptom_name": "Weight Self-Evaluation",
+    "symptom_description": "The patient's self-evaluation is unduly influenced by their body shape and weight."
+  },
+  {
+    "symptom_id": "SYM_BPD_ABANDON",
+    "symptom_name": "Avoiding Abandonment",
+    "symptom_description": "The patient makes frantic efforts to avoid real or imagined abandonment."
+  },
+  {
+    "symptom_id": "SYM_BPD_ANGER",
+    "symptom_name": "Inappropriate Anger",
+    "symptom_description": "The patient exhibits inappropriate, intense anger or has difficulty controlling their anger."
+  },
+  {
+    "symptom_id": "SYM_BPD_EMPTY",
+    "symptom_name": "Chronic Emptiness",
+    "symptom_description": "The patient experiences chronic feelings of emptiness or boredom."
+  },
+  {
+    "symptom_id": "SYM_BPD_IDENTITY",
+    "symptom_name": "Unstable Identity",
+    "symptom_description": "The patient exhibits a markedly and persistently unstable self-image or sense of self."
+  },
+  {
+    "symptom_id": "SYM_BPD_IMPULSE",
+    "symptom_name": "Self-Damaging Impulsivity",
+    "symptom_description": "The patient displays impulsivity in at least two areas that are potentially self-damaging."
+  },
+  {
+    "symptom_id": "SYM_BPD_MOOD",
+    "symptom_name": "Affective Instability",
+    "symptom_description": "The patient experiences affective instability due to a marked reactivity of mood."
+  },
+  {
+    "symptom_id": "SYM_BPD_PARANOIA",
+    "symptom_name": "Stress-Related Paranoia",
+    "symptom_description": "The patient experiences transient, stress-related paranoid ideation or severe dissociative symptoms."
+  },
+  {
+    "symptom_id": "SYM_BPD_SUICIDE",
+    "symptom_name": "Suicidal Behavior",
+    "symptom_description": "The patient engages in recurrent suicidal behavior, gestures, or self-mutilating behavior."
+  },
+  {
+    "symptom_id": "SYM_BPD_UNSTABLE",
+    "symptom_name": "Unstable Relationships",
+    "symptom_description": "The patient demonstrates a pattern of unstable and intense interpersonal relationships."
+  },
+  {
+    "symptom_id": "SYM_BPL_DISTRESS",
+    "symptom_name": "Clinically Significant Distress",
+    "symptom_description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+  },
+  {
+    "symptom_id": "SYM_BPL_MED_ETIOLOGY",
+    "symptom_name": "Medical Etiology",
+    "symptom_description": "The patient has evidence from their history, physical examination, or laboratory findings that the disturbance is the direct pathophysiological consequence of another medical condition."
+  },
+  {
+    "symptom_id": "SYM_BPL_NOT_DELIRIUM",
+    "symptom_name": "Not Delirium",
+    "symptom_description": "The patient exhibits symptoms that are not better explained by delirium."
+  },
+  {
+    "symptom_id": "SYM_BPL_NOT_OTHER_NCD",
+    "symptom_name": "Not Other Neurocognitive",
+    "symptom_description": "The patient exhibits symptoms that are not better explained by another neurocognitive etiology."
+  },
+  {
+    "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+    "symptom_name": "Not Substance Induced",
+    "symptom_description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+  },
+  {
+    "symptom_id": "SYM_BPL_SUBTH",
+    "symptom_name": "Subthreshold Bipolar Symptoms",
+    "symptom_description": "The patient experiences clinically important bipolar symptoms that fall below the diagnostic threshold."
+  },
+  {
+    "symptom_id": "SYM_BPL_SUBTHRESHOLD",
+    "symptom_name": "Never Met Criteria",
+    "symptom_description": "The patient has never met the full criteria for a major depressive, manic, or hypomanic episode."
+  },
+  {
+    "symptom_id": "SYM_BPL_SUB_ETIOLOGY",
+    "symptom_name": "Substance Etiology",
+    "symptom_description": "The patient has evidence from their history, physical examination, or laboratory findings that the symptoms developed during or soon after substance intoxication or withdrawal, or after exposure to a medication capable of producing manic or hypomanic symptoms."
+  },
+  {
+    "symptom_id": "SYM_BREATH_CO2",
+    "symptom_name": "Elevated Carbon Dioxide",
+    "symptom_description": "The patient demonstrates periods of reduced breathing accompanied by elevated carbon dioxide levels during polysomnography."
+  },
+  {
+    "symptom_id": "SYM_BREATH_DROWSY",
+    "symptom_name": "Daytime Sleepiness",
+    "symptom_description": "The patient experiences daytime sleepiness, fatigue, or unrefreshing sleep resulting from nighttime breathing disturbances."
+  },
+  {
+    "symptom_id": "SYM_BREATH_PAUSE",
+    "symptom_name": "Breathing Pauses",
+    "symptom_description": "The patient experiences frequent pauses in breathing, such as apneas or hypopneas, during sleep due to airway obstruction."
+  },
+  {
+    "symptom_id": "SYM_BREATH_PAUSE_CENTRAL",
+    "symptom_name": "Central Sleep Apnea",
+    "symptom_description": "The patient experiences frequent central sleep apneas during sleep, characterized by a cessation of breathing effort."
+  },
+  {
+    "symptom_id": "SYM_BREATH_SHALLOW",
+    "symptom_name": "Shallow Breathing",
+    "symptom_description": "The patient experiences episodes of shallow breathing or hypoventilation during sleep that lead to abnormal blood gas levels."
+  },
+  {
+    "symptom_id": "SYM_BREATH_SNORT",
+    "symptom_name": "Loud Snoring",
+    "symptom_description": "The patient exhibits loud snoring, snorting, or gasping during sleep."
+  },
+  {
+    "symptom_id": "SYM_CAF_AGIT",
+    "symptom_name": "Psychomotor Agitation",
+    "symptom_description": "The patient exhibits psychomotor agitation following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_DIU",
+    "symptom_name": "Diuresis",
+    "symptom_description": "The patient experiences diuresis following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_EXCITE",
+    "symptom_name": "Excitement",
+    "symptom_description": "The patient exhibits excitement following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_FLUSH",
+    "symptom_name": "Flushed Face",
+    "symptom_description": "The patient exhibits a flushed face following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_GI",
+    "symptom_name": "Gastrointestinal Disturbance",
+    "symptom_description": "The patient experiences gastrointestinal disturbance following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_INEXHAUST",
+    "symptom_name": "Inexhaustibility",
+    "symptom_description": "The patient experiences periods of inexhaustibility following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_INSOM",
+    "symptom_name": "Insomnia",
+    "symptom_description": "The patient experiences insomnia following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_NERV",
+    "symptom_name": "Nervousness",
+    "symptom_description": "The patient experiences nervousness following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_RAMBLE",
+    "symptom_name": "Rambling Speech",
+    "symptom_description": "The patient exhibits a rambling flow of thought and speech shortly after consuming caffeine."
+  },
+  {
+    "symptom_id": "SYM_CAF_REST",
+    "symptom_name": "Restlessness",
+    "symptom_description": "The patient experiences restlessness following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_TACHY",
+    "symptom_name": "Tachycardia",
+    "symptom_description": "The patient experiences tachycardia or cardiac arrhythmia following caffeine consumption."
+  },
+  {
+    "symptom_id": "SYM_CAF_TWITCH",
+    "symptom_name": "Muscle Twitching",
+    "symptom_description": "The patient experiences muscle twitching shortly after consuming an excessive amount of caffeine."
+  },
+  {
+    "symptom_id": "SYM_CATA_AGITATION",
+    "symptom_name": "Catatonic Agitation",
+    "symptom_description": "The patient exhibits excessive motor activity that appears to have neither a purpose nor an external cause."
+  },
+  {
+    "symptom_id": "SYM_CATA_CATALEPSY",
+    "symptom_name": "Catalepsy",
+    "symptom_description": "The patient maintains a rigid, uncomfortable posture against gravity even when told it is not necessary to do so."
+  },
+  {
+    "symptom_id": "SYM_CATA_ECHOLALIA",
+    "symptom_name": "Echolalia",
+    "symptom_description": "The patient exhibits verbatim, automatic repetition of someone else's words."
+  },
+  {
+    "symptom_id": "SYM_CATA_ECHOPRAXIA",
+    "symptom_name": "Echopraxia",
+    "symptom_description": "The patient automatically mimics or imitates another person's physical behavior."
+  },
+  {
+    "symptom_id": "SYM_CATA_GRIMACE",
+    "symptom_name": "Grimacing",
+    "symptom_description": "The patient exhibits facial contortions or grimacing not made in response to a noxious stimulus."
+  },
+  {
+    "symptom_id": "SYM_CATA_MANNERISM",
+    "symptom_name": "Mannerisms",
+    "symptom_description": "The patient performs repeated movements that seem to have a goal but are excessive for the purpose."
+  },
+  {
+    "symptom_id": "SYM_CATA_MUTISM",
+    "symptom_name": "Mutism",
+    "symptom_description": "The patient exhibits an absence of, or very little, verbal response despite the evident physical ability to speak."
+  },
+  {
+    "symptom_id": "SYM_CATA_NEGATIVISM",
+    "symptom_name": "Negativism",
+    "symptom_description": "The patient exhibits motiveless resistance to instructions or attempts to be moved."
+  },
+  {
+    "symptom_id": "SYM_CATA_POSTURING",
+    "symptom_name": "Posturing",
+    "symptom_description": "The patient voluntarily assumes and maintains an unnatural or uncomfortable pose."
+  },
+  {
+    "symptom_id": "SYM_CATA_STEREOTYPY",
+    "symptom_name": "Stereotypy",
+    "symptom_description": "The patient engages in repetitive, abnormally frequent, non-goal-directed movements."
+  },
+  {
+    "symptom_id": "SYM_CATA_STUPOR",
+    "symptom_name": "Stupor",
+    "symptom_description": "The patient exhibits stupor, characterized by a lack of psychomotor activity and unresponsiveness to the environment."
+  },
+  {
+    "symptom_id": "SYM_CATA_WAXY",
+    "symptom_name": "Waxy Flexibility",
+    "symptom_description": "The patient exhibits waxy flexibility, actively resisting attempts to change their position before yielding to pressure."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_BULLY",
+    "symptom_name": "Bullies Others",
+    "symptom_description": "The patient often bullies, threatens, or intimidates others."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_CRUEL_ANIMALS",
+    "symptom_name": "Cruelty to Animals",
+    "symptom_description": "The patient has been physically cruel to animals."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_CRUEL_PEOPLE",
+    "symptom_name": "Cruelty to People",
+    "symptom_description": "The patient has been physically cruel to people."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_FIGHTS",
+    "symptom_name": "Initiates Fights",
+    "symptom_description": "The patient often initiates physical fights."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_SEXUAL",
+    "symptom_name": "Sexual Coercion",
+    "symptom_description": "The patient has forced someone into sexual activity."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_THEFT",
+    "symptom_name": "Confrontational Theft",
+    "symptom_description": "The patient has stolen while confronting a victim (e.g., mugging, purse snatching, extortion, or armed robbery)."
+  },
+  {
+    "symptom_id": "SYM_CD_AGGRESS_WEAPON",
+    "symptom_name": "Weapon Use",
+    "symptom_description": "The patient has used a weapon that can cause serious physical harm to others (e.g., a bat, brick, broken bottle, knife, or gun)."
+  },
+  {
+    "symptom_id": "SYM_CD_DECEIT_BREAKIN",
+    "symptom_name": "Breaking and Entering",
+    "symptom_description": "The patient has broken into someone else's house, building, or car."
+  },
+  {
+    "symptom_id": "SYM_CD_DECEIT_LIES",
+    "symptom_name": "Frequent Lying",
+    "symptom_description": "The patient often lies to obtain goods or favors or to avoid obligations (i.e., \"cons\" others)."
+  },
+  {
+    "symptom_id": "SYM_CD_DECEIT_THEFT",
+    "symptom_name": "Nonconfrontational Theft",
+    "symptom_description": "The patient has stolen items of nontrivial value without confronting a victim (e.g., shoplifting without breaking and entering, or forgery)."
+  },
+  {
+    "symptom_id": "SYM_CD_DESTRUCT_FIRE",
+    "symptom_name": "Fire Setting",
+    "symptom_description": "The patient has deliberately engaged in fire setting with the intention of causing serious damage."
+  },
+  {
+    "symptom_id": "SYM_CD_DESTRUCT_OTHER",
+    "symptom_name": "Property Destruction",
+    "symptom_description": "The patient has deliberately destroyed others' property by means other than fire setting."
+  },
+  {
+    "symptom_id": "SYM_CD_RULES_OUT_NIGHT",
+    "symptom_name": "Curfew Violation",
+    "symptom_description": "The patient often stays out at night despite parental prohibitions, beginning before age 13 years."
+  },
+  {
+    "symptom_id": "SYM_CD_RULES_RUNAWAY",
+    "symptom_name": "Running Away",
+    "symptom_description": "The patient has run away from home overnight at least twice while living in the parental or parental surrogate home, or once without returning for a lengthy period."
+  },
+  {
+    "symptom_id": "SYM_CD_RULES_TRUANCY",
+    "symptom_name": "Truancy",
+    "symptom_description": "The patient is often truant from school, beginning before age 13 years."
+  },
+  {
+    "symptom_id": "SYM_COG_ATTN",
+    "symptom_name": "Impaired Attention",
+    "symptom_description": "The patient exhibits reduced awareness of the environment and difficulty directing, focusing, sustaining, or shifting attention."
+  },
+  {
+    "symptom_id": "SYM_COG_AWARE",
+    "symptom_name": "Reduced Awareness",
+    "symptom_description": "The patient exhibits reduced orientation or awareness of their environment."
+  },
+  {
+    "symptom_id": "SYM_COG_EXEC",
+    "symptom_name": "Executive Dysfunction",
+    "symptom_description": "The patient exhibits a prominent decline in frontal or executive functioning, such as difficulty planning, organizing, or making decisions."
+  },
+  {
+    "symptom_id": "SYM_COG_LANG",
+    "symptom_name": "Language Disturbance",
+    "symptom_description": "The patient exhibits a language disturbance, such as rambling, disjointed speech, or difficulty finding words."
+  },
+  {
+    "symptom_id": "SYM_COG_MEM",
+    "symptom_name": "Memory Deficit",
+    "symptom_description": "The patient exhibits a memory deficit, particularly difficulty learning new material or recalling recent events."
+  },
+  {
+    "symptom_id": "SYM_COG_ORIENT",
+    "symptom_name": "Disorientation",
+    "symptom_description": "The patient experiences disorientation to time, place, or person."
+  },
+  {
+    "symptom_id": "SYM_COG_PERC",
+    "symptom_name": "Perceptual Deficit",
+    "symptom_description": "The patient exhibits a perceptual deficit, such as misinterpreting stimuli or experiencing hallucinations."
+  },
+  {
+    "symptom_id": "SYM_COG_VISUO",
+    "symptom_name": "Visuospatial Deficit",
+    "symptom_description": "The patient exhibits a visuospatial deficit, particularly in navigating environments."
+  },
+  {
+    "symptom_id": "SYM_DA_FORGET",
+    "symptom_name": "Autobiographical Amnesia",
+    "symptom_description": "The patient is unable to recall important autobiographical information, usually of a traumatic or stressful nature, that is too extensive to be explained by ordinary forgetfulness."
+  },
+  {
+    "symptom_id": "SYM_DA_TRAVEL",
+    "symptom_name": "Dissociative Fugue",
+    "symptom_description": "The patient experiences apparently purposeful travel or bewildered wandering associated with amnesia for their identity or other important autobiographical information."
+  },
+  {
+    "symptom_id": "SYM_DCD_INTERFERE",
+    "symptom_name": "Motor Interference",
+    "symptom_description": "The patient experiences motor coordination difficulties that significantly interfere with academic progress or activities of daily living."
+  },
+  {
+    "symptom_id": "SYM_DCD_SKILL",
+    "symptom_name": "Poor Motor Skills",
+    "symptom_description": "The patient exhibits motor skill performance that is markedly below expectations for their chronological age and intelligence."
+  },
+  {
+    "symptom_id": "SYM_DDD_INSIGHT",
+    "symptom_name": "Intact Reality Testing",
+    "symptom_description": "The patient maintains intact reality testing during episodes of depersonalization or derealization."
+  },
+  {
+    "symptom_id": "SYM_DDD_SELF",
+    "symptom_name": "Depersonalization",
+    "symptom_description": "The patient experiences depersonalization, feeling detached from or as if they are an outside observer of their own mental processes or body."
+  },
+  {
+    "symptom_id": "SYM_DDD_WORLD",
+    "symptom_name": "Derealization",
+    "symptom_description": "The patient experiences derealization, perceiving their surroundings as unreal, dreamlike, distant, or distorted."
+  },
+  {
+    "symptom_id": "SYM_DELIRIUM_ETIOLOGY",
+    "symptom_name": "Physiological Etiology",
+    "symptom_description": "The patient has evidence from their history, physical examination, or laboratory findings that the disturbance is a direct physiological consequence of another medical condition, substance intoxication or withdrawal, or toxin exposure."
+  },
+  {
+    "symptom_id": "SYM_DICD_SUBTH",
+    "symptom_name": "Subthreshold Symptoms",
+    "symptom_description": "The patient exhibits clinically important disruptive, impulse-control, or conduct symptoms that fall below the diagnostic threshold for defined disorders."
+  },
+  {
+    "symptom_id": "SYM_DICD_UNSPEC",
+    "symptom_name": "Unspecified Disruptive Behavior",
+    "symptom_description": "The patient exhibits disruptive behavior, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_DID_AMNESIA",
+    "symptom_name": "Recurrent Memory Gaps",
+    "symptom_description": "The patient experiences recurrent memory gaps for everyday events, personal information, or traumatic events that exceed ordinary forgetfulness."
+  },
+  {
+    "symptom_id": "SYM_DID_IDENTITIES",
+    "symptom_name": "Multiple Identities",
+    "symptom_description": "The patient experiences a disruption of identity characterized by the presence of two or more distinct personality states, each with its own pattern of perceiving and interacting with the environment."
+  },
+  {
+    "symptom_id": "SYM_DIS_SUBTH",
+    "symptom_name": "Subthreshold Dissociation",
+    "symptom_description": "The patient exhibits symptoms characteristic of a dissociative disorder that fall below the threshold for a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_DIS_UNSPEC",
+    "symptom_name": "Unspecified Dissociation",
+    "symptom_description": "The patient exhibits dissociative symptoms, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_DMDD_IRRIT",
+    "symptom_name": "Persistent Irritability",
+    "symptom_description": "The patient exhibits a mood that is persistently irritable or angry for most of the day, nearly every day, between temper outbursts."
+  },
+  {
+    "symptom_id": "SYM_DMDD_TANT",
+    "symptom_name": "Severe Temper Outbursts",
+    "symptom_description": "The patient exhibits severe, recurrent temper outbursts that are out of proportion in intensity or duration to the situation or provocation."
+  },
+  {
+    "symptom_id": "SYM_DPD_ABANDON",
+    "symptom_name": "Fear of Abandonment",
+    "symptom_description": "The patient is unrealistically preoccupied with fears of being left to care for themselves."
+  },
+  {
+    "symptom_id": "SYM_DPD_ADVICE",
+    "symptom_name": "Needs Excessive Advice",
+    "symptom_description": "The patient requires an excessive amount of advice and reassurance from others to make everyday decisions."
+  },
+  {
+    "symptom_id": "SYM_DPD_DISAGREE",
+    "symptom_name": "Difficulty Disagreeing",
+    "symptom_description": "The patient has difficulty expressing disagreement with others due to an unrealistic fear of losing support or approval."
+  },
+  {
+    "symptom_id": "SYM_DPD_HELPLESS",
+    "symptom_name": "Helpless When Alone",
+    "symptom_description": "The patient feels uncomfortable or helpless when alone due to exaggerated fears of being unable to care for themselves."
+  },
+  {
+    "symptom_id": "SYM_DPD_INITIATE",
+    "symptom_name": "Difficulty Initiating",
+    "symptom_description": "The patient has difficulty initiating projects or doing things on their own due to a lack of self-confidence rather than a lack of motivation or energy."
+  },
+  {
+    "symptom_id": "SYM_DPD_MAJOR",
+    "symptom_name": "Avoids Responsibility",
+    "symptom_description": "The patient needs others to assume responsibility for most major areas of their life."
+  },
+  {
+    "symptom_id": "SYM_DPD_REPLACE",
+    "symptom_name": "Urgently Seeks Relationships",
+    "symptom_description": "The patient urgently seeks another relationship as a source of care and support when a close relationship ends."
+  },
+  {
+    "symptom_id": "SYM_DPD_UNPLEASANT",
+    "symptom_name": "Seeks Excessive Nurturance",
+    "symptom_description": "The patient goes to excessive lengths to obtain nurturance and support from others, to the point of volunteering to do things that are unpleasant."
+  },
+  {
+    "symptom_id": "SYM_DSED_APPROACH",
+    "symptom_name": "Approaches Strangers",
+    "symptom_description": "The patient actively approaches and interacts with unfamiliar adults, lacking the expected reticence or shyness."
+  },
+  {
+    "symptom_id": "SYM_DSED_CHECKIN",
+    "symptom_name": "Fails to Check In",
+    "symptom_description": "The patient fails to check back with an adult caregiver after venturing away, even in unfamiliar settings."
+  },
+  {
+    "symptom_id": "SYM_DSED_FAMILIAR",
+    "symptom_name": "Overly Familiar Behavior",
+    "symptom_description": "The patient exhibits overly familiar verbal or physical behavior with strangers that crosses age-appropriate social boundaries."
+  },
+  {
+    "symptom_id": "SYM_EAT_SUBTH",
+    "symptom_name": "Subthreshold Eating Symptoms",
+    "symptom_description": "The patient exhibits clinically important eating symptoms that fall below the diagnostic threshold for specific eating disorders."
+  },
+  {
+    "symptom_id": "SYM_EAT_UNSPEC",
+    "symptom_name": "Unspecified Eating Symptoms",
+    "symptom_description": "The patient exhibits eating or feeding symptoms, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_EJAC_ABSENT",
+    "symptom_name": "Delayed Ejaculation",
+    "symptom_description": "The patient experiences a marked delay in or complete absence of ejaculation during partnered sexual activity."
+  },
+  {
+    "symptom_id": "SYM_EJAC_PREMATURE",
+    "symptom_name": "Premature Ejaculation",
+    "symptom_description": "The patient almost always ejaculates earlier than desired, generally within a minute of penetration."
+  },
+  {
+    "symptom_id": "SYM_ELIM_SUBTH",
+    "symptom_name": "Subthreshold Elimination Symptoms",
+    "symptom_description": "The patient exhibits symptoms of encopresis or enuresis that fall below the diagnostic threshold."
+  },
+  {
+    "symptom_id": "SYM_ELIM_UNSPEC",
+    "symptom_name": "Unspecified Elimination",
+    "symptom_description": "The patient exhibits symptoms of an elimination disorder, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_ENCO_PASS",
+    "symptom_name": "Inappropriate Defecation",
+    "symptom_description": "The patient repeatedly passes feces into inappropriate places, such as clothing or the floor, whether voluntarily or accidentally."
+  },
+  {
+    "symptom_id": "SYM_ENUR_VOID",
+    "symptom_name": "Inappropriate Urination",
+    "symptom_description": "The patient repeatedly voids urine into bedding or clothing, whether involuntarily or intentionally."
+  },
+  {
+    "symptom_id": "SYM_ERECT_MAINTAIN",
+    "symptom_name": "Maintaining Erection Difficulty",
+    "symptom_description": "The patient experiences marked difficulty maintaining an erection until the completion of sexual activity."
+  },
+  {
+    "symptom_id": "SYM_ERECT_OBTAIN",
+    "symptom_name": "Obtaining Erection Difficulty",
+    "symptom_description": "The patient experiences marked difficulty obtaining an erection during sexual activity."
+  },
+  {
+    "symptom_id": "SYM_ERECT_RIGID",
+    "symptom_name": "Decreased Erectile Rigidity",
+    "symptom_description": "The patient experiences a marked decrease in erectile rigidity during sexual activity."
+  },
+  {
+    "symptom_id": "SYM_EXCOR_PICK",
+    "symptom_name": "Skin Picking",
+    "symptom_description": "The patient recurrently picks at their skin, resulting in skin lesions."
+  },
+  {
+    "symptom_id": "SYM_EXCOR_STOP",
+    "symptom_name": "Inability to Stop",
+    "symptom_description": "The patient has made repeated, unsuccessful attempts to decrease or stop their skin-picking behavior."
+  },
+  {
+    "symptom_id": "SYM_EXH_ACTED",
+    "symptom_name": "Exhibitionistic Acting Out",
+    "symptom_description": "The patient has acted upon exhibitionistic urges to expose their genitals to a nonconsenting person."
+  },
+  {
+    "symptom_id": "SYM_EXH_AROUSAL",
+    "symptom_name": "Exhibitionistic Arousal",
+    "symptom_description": "The patient experiences intense sexual arousal from fantasies, urges, or behaviors involving genital self-exposure to an unwary stranger."
+  },
+  {
+    "symptom_id": "SYM_FAC_FEIGN",
+    "symptom_name": "Falsifying Symptoms",
+    "symptom_description": "The patient intentionally falsifies physical or psychological signs or symptoms, or induces injury or disease in themselves, to present as ill, impaired, or injured."
+  },
+  {
+    "symptom_id": "SYM_FAC_FEIGN_ANOTHER",
+    "symptom_name": "Falsifying Others' Symptoms",
+    "symptom_description": "The patient intentionally falsifies physical or psychological signs or symptoms, or induces injury or disease in another person, presenting the victim as ill, impaired, or injured."
+  },
+  {
+    "symptom_id": "SYM_FAC_NO_REWARD",
+    "symptom_name": "Deception Without Reward",
+    "symptom_description": "The patient exhibits deceptive behavior that is evident even in the absence of obvious external rewards, such as financial gain or avoiding legal responsibility."
+  },
+  {
+    "symptom_id": "SYM_FEM_DESIRE",
+    "symptom_name": "Reduced Sexual Interest",
+    "symptom_description": "The patient experiences significantly reduced or absent sexual interest, erotic thoughts, or arousal in response to sexual cues."
+  },
+  {
+    "symptom_id": "SYM_FEM_INITIATE",
+    "symptom_name": "Lack of Initiation",
+    "symptom_description": "The patient generally does not initiate sexual activity and is typically unreceptive to a partner's attempts to initiate."
+  },
+  {
+    "symptom_id": "SYM_FEM_ORGASM_ABSENT",
+    "symptom_name": "Absent Orgasm",
+    "symptom_description": "The patient experiences a marked delay in, marked infrequency of, or absence of orgasm during sexual activity."
+  },
+  {
+    "symptom_id": "SYM_FEM_ORGASM_DELAY",
+    "symptom_name": "Delayed Orgasm",
+    "symptom_description": "The patient experiences markedly delayed, infrequent, or absent orgasms despite normal sexual excitement."
+  },
+  {
+    "symptom_id": "SYM_FEM_ORGASM_INTENSITY",
+    "symptom_name": "Reduced Orgasm Intensity",
+    "symptom_description": "The patient experiences a markedly reduced intensity of orgasmic sensations during sexual activity."
+  },
+  {
+    "symptom_id": "SYM_FEM_PLEASURE",
+    "symptom_name": "Reduced Sexual Pleasure",
+    "symptom_description": "The patient experiences reduced or absent pleasure and enjoyment during sexual activity."
+  },
+  {
+    "symptom_id": "SYM_FEM_RESPONSIVE",
+    "symptom_name": "Unresponsive to Partner",
+    "symptom_description": "The patient shows minimal or absent receptivity to a partner's sexual overtures."
+  },
+  {
+    "symptom_id": "SYM_FEM_SENSATIONS",
+    "symptom_name": "Reduced Sexual Sensation",
+    "symptom_description": "The patient experiences reduced or absent genital or nongenital sensations during sexual activity."
+  },
+  {
+    "symptom_id": "SYM_FEM_THOUGHTS",
+    "symptom_name": "Absent Erotic Thoughts",
+    "symptom_description": "The patient experiences a lack of or significantly reduced erotic thoughts and sexual fantasies."
+  },
+  {
+    "symptom_id": "SYM_FET_ACTED",
+    "symptom_name": "Fetishistic Acting Out",
+    "symptom_description": "The patient has acted upon intense sexual urges involving nonliving objects or highly specific nongenital body parts."
+  },
+  {
+    "symptom_id": "SYM_FET_AROUSAL",
+    "symptom_name": "Fetishistic Arousal",
+    "symptom_description": "The patient experiences intense sexual arousal from fantasies, urges, or behaviors involving the use of nonliving objects or a highly specific focus on nongenital body parts."
+  },
+  {
+    "symptom_id": "SYM_FNSD_INCONSISTENT",
+    "symptom_name": "Inconsistent Neurological Symptoms",
+    "symptom_description": "The patient exhibits sensory or voluntary motor symptoms that are clinically inconsistent with any recognized medical or neurological condition."
+  },
+  {
+    "symptom_id": "SYM_FNSD_MOTOR_SENSORY",
+    "symptom_name": "Altered Motor Function",
+    "symptom_description": "The patient experiences altered voluntary motor or sensory functioning, such as weakness, paralysis, or abnormal movements."
+  },
+  {
+    "symptom_id": "SYM_FRO_ACTED",
+    "symptom_name": "Frotteuristic Acting Out",
+    "symptom_description": "The patient has acted upon sexual urges involving touching or rubbing against a nonconsenting person."
+  },
+  {
+    "symptom_id": "SYM_FRO_AROUSAL",
+    "symptom_name": "Frotteuristic Arousal",
+    "symptom_description": "The patient experiences intense sexual arousal from fantasies, urges, or behaviors involving touching or rubbing against a nonconsenting person."
+  },
+  {
+    "symptom_id": "SYM_GAD_CONC",
+    "symptom_name": "Poor Concentration",
+    "symptom_description": "The patient experiences difficulty concentrating or their mind going blank."
+  },
+  {
+    "symptom_id": "SYM_GAD_FATIGUE",
+    "symptom_name": "Easy Fatigability",
+    "symptom_description": "The patient becomes easily fatigued or tired."
+  },
+  {
+    "symptom_id": "SYM_GAD_IRRIT",
+    "symptom_name": "Irritability",
+    "symptom_description": "The patient feels easily irritated or expresses irritability."
+  },
+  {
+    "symptom_id": "SYM_GAD_MUSCLE",
+    "symptom_name": "Muscle Tension",
+    "symptom_description": "The patient experiences muscle tension."
+  },
+  {
+    "symptom_id": "SYM_GAD_RESTLESS",
+    "symptom_name": "Restlessness",
+    "symptom_description": "The patient feels restless, keyed up, or on edge."
+  },
+  {
+    "symptom_id": "SYM_GAD_SLEEP",
+    "symptom_name": "Sleep Disturbance",
+    "symptom_description": "The patient experiences trouble falling asleep, staying asleep, or has restless, unsatisfying sleep."
+  },
+  {
+    "symptom_id": "SYM_GAD_WORRY",
+    "symptom_name": "Excessive Worry",
+    "symptom_description": "The patient experiences excessive, hard-to-control anxiety and worry about a variety of everyday events or activities."
+  },
+  {
+    "symptom_id": "SYM_GAM_BAILOUT",
+    "symptom_name": "Financial Bailouts",
+    "symptom_description": "The patient relies on others to provide money to relieve desperate financial situations caused by gambling."
+  },
+  {
+    "symptom_id": "SYM_GAM_CHASE",
+    "symptom_name": "Chasing Losses",
+    "symptom_description": "The patient frequently chases their losses by returning another day to gamble more in order to get even."
+  },
+  {
+    "symptom_id": "SYM_GAM_CONTROL",
+    "symptom_name": "Inability to Stop",
+    "symptom_description": "The patient has made repeated, unsuccessful efforts to control, cut back, or stop gambling."
+  },
+  {
+    "symptom_id": "SYM_GAM_INCREASE",
+    "symptom_name": "Gambling Tolerance",
+    "symptom_description": "The patient needs to gamble with increasing amounts of money in order to achieve the desired excitement."
+  },
+  {
+    "symptom_id": "SYM_GAM_LIE",
+    "symptom_name": "Concealing Gambling",
+    "symptom_description": "The patient lies to conceal the extent of their involvement with gambling."
+  },
+  {
+    "symptom_id": "SYM_GAM_PREOCC",
+    "symptom_name": "Gambling Preoccupation",
+    "symptom_description": "The patient is often preoccupied with gambling, such as reliving past gambling experiences, planning the next venture, or thinking of ways to get money to gamble."
+  },
+  {
+    "symptom_id": "SYM_GAM_RELATION",
+    "symptom_name": "Jeopardized Relationships",
+    "symptom_description": "The patient has jeopardized or lost a significant relationship, job, or educational or career opportunity because of gambling."
+  },
+  {
+    "symptom_id": "SYM_GAM_RESTLESS",
+    "symptom_name": "Gambling Withdrawal",
+    "symptom_description": "The patient feels restless or irritable when attempting to cut down or stop gambling."
+  },
+  {
+    "symptom_id": "SYM_GAM_STRESS",
+    "symptom_name": "Stress Gambling",
+    "symptom_description": "The patient often gambles when feeling distressed, such as when feeling helpless, guilty, anxious, or depressed."
+  },
+  {
+    "symptom_id": "SYM_GDD_ASSESS",
+    "symptom_name": "Unassessable Delay",
+    "symptom_description": "The patient is unable to undergo reliable systematic assessments of intellectual functioning, typically due to being too young."
+  },
+  {
+    "symptom_id": "SYM_GDD_DELAY",
+    "symptom_name": "Developmental Delay",
+    "symptom_description": "The patient fails to meet expected developmental milestones in several areas of intellectual functioning, and is under the age of 5."
+  },
+  {
+    "symptom_id": "SYM_GD_CHILD_CLOTHES",
+    "symptom_name": "Cross-Gender Clothing",
+    "symptom_description": "The patient expresses a strong preference for wearing clothing typical of the experienced or expressed gender, and resists wearing typical clothing of their assigned gender."
+  },
+  {
+    "symptom_id": "SYM_GD_CHILD_PLAYMATES",
+    "symptom_name": "Cross-Gender Playmates",
+    "symptom_description": "The patient exhibits a strong preference for playmates of the experienced or expressed gender."
+  },
+  {
+    "symptom_id": "SYM_GD_CHILD_REJECT",
+    "symptom_name": "Rejecting Assigned Toys",
+    "symptom_description": "The patient strongly rejects toys, games, and activities that are typical of their assigned gender."
+  },
+  {
+    "symptom_id": "SYM_GD_CHILD_ROLES",
+    "symptom_name": "Cross-Gender Roles",
+    "symptom_description": "The patient strongly prefers cross-gender roles in make-believe or fantasy play."
+  },
+  {
+    "symptom_id": "SYM_GD_CHILD_TOYS",
+    "symptom_name": "Cross-Gender Play",
+    "symptom_description": "The patient exhibits a strong preference for toys, games, or activities typical of another gender."
+  },
+  {
+    "symptom_id": "SYM_GD_DESIRE_OTHER",
+    "symptom_name": "Desire Another Gender",
+    "symptom_description": "The patient expresses a powerful desire to be of another gender."
+  },
+  {
+    "symptom_id": "SYM_GD_DISPARITY",
+    "symptom_name": "Gender Incongruence",
+    "symptom_description": "The patient experiences a marked disparity between their experienced gender and their assigned gender."
+  },
+  {
+    "symptom_id": "SYM_GD_FEEL_OTHER",
+    "symptom_name": "Cross-Gender Feelings",
+    "symptom_description": "The patient strongly believes they possess the typical feelings and reactions of another gender."
+  },
+  {
+    "symptom_id": "SYM_GD_RID_CHAR",
+    "symptom_name": "Reject Sex Characteristics",
+    "symptom_description": "The patient has a strong desire to be rid of their primary or secondary sex characteristics."
+  },
+  {
+    "symptom_id": "SYM_GD_SUBTH",
+    "symptom_name": "Subthreshold Dysphoria",
+    "symptom_description": "The patient exhibits symptoms characteristic of gender dysphoria that fall below the full diagnostic threshold."
+  },
+  {
+    "symptom_id": "SYM_GD_TREAT_OTHER",
+    "symptom_name": "Desire Cross-Gender Recognition",
+    "symptom_description": "The patient desires to be treated by others as another gender."
+  },
+  {
+    "symptom_id": "SYM_GD_UNSPEC",
+    "symptom_name": "Unspecified Dysphoria",
+    "symptom_description": "The patient presents with symptoms of gender dysphoria, but there is insufficient information to make a definitive diagnosis."
+  },
+  {
+    "symptom_id": "SYM_GD_WANT_CHAR",
+    "symptom_name": "Desire Sex Characteristics",
+    "symptom_description": "The patient strongly desires the primary or secondary sex characteristics of another gender."
+  },
+  {
+    "symptom_id": "SYM_GEN_INSOMNIA",
+    "symptom_name": "Insomnia",
+    "symptom_description": "The patient experiences insomnia or other significant sleep disturbances."
+  },
+  {
+    "symptom_id": "SYM_GEN_PSYCHOMOTOR_AGITATION",
+    "symptom_name": "Psychomotor Agitation",
+    "symptom_description": "The patient exhibits psychomotor agitation, such as pacing, hand-wringing, or an inability to sit still."
+  },
+  {
+    "symptom_id": "SYM_HOARD_ACCUM",
+    "symptom_name": "Difficulty Discarding Possessions",
+    "symptom_description": "The patient experiences persistent difficulty discarding or parting with possessions, regardless of their actual value."
+  },
+  {
+    "symptom_id": "SYM_HOARD_CLUTTER",
+    "symptom_name": "Cluttered Living Areas",
+    "symptom_description": "The patient accumulates possessions that congest and clutter active living areas, substantially compromising their intended use."
+  },
+  {
+    "symptom_id": "SYM_HOARD_DISTRESS",
+    "symptom_name": "Hoarding Distress",
+    "symptom_description": "The patient experiences clinically significant distress or impairment in social, occupational, or other important areas of functioning due to difficulty discarding possessions."
+  },
+  {
+    "symptom_id": "SYM_HPD_APPEAR",
+    "symptom_name": "Attention-Seeking Appearance",
+    "symptom_description": "The patient consistently uses their physical appearance to draw attention to themselves."
+  },
+  {
+    "symptom_id": "SYM_HPD_CENTER",
+    "symptom_name": "Needs Center Attention",
+    "symptom_description": "The patient feels uncomfortable in situations where they are not the center of attention."
+  },
+  {
+    "symptom_id": "SYM_HPD_DRAMATIC",
+    "symptom_name": "Exaggerated Emotions",
+    "symptom_description": "The patient exhibits self-dramatization, theatricality, and exaggerated emotional expression."
+  },
+  {
+    "symptom_id": "SYM_HPD_INTIMATE",
+    "symptom_name": "Overestimates Intimacy",
+    "symptom_description": "The patient considers relationships to be more intimate than they actually are."
+  },
+  {
+    "symptom_id": "SYM_HPD_SEDUCTIVE",
+    "symptom_name": "Seductive Behavior",
+    "symptom_description": "The patient exhibits inappropriately sexually seductive or provocative behavior in interactions with others."
+  },
+  {
+    "symptom_id": "SYM_HPD_SHALLOW",
+    "symptom_name": "Shallow Emotions",
+    "symptom_description": "The patient displays rapidly shifting and shallow expressions of emotion."
+  },
+  {
+    "symptom_id": "SYM_HPD_SUGGEST",
+    "symptom_name": "High Suggestibility",
+    "symptom_description": "The patient is highly suggestible and easily influenced by others or circumstances."
+  },
+  {
+    "symptom_id": "SYM_HPD_VAGUE",
+    "symptom_name": "Vague Speech",
+    "symptom_description": "The patient uses speech that is excessively impressionistic and lacking in detail."
+  },
+  {
+    "symptom_id": "SYM_IAD_ANX",
+    "symptom_name": "Health Anxiety",
+    "symptom_description": "The patient has a high level of anxiety about health and is easily alarmed about their personal health status."
+  },
+  {
+    "symptom_id": "SYM_IAD_BEH",
+    "symptom_name": "Excessive Health Behaviors",
+    "symptom_description": "The patient performs excessive health-related behaviors, such as repeatedly checking their body for signs of illness, or exhibits maladaptive avoidance of medical care."
+  },
+  {
+    "symptom_id": "SYM_IAD_PREOCC",
+    "symptom_name": "Illness Preoccupation",
+    "symptom_description": "The patient is preoccupied with fears of having or acquiring a serious, undiagnosed illness."
+  },
+  {
+    "symptom_id": "SYM_IDD_ADAP",
+    "symptom_name": "Adaptive Deficits",
+    "symptom_description": "The patient has deficits in adaptive functioning that result in a failure to meet developmental and sociocultural standards for personal independence and social responsibility."
+  },
+  {
+    "symptom_id": "SYM_IDD_ASSESS",
+    "symptom_name": "Unassessable Intellect",
+    "symptom_description": "The patient has intellectual functioning that cannot be reliably assessed by standardized testing due to sensory, physical, or severe behavioral impairments."
+  },
+  {
+    "symptom_id": "SYM_IDD_INTEL",
+    "symptom_name": "Intellectual Deficits",
+    "symptom_description": "The patient has deficits in intellectual functions, such as reasoning, problem solving, planning, abstract thinking, judgment, and learning from experience."
+  },
+  {
+    "symptom_id": "SYM_IED_DISPROPORTION",
+    "symptom_name": "Disproportionate Aggression",
+    "symptom_description": "The patient exhibits aggressiveness during outbursts that is grossly out of proportion to any provocation or precipitating psychosocial stressor."
+  },
+  {
+    "symptom_id": "SYM_IED_OUTBURST",
+    "symptom_name": "Aggressive Outbursts",
+    "symptom_description": "The patient exhibits recurrent behavioral outbursts representing a failure to control aggressive impulses."
+  },
+  {
+    "symptom_id": "SYM_IED_UNPLANNED",
+    "symptom_name": "Unplanned Outbursts",
+    "symptom_description": "The patient experiences aggressive outbursts that are impulsive, not premeditated, and not committed to achieve a tangible objective."
+  },
+  {
+    "symptom_id": "SYM_KLEPTO_RELEASE",
+    "symptom_name": "Theft Gratification",
+    "symptom_description": "The patient experiences pleasure, gratification, or relief at the time of committing the theft."
+  },
+  {
+    "symptom_id": "SYM_KLEPTO_STEAL",
+    "symptom_name": "Impulse to Steal",
+    "symptom_description": "The patient recurrently fails to resist impulses to steal objects that are not needed for personal use or for their monetary value."
+  },
+  {
+    "symptom_id": "SYM_KLEPTO_TENSION",
+    "symptom_name": "Pre-Theft Tension",
+    "symptom_description": "The patient experiences an increasing sense of tension or excitement immediately before committing the theft."
+  },
+  {
+    "symptom_id": "SYM_LD_DISC",
+    "symptom_name": "Impaired Discourse",
+    "symptom_description": "The patient exhibits impaired discourse, struggling to connect sentences to explain or describe a topic or have a conversation."
+  },
+  {
+    "symptom_id": "SYM_LD_SENT",
+    "symptom_name": "Limited Sentence Structure",
+    "symptom_description": "The patient demonstrates limited sentence structure, struggling to put words and word endings together to form sentences based on the rules of grammar and morphology."
+  },
+  {
+    "symptom_id": "SYM_LD_VOCAB",
+    "symptom_name": "Reduced Vocabulary",
+    "symptom_description": "The patient has a reduced vocabulary, demonstrating limited word knowledge and usage."
+  },
+  {
+    "symptom_id": "SYM_LPE_AFFECT",
+    "symptom_name": "Shallow Affect",
+    "symptom_description": "The patient exhibits a shallow or deficient affect, demonstrating a limited expression of emotions."
+  },
+  {
+    "symptom_id": "SYM_LPE_PERFORM",
+    "symptom_name": "Unconcerned About Performance",
+    "symptom_description": "The patient shows a lack of concern about their performance at school, work, or in other important activities."
+  },
+  {
+    "symptom_id": "SYM_MALE_DESIRE",
+    "symptom_name": "Reduced Sexual Desire",
+    "symptom_description": "The patient experiences significantly reduced or absent sexual interest, erotic thoughts, or arousal in response to sexual cues."
+  },
+  {
+    "symptom_id": "SYM_MALE_ORGASM_DELAY",
+    "symptom_name": "Delayed Orgasm",
+    "symptom_description": "The patient experiences a markedly delayed, infrequent, or absent orgasm despite normal sexual excitement."
+  },
+  {
+    "symptom_id": "SYM_MAN_DISTRACT",
+    "symptom_name": "Distractibility",
+    "symptom_description": "The patient is easily distracted by unimportant or irrelevant external stimuli."
+  },
+  {
+    "symptom_id": "SYM_MAN_ENER",
+    "symptom_name": "Increased Energy",
+    "symptom_description": "The patient exhibits a persistent, abnormal increase in goal-directed activity or energy."
+  },
+  {
+    "symptom_id": "SYM_MAN_FLIGHT",
+    "symptom_name": "Racing Thoughts",
+    "symptom_description": "The patient experiences a flight of ideas or a subjective feeling that their thoughts are racing."
+  },
+  {
+    "symptom_id": "SYM_MAN_GOAL",
+    "symptom_name": "Goal-Directed Activity",
+    "symptom_description": "The patient shows a marked increase in goal-directed activity or exhibits psychomotor agitation."
+  },
+  {
+    "symptom_id": "SYM_MAN_GRAND",
+    "symptom_name": "Grandiosity",
+    "symptom_description": "The patient experiences inflated self-esteem or grandiosity."
+  },
+  {
+    "symptom_id": "SYM_MAN_MOOD",
+    "symptom_name": "Elevated Mood",
+    "symptom_description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+  },
+  {
+    "symptom_id": "SYM_MAN_RISK",
+    "symptom_name": "Risky Behavior",
+    "symptom_description": "The patient excessively engages in activities that have a high potential for painful consequences, such as buying sprees, sexual indiscretions, or foolish business investments."
+  },
+  {
+    "symptom_id": "SYM_MAN_SLEEP",
+    "symptom_name": "Decreased Sleep Need",
+    "symptom_description": "The patient experiences a decreased need for sleep, feeling rested after only a few hours of sleep."
+  },
+  {
+    "symptom_id": "SYM_MAN_TALK",
+    "symptom_name": "Pressured Speech",
+    "symptom_description": "The patient is more talkative than usual or feels a persistent pressure to keep talking."
+  },
+  {
+    "symptom_id": "SYM_MAS_ACTED",
+    "symptom_name": "Masochistic Acts",
+    "symptom_description": "The patient acts upon sexual masochism urges with nonconsenting partners."
+  },
+  {
+    "symptom_id": "SYM_MAS_AROUSAL",
+    "symptom_name": "Masochistic Arousal",
+    "symptom_description": "The patient experiences sexual arousal from being struck, restrained, or made to suffer."
+  },
+  {
+    "symptom_id": "SYM_MDD_CONC",
+    "symptom_name": "Diminished Concentration",
+    "symptom_description": "The patient experiences a diminished ability to think or concentrate, or indecisiveness, nearly every day."
+  },
+  {
+    "symptom_id": "SYM_MDD_FATIGUE",
+    "symptom_name": "Fatigue",
+    "symptom_description": "The patient experiences fatigue or a loss of energy nearly every day."
+  },
+  {
+    "symptom_id": "SYM_MDD_GUILT",
+    "symptom_name": "Worthlessness or Guilt",
+    "symptom_description": "The patient experiences feelings of worthlessness or excessive, inappropriate guilt nearly every day."
+  },
+  {
+    "symptom_id": "SYM_MDD_INT",
+    "symptom_name": "Diminished Interest",
+    "symptom_description": "The patient experiences a markedly diminished interest or pleasure in all, or almost all, activities most of the day."
+  },
+  {
+    "symptom_id": "SYM_MDD_MOOD",
+    "symptom_name": "Depressed Mood",
+    "symptom_description": "The patient experiences a depressed mood for most of the day, nearly every day."
+  },
+  {
+    "symptom_id": "SYM_MDD_PSYCH",
+    "symptom_name": "Psychomotor Changes",
+    "symptom_description": "The patient exhibits psychomotor agitation or retardation that is observable by others."
+  },
+  {
+    "symptom_id": "SYM_MDD_SLEEP",
+    "symptom_name": "Sleep Disturbance",
+    "symptom_description": "The patient experiences insomnia or hypersomnia nearly every day."
+  },
+  {
+    "symptom_id": "SYM_MDD_SUBTH",
+    "symptom_name": "Subthreshold Depression",
+    "symptom_description": "The patient exhibits clinically important depressive symptoms that fall below the diagnostic threshold."
+  },
+  {
+    "symptom_id": "SYM_MDD_SUICIDE",
+    "symptom_name": "Suicidal Ideation",
+    "symptom_description": "The patient has recurrent thoughts of death, recurrent suicidal ideation, or makes a suicide attempt."
+  },
+  {
+    "symptom_id": "SYM_MDD_WT",
+    "symptom_name": "Appetite Changes",
+    "symptom_description": "The patient experiences significant weight loss or gain, or a decrease or increase in appetite nearly every day."
+  },
+  {
+    "symptom_id": "SYM_MOOD_UNSPEC",
+    "symptom_name": "Unspecified Mood Symptoms",
+    "symptom_description": "The patient presents with mood symptoms, but there is insufficient information for a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_NCD_ALZ_ONSET",
+    "symptom_name": "Insidious Onset",
+    "symptom_description": "The patient exhibits an insidious onset of cognitive decline."
+  },
+  {
+    "symptom_id": "SYM_NCD_ALZ_PROG",
+    "symptom_name": "Gradual Progression",
+    "symptom_description": "The patient demonstrates a steady, gradual progression of cognitive decline."
+  },
+  {
+    "symptom_id": "SYM_NCD_DECLINE_MAJ",
+    "symptom_name": "Significant Cognitive Decline",
+    "symptom_description": "The patient shows evidence of a significant cognitive decline from a previous level of performance in one or more cognitive domains."
+  },
+  {
+    "symptom_id": "SYM_NCD_DECLINE_MLD",
+    "symptom_name": "Modest Cognitive Decline",
+    "symptom_description": "The patient shows evidence of a modest cognitive decline from a previous level of performance in one or more cognitive domains."
+  },
+  {
+    "symptom_id": "SYM_NCD_IMPAIR_MAJ",
+    "symptom_name": "Impaired Independence",
+    "symptom_description": "The patient experiences cognitive deficits that are severe enough to interfere with their independence in everyday activities."
+  },
+  {
+    "symptom_id": "SYM_NCD_INDEP_MLD",
+    "symptom_name": "Preserved Independence",
+    "symptom_description": "The patient has cognitive deficits that do not materially impair their independence in daily activities."
+  },
+  {
+    "symptom_id": "SYM_NCD_TEST_MAJ",
+    "symptom_name": "Documented Major Decline",
+    "symptom_description": "The patient has cognitive decline that is documented by standardized neuropsychological testing or another quantified clinical assessment."
+  },
+  {
+    "symptom_id": "SYM_NCD_TEST_MLD",
+    "symptom_name": "Documented Mild Decline",
+    "symptom_description": "The patient demonstrates cognitive performance that is 1 to 2 standard deviations below the norm on standardized testing."
+  },
+  {
+    "symptom_id": "SYM_NCD_VAS_EVENT",
+    "symptom_name": "Cerebrovascular Event Onset",
+    "symptom_description": "The patient experiences an onset of cognitive decline related to one or more cerebrovascular events."
+  },
+  {
+    "symptom_id": "SYM_NCD_VAS_STEP",
+    "symptom_name": "Stepwise Progression",
+    "symptom_description": "The patient exhibits a stepwise progression of cognitive decline."
+  },
+  {
+    "symptom_id": "SYM_ND_OTHER",
+    "symptom_name": "Subthreshold Neurodevelopmental Symptoms",
+    "symptom_description": "The patient exhibits symptoms characteristic of a neurodevelopmental disorder but lacks the full criteria for a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_NPD_ADMIRATION",
+    "symptom_name": "Requires Admiration",
+    "symptom_description": "The patient requires excessive admiration from others."
+  },
+  {
+    "symptom_id": "SYM_NPD_ARROGANT",
+    "symptom_name": "Arrogant Behavior",
+    "symptom_description": "The patient shows arrogant, haughty behaviors or attitudes."
+  },
+  {
+    "symptom_id": "SYM_NPD_EMPATHY",
+    "symptom_name": "Lacks Empathy",
+    "symptom_description": "The patient lacks empathy and is unwilling to recognize or identify with the feelings and needs of others."
+  },
+  {
+    "symptom_id": "SYM_NPD_ENTITLED",
+    "symptom_name": "Sense of Entitlement",
+    "symptom_description": "The patient has a strong sense of entitlement, expecting unreasonable favorable treatment or automatic compliance with their expectations."
+  },
+  {
+    "symptom_id": "SYM_NPD_ENVY",
+    "symptom_name": "Envious",
+    "symptom_description": "The patient is often envious of others or believes that others are envious of them."
+  },
+  {
+    "symptom_id": "SYM_NPD_EXPLOIT",
+    "symptom_name": "Interpersonally Exploitative",
+    "symptom_description": "The patient is interpersonally exploitative, frequently taking advantage of others to achieve their own ends."
+  },
+  {
+    "symptom_id": "SYM_NPD_FANTASY",
+    "symptom_name": "Grandiose Fantasies",
+    "symptom_description": "The patient is preoccupied with fantasies of unlimited success, power, brilliance, beauty, or ideal love."
+  },
+  {
+    "symptom_id": "SYM_NPD_IMPORTANT",
+    "symptom_name": "Grandiose Self-Importance",
+    "symptom_description": "The patient exhibits a grandiose sense of self-importance, exaggerating their achievements and talents."
+  },
+  {
+    "symptom_id": "SYM_NPD_SPECIAL",
+    "symptom_name": "Belief of Specialness",
+    "symptom_description": "The patient believes they are special and unique, and can only be understood by, or should associate with, other special or high-status people."
+  },
+  {
+    "symptom_id": "SYM_OCD_COMPULS",
+    "symptom_name": "Compulsions",
+    "symptom_description": "The patient engages in repetitive behaviors or mental acts that they feel driven to perform in response to an obsession or according to rigid rules."
+  },
+  {
+    "symptom_id": "SYM_OCD_OBSESS",
+    "symptom_name": "Obsessions",
+    "symptom_description": "The patient experiences recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, causing marked anxiety or distress."
+  },
+  {
+    "symptom_id": "SYM_OCD_PREDOM",
+    "symptom_name": "Prominent Obsessive-Compulsive Symptoms",
+    "symptom_description": "The patient experiences prominent obsessions, compulsions, or other obsessive-compulsive related symptoms."
+  },
+  {
+    "symptom_id": "SYM_OCD_SUBTH",
+    "symptom_name": "Subthreshold Obsessive-Compulsive Symptoms",
+    "symptom_description": "The patient exhibits clinically important obsessive-compulsive symptoms that fall below the diagnostic threshold."
+  },
+  {
+    "symptom_id": "SYM_OCD_UNSPEC",
+    "symptom_name": "Unspecified Obsessive-Compulsive Symptoms",
+    "symptom_description": "The patient presents with obsessive-compulsive symptoms, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_OCPD_DELEGATE",
+    "symptom_name": "Reluctance to Delegate",
+    "symptom_description": "The patient is reluctant to delegate tasks or work with others unless they submit exactly to their way of doing things."
+  },
+  {
+    "symptom_id": "SYM_OCPD_DETAIL",
+    "symptom_name": "Preoccupation with Details",
+    "symptom_description": "The patient is preoccupied with details, rules, lists, order, organization, or schedules to the extent that the major point of the activity is lost."
+  },
+  {
+    "symptom_id": "SYM_OCPD_PERFECTION",
+    "symptom_name": "Perfectionism",
+    "symptom_description": "The patient exhibits perfectionism that interferes with task completion."
+  },
+  {
+    "symptom_id": "SYM_OCPD_STINGY",
+    "symptom_name": "Miserly Spending",
+    "symptom_description": "The patient adopts a miserly spending style toward both themselves and others, viewing money as something to be hoarded for future catastrophes."
+  },
+  {
+    "symptom_id": "SYM_OCPD_STUBBORN",
+    "symptom_name": "Rigidity and Stubbornness",
+    "symptom_description": "The patient shows significant rigidity and stubbornness in their attitudes and behaviors."
+  },
+  {
+    "symptom_id": "SYM_OCPD_TRASH",
+    "symptom_name": "Inability to Discard",
+    "symptom_description": "The patient is unable to discard worn-out or worthless objects even when they have no sentimental value."
+  },
+  {
+    "symptom_id": "SYM_OCPD_VALUES",
+    "symptom_name": "Inflexible Values",
+    "symptom_description": "The patient is overconscientious, scrupulous, and inflexible about matters of morality, ethics, or values."
+  },
+  {
+    "symptom_id": "SYM_OCPD_WORK",
+    "symptom_name": "Excessive Work Devotion",
+    "symptom_description": "The patient is excessively devoted to work and productivity to the exclusion of leisure activities and friendships."
+  },
+  {
+    "symptom_id": "SYM_ODD_ARGUE",
+    "symptom_name": "Argumentative and Defiant",
+    "symptom_description": "The patient frequently argues with authority figures or adults, and often actively defies or refuses to comply with rules."
+  },
+  {
+    "symptom_id": "SYM_ODD_IRRIT",
+    "symptom_name": "Irritable Mood",
+    "symptom_description": "The patient frequently loses their temper, is touchy or easily annoyed, and is often angry and resentful."
+  },
+  {
+    "symptom_id": "SYM_ODD_VINDICTIVE",
+    "symptom_name": "Vindictiveness",
+    "symptom_description": "The patient has been spiteful or vindictive at least twice within the past six months."
+  },
+  {
+    "symptom_id": "SYM_PAIN_FEAR",
+    "symptom_name": "Fear of Penetration",
+    "symptom_description": "The patient experiences marked fear or anxiety about genito-pelvic pain or vaginal penetration."
+  },
+  {
+    "symptom_id": "SYM_PAN_ATTACK",
+    "symptom_name": "Panic Attacks",
+    "symptom_description": "The patient experiences recurrent or isolated panic attacks, characterized by sudden surges of intense fear or discomfort accompanied by physical and cognitive symptoms."
+  },
+  {
+    "symptom_id": "SYM_PAN_BEH",
+    "symptom_name": "Panic Avoidance",
+    "symptom_description": "The patient exhibits a significant maladaptive change in behavior related to panic attacks, such as adopting behaviors designed to avoid having them."
+  },
+  {
+    "symptom_id": "SYM_PAN_WORRY",
+    "symptom_name": "Persistent Panic Worry",
+    "symptom_description": "The patient experiences persistent concern or worry about having additional panic attacks or their consequences."
+  },
+  {
+    "symptom_id": "SYM_PAR_SUBTH",
+    "symptom_name": "Subthreshold Paraphilia",
+    "symptom_description": "The patient experiences paraphilic symptoms that cause distress but do not meet the full diagnostic criteria for a paraphilic disorder."
+  },
+  {
+    "symptom_id": "SYM_PAR_UNSPEC",
+    "symptom_name": "Unspecified Paraphilia",
+    "symptom_description": "The patient exhibits a paraphilic disturbance, but the clinician chooses not to specify the reason the criteria are not met for a specific paraphilic disorder."
+  },
+  {
+    "symptom_id": "SYM_PDD_APP",
+    "symptom_name": "Appetite Changes",
+    "symptom_description": "The patient experiences poor appetite or overeating while feeling depressed."
+  },
+  {
+    "symptom_id": "SYM_PDD_CONTINUITY",
+    "symptom_name": "Continuous Symptoms",
+    "symptom_description": "The patient has never been without depressive symptoms for more than 2 months at a time during the 2-year period of the disturbance."
+  },
+  {
+    "symptom_id": "SYM_PDD_ESTEEM",
+    "symptom_name": "Low Self-Esteem",
+    "symptom_description": "The patient suffers from low self-esteem while experiencing depression."
+  },
+  {
+    "symptom_id": "SYM_PDD_HOPE",
+    "symptom_name": "Hopelessness",
+    "symptom_description": "The patient experiences feelings of hopelessness while depressed."
+  },
+  {
+    "symptom_id": "SYM_PDMED_PHYSIO",
+    "symptom_name": "Medical Etiology",
+    "symptom_description": "The patient exhibits a persistent personality disturbance that is the direct pathophysiological consequence of another medical condition."
+  },
+  {
+    "symptom_id": "SYM_PED_ACTED",
+    "symptom_name": "Acting on Urges",
+    "symptom_description": "The patient has acted upon pedophilic sexual urges involving prepubescent children."
+  },
+  {
+    "symptom_id": "SYM_PED_AGE_RULE",
+    "symptom_name": "Age Difference",
+    "symptom_description": "The patient is at least 16 years of age and is at least 5 years older than the prepubescent child or children involved."
+  },
+  {
+    "symptom_id": "SYM_PED_AROUSAL",
+    "symptom_name": "Prepubescent Arousal",
+    "symptom_description": "The patient experiences intense and recurrent sexual arousal from fantasies, urges, or behaviors involving prepubescent children."
+  },
+  {
+    "symptom_id": "SYM_PELVIC_PAIN",
+    "symptom_name": "Pelvic Pain",
+    "symptom_description": "The patient experiences marked vulvovaginal or pelvic pain during vaginal intercourse or penetration attempts."
+  },
+  {
+    "symptom_id": "SYM_PELVIC_TENSE",
+    "symptom_name": "Pelvic Muscle Tensing",
+    "symptom_description": "The patient exhibits marked tensing or tightening of the pelvic floor muscles during attempted vaginal penetration."
+  },
+  {
+    "symptom_id": "SYM_PENETRATE_DIFF",
+    "symptom_name": "Penetration Difficulty",
+    "symptom_description": "The patient experiences persistent or recurrent difficulties with vaginal penetration during intercourse."
+  },
+  {
+    "symptom_id": "SYM_PF_AFFECT_MED",
+    "symptom_name": "Adverse Psychological Factor",
+    "symptom_description": "The patient exhibits a psychological or behavioral factor that adversely affects a medical condition, interferes with treatment, or constitutes an additional health risk."
+  },
+  {
+    "symptom_id": "SYM_PGD_AVOID",
+    "symptom_name": "Avoidance of Reminders",
+    "symptom_description": "The patient actively avoids reminders of the deceased person."
+  },
+  {
+    "symptom_id": "SYM_PGD_DEATH",
+    "symptom_name": "Bereavement",
+    "symptom_description": "The patient has experienced the death of a close friend or relative."
+  },
+  {
+    "symptom_id": "SYM_PGD_DISBELIEF",
+    "symptom_name": "Disbelief About Death",
+    "symptom_description": "The patient experiences a marked sense of disbelief regarding the death of the deceased."
+  },
+  {
+    "symptom_id": "SYM_PGD_IDENTITY",
+    "symptom_name": "Identity Disruption",
+    "symptom_description": "The patient experiences identity disruption, such as feeling as though a part of oneself has died, since the death occurred."
+  },
+  {
+    "symptom_id": "SYM_PGD_LONELY",
+    "symptom_name": "Intense Loneliness",
+    "symptom_description": "The patient experiences intense loneliness or feels detached from others following the death."
+  },
+  {
+    "symptom_id": "SYM_PGD_LONGING",
+    "symptom_name": "Persistent Longing",
+    "symptom_description": "The patient experiences intense, persistent longing or yearning for the deceased person."
+  },
+  {
+    "symptom_id": "SYM_PGD_MEANINGLESS",
+    "symptom_name": "Feeling of Meaninglessness",
+    "symptom_description": "The patient feels that life is meaningless or empty without the deceased person."
+  },
+  {
+    "symptom_id": "SYM_PGD_NUMB",
+    "symptom_name": "Emotional Numbness",
+    "symptom_description": "The patient experiences emotional numbness, characterized by an absence or marked reduction of emotional reactivity."
+  },
+  {
+    "symptom_id": "SYM_PGD_PAIN",
+    "symptom_name": "Intense Emotional Pain",
+    "symptom_description": "The patient experiences intense emotional pain, such as anger, bitter grief, or sorrow, related to the death."
+  },
+  {
+    "symptom_id": "SYM_PGD_REINTEGRATE",
+    "symptom_name": "Difficulty Moving On",
+    "symptom_description": "The patient has difficulty moving on with life, such as experiencing problems engaging with friends, pursuing interests, or planning for the future."
+  },
+  {
+    "symptom_id": "SYM_PHOBIA_AVOID",
+    "symptom_name": "Phobic Avoidance",
+    "symptom_description": "The patient actively avoids the phobic object or situation, or endures it with intense fear or anxiety."
+  },
+  {
+    "symptom_id": "SYM_PHOBIA_SITU",
+    "symptom_name": "Situational Phobia",
+    "symptom_description": "The patient avoids or endures with intense anxiety specific situations, such as flying, driving, or being in enclosed spaces."
+  },
+  {
+    "symptom_id": "SYM_PICA_EAT",
+    "symptom_name": "Nonnutritive Eating",
+    "symptom_description": "The patient persistently eats dirt, paper, soap, or other non-nutritional, non-food substances."
+  },
+  {
+    "symptom_id": "SYM_PMDD_ANX",
+    "symptom_name": "Premenstrual Anxiety",
+    "symptom_description": "The patient experiences marked anxiety, tension, or feelings of being keyed up or on edge before menstruation."
+  },
+  {
+    "symptom_id": "SYM_PMDD_APP",
+    "symptom_name": "Premenstrual Appetite Changes",
+    "symptom_description": "The patient experiences a significant change in appetite, overeating, or specific food cravings during the premenstrual phase."
+  },
+  {
+    "symptom_id": "SYM_PMDD_CONC",
+    "symptom_name": "Premenstrual Concentration Difficulty",
+    "symptom_description": "The patient experiences subjective difficulty in concentrating during the premenstrual phase."
+  },
+  {
+    "symptom_id": "SYM_PMDD_INT",
+    "symptom_name": "Premenstrual Decreased Interest",
+    "symptom_description": "The patient experiences a decreased interest in usual activities before menstruation."
+  },
+  {
+    "symptom_id": "SYM_PMDD_IRRIT",
+    "symptom_name": "Premenstrual Irritability",
+    "symptom_description": "The patient exhibits marked anger, irritability, or increased interpersonal conflicts during the premenstrual phase."
+  },
+  {
+    "symptom_id": "SYM_PMDD_LABLE",
+    "symptom_name": "Premenstrual Affective Lability",
+    "symptom_description": "The patient experiences marked affective lability, such as pronounced mood swings or sudden tearfulness, before menstruation."
+  },
+  {
+    "symptom_id": "SYM_PMDD_LETH",
+    "symptom_name": "Premenstrual Lethargy",
+    "symptom_description": "The patient feels lethargic, easily fatigued, or has a marked lack of energy during the premenstrual phase."
+  },
+  {
+    "symptom_id": "SYM_PMDD_MOOD",
+    "symptom_name": "Premenstrual Depressed Mood",
+    "symptom_description": "The patient experiences a markedly depressed mood, feelings of hopelessness, or self-deprecating thoughts before menstruation."
+  },
+  {
+    "symptom_id": "SYM_PMDD_OVERWHELM",
+    "symptom_name": "Premenstrual Overwhelm",
+    "symptom_description": "The patient has a subjective sense of being overwhelmed or out of control during the premenstrual phase."
+  },
+  {
+    "symptom_id": "SYM_PMDD_PHYS",
+    "symptom_name": "Premenstrual Physical Symptoms",
+    "symptom_description": "The patient experiences physical symptoms such as breast tenderness, muscle or joint pain, a sensation of bloating, or weight gain before menstruation."
+  },
+  {
+    "symptom_id": "SYM_PMDD_SLEEP",
+    "symptom_name": "Premenstrual Sleep Disturbance",
+    "symptom_description": "The patient experiences hypersomnia or insomnia during the premenstrual phase."
+  },
+  {
+    "symptom_id": "SYM_PPD_ANGER",
+    "symptom_name": "Quick to Anger",
+    "symptom_description": "The patient is quick to react angrily or to counterattack in response to perceived slights or insults."
+  },
+  {
+    "symptom_id": "SYM_PPD_CONFIDE",
+    "symptom_name": "Reluctance to Confide",
+    "symptom_description": "The patient exhibits a reluctance to confide in others due to an unwarranted fear that the information will be used maliciously against them."
+  },
+  {
+    "symptom_id": "SYM_PPD_DISTRUST",
+    "symptom_name": "Unjustified Suspicion",
+    "symptom_description": "The patient suspects, without sufficient basis, that others are exploiting, harming, or deceiving them."
+  },
+  {
+    "symptom_id": "SYM_PPD_FIDELITY",
+    "symptom_name": "Suspicions of Infidelity",
+    "symptom_description": "The patient has recurrent, unjustified suspicions regarding the fidelity of their spouse or sexual partner."
+  },
+  {
+    "symptom_id": "SYM_PPD_GRUDGE",
+    "symptom_name": "Bearing Grudges",
+    "symptom_description": "The patient persistently bears grudges and is unforgiving of perceived insults, injuries, or slights."
+  },
+  {
+    "symptom_id": "SYM_PPD_LOYALTY",
+    "symptom_name": "Doubting Loyalty",
+    "symptom_description": "The patient is preoccupied with unjustified doubts about the loyalty or trustworthiness of friends or associates."
+  },
+  {
+    "symptom_id": "SYM_PSYCH_MED_ETIOLOGY",
+    "symptom_name": "Medical Etiology",
+    "symptom_description": "The patient has a disturbance that is shown by history, physical examination, or laboratory findings to be the direct pathophysiological consequence of another medical condition."
+  },
+  {
+    "symptom_id": "SYM_PSYCH_SUB_ETIOLOGY",
+    "symptom_name": "Substance Etiology",
+    "symptom_description": "The patient has symptoms that developed during or soon after substance intoxication, withdrawal, or medication exposure, with evidence that the substance is capable of producing the observed hallucinations or delusions."
+  },
+  {
+    "symptom_id": "SYM_PTSD_AROUSAL_RECKLESS",
+    "symptom_name": "Reckless Behavior",
+    "symptom_description": "The patient engages in reckless or self-destructive behavior."
+  },
+  {
+    "symptom_id": "SYM_PTSD_AVOID",
+    "symptom_name": "Trauma Avoidance",
+    "symptom_description": "The patient actively avoids memories, thoughts, feelings, or external reminders associated with the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_PTSD_CHILD_AVOID_PEOPLE",
+    "symptom_name": "Avoiding People",
+    "symptom_description": "The patient avoids or makes efforts to avoid people, conversations, or interpersonal situations that arouse recollections of the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_PTSD_CHILD_AVOID_REMINDERS",
+    "symptom_name": "Avoiding Reminders",
+    "symptom_description": "The patient avoids or makes efforts to avoid activities, places, or physical reminders that arouse recollections of the traumatic event."
+  },
+  {
+    "symptom_id": "SYM_PTSD_CHILD_COG_INTEREST",
+    "symptom_name": "Diminished Interest",
+    "symptom_description": "The patient exhibits markedly diminished interest or participation in significant activities, including a constriction of play."
+  },
+  {
+    "symptom_id": "SYM_PTSD_CHILD_COG_NEG_EMOT",
+    "symptom_name": "Negative Emotions",
+    "symptom_description": "The patient experiences a substantially increased frequency of key negative emotional states, such as fear, sadness, guilt, or confusion."
+  },
+  {
+    "symptom_id": "SYM_PTSD_CHILD_COG_POS_EMOT",
+    "symptom_name": "Reduced Positive Emotions",
+    "symptom_description": "The patient exhibits a persistent reduction in the expression of positive emotions."
+  },
+  {
+    "symptom_id": "SYM_PTSD_CHILD_COG_WITHDRAW",
+    "symptom_name": "Social Withdrawal",
+    "symptom_description": "The patient exhibits socially withdrawn behavior."
+  },
+  {
+    "symptom_id": "SYM_PTSD_COG_AMNESIA",
+    "symptom_name": "Trauma Amnesia",
+    "symptom_description": "The patient is unable to remember an important aspect of the traumatic event, typically due to dissociative amnesia."
+  },
+  {
+    "symptom_id": "SYM_PTSD_COG_BELIEFS",
+    "symptom_name": "Negative Beliefs",
+    "symptom_description": "The patient holds persistent and exaggerated negative beliefs or expectations about themselves, others, or the world."
+  },
+  {
+    "symptom_id": "SYM_PTSD_COG_BLAME",
+    "symptom_name": "Distorted Blame",
+    "symptom_description": "The patient experiences persistent, distorted cognitions about the cause or consequences of the traumatic event, leading them to blame themselves or others."
+  },
+  {
+    "symptom_id": "SYM_PTSD_COG_DETACH",
+    "symptom_name": "Feeling Detached",
+    "symptom_description": "The patient experiences feelings of detachment or estrangement from others."
+  },
+  {
+    "symptom_id": "SYM_PTSD_COG_INTEREST",
+    "symptom_name": "Loss of Interest",
+    "symptom_description": "The patient exhibits markedly diminished interest or participation in significant activities."
+  },
+  {
+    "symptom_id": "SYM_PTSD_COG_MOOD_NEG",
+    "symptom_name": "Persistent Negative Mood",
+    "symptom_description": "The patient experiences a persistent negative emotional state, such as fear, horror, anger, guilt, or shame."
+  },
+  {
+    "symptom_id": "SYM_PTSD_INTRU",
+    "symptom_name": "Intrusive Reliving",
+    "symptom_description": "The patient repeatedly relives the traumatic event through distressing memories, nightmares, or dissociative flashbacks."
+  },
+  {
+    "symptom_id": "SYM_PTSD_TRAUMA",
+    "symptom_name": "Trauma Exposure",
+    "symptom_description": "The patient has been directly exposed to, witnessed, or learned about a traumatic event involving actual or threatened death, serious injury, or sexual violence."
+  },
+  {
+    "symptom_id": "SYM_PYRO_FIRE",
+    "symptom_name": "Fire Setting",
+    "symptom_description": "The patient deliberately and purposefully sets multiple fires."
+  },
+  {
+    "symptom_id": "SYM_PYRO_INTEREST",
+    "symptom_name": "Fire Fascination",
+    "symptom_description": "The patient exhibits a fascination with or attraction to fire and its situational contexts."
+  },
+  {
+    "symptom_id": "SYM_PYRO_RELEASE",
+    "symptom_name": "Pleasure from Fire",
+    "symptom_description": "The patient experiences relief or pleasure when setting fires or witnessing their aftermath."
+  },
+  {
+    "symptom_id": "SYM_PYRO_TENSION",
+    "symptom_name": "Tension Before Fire",
+    "symptom_description": "The patient feels tension or affective arousal before setting a fire, followed by a sense of release or pleasure afterward."
+  },
+  {
+    "symptom_id": "SYM_RAD_AFFECT",
+    "symptom_name": "Limited Positive Affect",
+    "symptom_description": "The patient exhibits limited positive affect in their interactions with others."
+  },
+  {
+    "symptom_id": "SYM_RAD_NEGLECT",
+    "symptom_name": "Extreme Neglect",
+    "symptom_description": "The patient has experienced a pattern of extreme insufficient care, such as social neglect, frequent changes in primary caregivers, or rearing in unusual settings."
+  },
+  {
+    "symptom_id": "SYM_RAD_SOC_EMOT",
+    "symptom_name": "Minimal Responsiveness",
+    "symptom_description": "The patient exhibits minimal social and emotional responsiveness to others, often accompanied by unprovoked episodes of irritability, sadness, or fearfulness."
+  },
+  {
+    "symptom_id": "SYM_RAD_WITHDRAW",
+    "symptom_name": "Emotional Withdrawal",
+    "symptom_description": "The patient displays a consistent pattern of inhibited, emotionally withdrawn behavior toward adult caregivers, rarely seeking or responding to comfort when distressed."
+  },
+  {
+    "symptom_id": "SYM_RLS_EVE",
+    "symptom_name": "Evening Worsening",
+    "symptom_description": "The patient experiences an urge to move the legs that worsens in the evening or at night."
+  },
+  {
+    "symptom_id": "SYM_RLS_RELIEF",
+    "symptom_name": "Relief by Movement",
+    "symptom_description": "The patient experiences an urge to move that is partially or totally relieved by movement, such as walking or stretching."
+  },
+  {
+    "symptom_id": "SYM_RLS_REST",
+    "symptom_name": "Worsening at Rest",
+    "symptom_description": "The patient experiences an urge to move the legs that begins or worsens during periods of rest or inactivity."
+  },
+  {
+    "symptom_id": "SYM_RLS_URGE",
+    "symptom_name": "Urge to Move",
+    "symptom_description": "The patient experiences an irresistible urge to move the legs, usually accompanied by uncomfortable or unpleasant sensations in the lower limbs."
+  },
+  {
+    "symptom_id": "SYM_RUM_REGURG",
+    "symptom_name": "Food Regurgitation",
+    "symptom_description": "The patient persistently regurgitates food, which may then be re-chewed, re-swallowed, or spit out."
+  },
+  {
+    "symptom_id": "SYM_SAD_ACTED",
+    "symptom_name": "Nonconsensual Sadism",
+    "symptom_description": "The patient acts upon sexual sadism urges with nonconsenting persons."
+  },
+  {
+    "symptom_id": "SYM_SAD_AROUSAL",
+    "symptom_name": "Sadistic Arousal",
+    "symptom_description": "The patient experiences sexual arousal from the physical or psychological suffering of another person."
+  },
+  {
+    "symptom_id": "SYM_SAD_NEG_EVAL",
+    "symptom_name": "Fear of Evaluation",
+    "symptom_description": "The patient fears acting in a way or showing anxiety symptoms that will be negatively evaluated, leading to humiliation or rejection."
+  },
+  {
+    "symptom_id": "SYM_SAD_SCRUTINY",
+    "symptom_name": "Social Scrutiny Anxiety",
+    "symptom_description": "The patient experiences inordinate anxiety in social situations where they are exposed to possible close observation or scrutiny by others."
+  },
+  {
+    "symptom_id": "SYM_SCD_CONTEXT",
+    "symptom_name": "Adapting Communication",
+    "symptom_description": "The patient has difficulty adapting their communication to fit the context or the needs of the listener."
+  },
+  {
+    "symptom_id": "SYM_SCD_RULES",
+    "symptom_name": "Conversation Rule Difficulty",
+    "symptom_description": "The patient has difficulty following the rules for conversation and storytelling, such as taking turns or rephrasing when misunderstood."
+  },
+  {
+    "symptom_id": "SYM_SCD_USE",
+    "symptom_name": "Social Communication Deficit",
+    "symptom_description": "The patient exhibits deficits in the social use of verbal and nonverbal communication."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_AFF_TIMING",
+    "symptom_name": "Psychosis Without Mood",
+    "symptom_description": "The patient has experienced delusions or hallucinations for two or more weeks in the absence of a major mood episode during the lifetime duration of the illness."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_CAT",
+    "symptom_name": "Catatonic Behavior",
+    "symptom_description": "The patient exhibits severely abnormal psychomotor behavior, ranging from unresponsiveness to agitated, purposeless movement."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_DEL",
+    "symptom_name": "Delusions",
+    "symptom_description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_HAL",
+    "symptom_name": "Hallucinations",
+    "symptom_description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_IMPAIR",
+    "symptom_name": "Functional Impairment",
+    "symptom_description": "The patient experiences clinically significant impairment in occupational, academic, or social functioning due to their symptoms."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_NEG",
+    "symptom_name": "Negative Symptoms",
+    "symptom_description": "The patient displays negative symptoms, such as diminished emotional expression, restricted affect, or a lack of volition."
+  },
+  {
+    "symptom_id": "SYM_SCHIZ_SPEECH",
+    "symptom_name": "Disorganized Speech",
+    "symptom_description": "The patient exhibits speech that is noticeably incoherent, disorganized, or frequently derails from the topic."
+  },
+  {
+    "symptom_id": "SYM_SEL_MUT_SPEAK",
+    "symptom_name": "Selective Mutism",
+    "symptom_description": "The patient consistently fails to speak in specific social situations where there is an expectation for speaking, despite speaking normally in other situations."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_DISTRESS",
+    "symptom_name": "Separation Distress",
+    "symptom_description": "The patient experiences severe anxiety or distress when anticipating or experiencing separation from home or major attachment figures."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_EVENT",
+    "symptom_name": "Fear of Mishap",
+    "symptom_description": "The patient excessively worries about experiencing an untoward event, such as getting lost or being kidnapped, that would cause separation from a major attachment figure."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_FEAR_ALONE",
+    "symptom_name": "Avoiding Being Alone",
+    "symptom_description": "The patient experiences excessive fear or reluctance about being alone or without major attachment figures."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_LOSE",
+    "symptom_name": "Worry About Harm",
+    "symptom_description": "The patient excessively worries about losing major attachment figures or about possible harm coming to them, such as illness, injury, disasters, or death."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_NIGHTMARE",
+    "symptom_name": "Separation Nightmares",
+    "symptom_description": "The patient has repeated nightmares involving themes of separation."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_PHYS",
+    "symptom_name": "Physical Symptoms",
+    "symptom_description": "The patient repeatedly complains of physical symptoms, such as headaches or nausea, when separated from major attachment figures."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_RELUCT_OUT",
+    "symptom_name": "Reluctance to Leave",
+    "symptom_description": "The patient is persistently reluctant or refuses to go out, attend school, or sleep away from home due to fear of separation."
+  },
+  {
+    "symptom_id": "SYM_SEP_ANX_RELUCT_SLEEP",
+    "symptom_name": "Reluctance to Sleep",
+    "symptom_description": "The patient exhibits reluctance or refusal to sleep away from home or to go to sleep without being near a major attachment figure."
+  },
+  {
+    "symptom_id": "SYM_SEX_DYSFUNCTION",
+    "symptom_name": "Induced Sexual Dysfunction",
+    "symptom_description": "The patient experiences clinically significant sexual dysfunction that appears directly caused by substance intoxication, substance withdrawal, or medication use."
+  },
+  {
+    "symptom_id": "SYM_SEX_SUBTH",
+    "symptom_name": "Subthreshold Sexual Dysfunction",
+    "symptom_description": "The patient presents with mixed, atypical, or subthreshold symptoms of a sexual dysfunction that cause significant distress but do not meet the full criteria for a specific disorder."
+  },
+  {
+    "symptom_id": "SYM_SEX_UNSPEC",
+    "symptom_name": "Unspecified Sexual Dysfunction",
+    "symptom_description": "The patient has sexual dysfunction symptoms causing clinically significant distress, but the specific diagnostic criteria are unmet and the clinician chooses not to specify the reason."
+  },
+  {
+    "symptom_id": "SYM_SLD_SKILL",
+    "symptom_name": "Low Academic Skills",
+    "symptom_description": "The patient has academic skills that are markedly below the expected level for their chronological age."
+  },
+  {
+    "symptom_id": "SYM_SLD_TEST",
+    "symptom_name": "Low Test Scores",
+    "symptom_description": "The patient scores significantly below norms on standardized tests in reading, mathematics, or writing."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_ACT_OUT",
+    "symptom_name": "Acting Out Dreams",
+    "symptom_description": "The patient exhibits vocalizations or complex motor behaviors during REM sleep, often acting out vivid dreams."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_AMNESIA",
+    "symptom_name": "Sleep Episode Amnesia",
+    "symptom_description": "The patient tends to have little or no memory of the sleep arousal episode the following morning."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_ATTACK",
+    "symptom_name": "Sleep Attacks",
+    "symptom_description": "The patient experiences irrepressible attacks of sleep or an overwhelming need to sleep during the daytime."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_CATAPLEXY",
+    "symptom_name": "Cataplexy",
+    "symptom_description": "The patient experiences sudden, brief episodes of muscle weakness or paralysis, known as cataplexy, which are often triggered by strong emotions."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_DISTURB",
+    "symptom_name": "Induced Sleep Disturbance",
+    "symptom_description": "The patient complains of a severe sleep disturbance, such as insomnia or hypersomnolence, directly resulting from substance or medication use."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_DREAM_RECALL",
+    "symptom_name": "Terrifying Dream Recall",
+    "symptom_description": "The patient instantly and fully awakens from terrifying dreams and recalls them in frightening detail."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_HALLUC",
+    "symptom_name": "Sleep Hallucinations",
+    "symptom_description": "The patient experiences vivid, often frightening, visual or auditory hallucinations when falling asleep or waking up."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_INERTIA",
+    "symptom_name": "Sleep Inertia",
+    "symptom_description": "The patient experiences sleep inertia, feeling groggy, disoriented, or having difficulty remaining fully awake upon abrupt awakening."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_INIT",
+    "symptom_name": "Difficulty Falling Asleep",
+    "symptom_description": "The patient has persistent difficulty initiating or falling asleep."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_INSOM_HYPER",
+    "symptom_name": "Circadian Sleep Disruption",
+    "symptom_description": "The patient experiences notable insomnia or hypersomnolence as a result of a circadian rhythm misalignment."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_LONG",
+    "symptom_name": "Prolonged Unrefreshing Sleep",
+    "symptom_description": "The patient experiences prolonged sleep episodes of nine or more hours that remain unrefreshing."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_MAINT",
+    "symptom_name": "Difficulty Maintaining Sleep",
+    "symptom_description": "The patient has difficulty maintaining sleep, frequently awakening during the night."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_MISMATCH",
+    "symptom_name": "Sleep-Wake Mismatch",
+    "symptom_description": "The patient experiences a recurring mismatch between their biological sleep-wake cycle and the environmental or social demands placed upon them."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_NAP",
+    "symptom_name": "Daytime Napping",
+    "symptom_description": "The patient takes repeated daytime naps or unintentionally falls asleep during the day despite having had sufficient nighttime sleep."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_PARALYSIS",
+    "symptom_name": "Sleep Paralysis",
+    "symptom_description": "The patient is temporarily unable to move or speak while transitioning between sleep and wakefulness."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_REM_TONE",
+    "symptom_name": "Absent Muscle Atonia",
+    "symptom_description": "The patient lacks the normal muscle atonia that typically accompanies REM sleep, as revealed by polysomnography."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_TERM",
+    "symptom_name": "Early Morning Awakening",
+    "symptom_description": "The patient awakens too early in the morning and is unable to return to sleep."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_TERROR",
+    "symptom_name": "Sleep Terrors",
+    "symptom_description": "The patient abruptly awakens from sleep with a terrified scream, accompanied by intense fear and signs of autonomic arousal."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_UNREFRESH",
+    "symptom_name": "Unrefreshing Sleep",
+    "symptom_description": "The patient frequently wakes up feeling that their sleep was unrestful or unrefreshing."
+  },
+  {
+    "symptom_id": "SYM_SLEEP_WALK",
+    "symptom_name": "Sleepwalking",
+    "symptom_description": "The patient exhibits episodes of rising from bed during sleep and walking about with a blank, staring expression, often remaining unresponsive to others."
+  },
+  {
+    "symptom_id": "SYM_SMD_INTERFERE",
+    "symptom_name": "Interfering Motor Behavior",
+    "symptom_description": "The patient exhibits motor behavior that significantly interferes with their social or academic activities."
+  },
+  {
+    "symptom_id": "SYM_SPEECH_SOUND_LIMIT",
+    "symptom_name": "Limited Speech Intelligibility",
+    "symptom_description": "The patient has limited speech intelligibility that significantly interferes with effective communication."
+  },
+  {
+    "symptom_id": "SYM_SPEECH_SOUND_PROD",
+    "symptom_name": "Speech Production Difficulty",
+    "symptom_description": "The patient experiences persistent difficulty with speech sound production."
+  },
+  {
+    "symptom_id": "SYM_SSD_COG",
+    "symptom_name": "Excessive Health Anxiety",
+    "symptom_description": "The patient invests excessive time and energy in health care or experiences persistent, high-level anxiety about the seriousness of their symptoms."
+  },
+  {
+    "symptom_id": "SYM_SSD_PAIN",
+    "symptom_name": "Severe Somatic Pain",
+    "symptom_description": "The patient experiences severe, often chronic physical pain as their predominant somatic complaint, which lacks an apparent physical cause or exceeds typical expectations."
+  },
+  {
+    "symptom_id": "SYM_SSD_SOMATIC",
+    "symptom_name": "Distressing Somatic Symptoms",
+    "symptom_description": "The patient experiences one or more distressing physical symptoms that significantly disrupt their daily life."
+  },
+  {
+    "symptom_id": "SYM_SSD_SUBTH",
+    "symptom_name": "Subthreshold Somatic Symptoms",
+    "symptom_description": "The patient experiences characteristic and distressing somatic symptoms that do not meet the full diagnostic threshold for a specific disorder."
+  },
+  {
+    "symptom_id": "SYM_SSD_UNSPEC",
+    "symptom_name": "Unspecified Somatic Symptoms",
+    "symptom_description": "The patient presents with somatic symptoms, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_STUT_FLUENCY",
+    "symptom_name": "Speech Fluency Disruptions",
+    "symptom_description": "The patient experiences frequent disruptions in the normal fluency and time patterning of their speech."
+  },
+  {
+    "symptom_id": "SYM_STUT_TENSE",
+    "symptom_name": "Speech Physical Tension",
+    "symptom_description": "The patient exhibits marked physical tension while speaking or produces words with excess tension."
+  },
+  {
+    "symptom_id": "SYM_SUD_ACTIVITY",
+    "symptom_name": "Reduced Activities",
+    "symptom_description": "The patient gives up or significantly reduces important social, occupational, or recreational activities due to substance use."
+  },
+  {
+    "symptom_id": "SYM_SUD_AMOUNT",
+    "symptom_name": "Excessive Substance Use",
+    "symptom_description": "The patient frequently consumes the substance in larger amounts or over a longer period than originally intended."
+  },
+  {
+    "symptom_id": "SYM_SUD_CONTROL",
+    "symptom_name": "Inability to Control",
+    "symptom_description": "The patient expresses a persistent desire or makes unsuccessful efforts to cut down or control their substance use."
+  },
+  {
+    "symptom_id": "SYM_SUD_CRAVING",
+    "symptom_name": "Substance Craving",
+    "symptom_description": "The patient experiences an intense craving or a strong urge to use the specific substance."
+  },
+  {
+    "symptom_id": "SYM_SUD_DANGER",
+    "symptom_name": "Hazardous Substance Use",
+    "symptom_description": "The patient repeatedly uses the substance in physically hazardous situations or continues use despite knowing it causes ongoing physical or psychological harm."
+  },
+  {
+    "symptom_id": "SYM_SUD_HEALTH",
+    "symptom_name": "Continued Harmful Use",
+    "symptom_description": "The patient continues to use the substance despite knowing it causes or exacerbates a persistent physical or psychological problem."
+  },
+  {
+    "symptom_id": "SYM_SUD_OBLIGATION",
+    "symptom_name": "Unfulfilled Role Obligations",
+    "symptom_description": "The patient engages in recurrent substance use that results in a failure to fulfill major role obligations at work, school, or home."
+  },
+  {
+    "symptom_id": "SYM_SUD_SOCIAL",
+    "symptom_name": "Social Impairment",
+    "symptom_description": "The patient experiences significant interpersonal problems, withdrawal from social or recreational activities, or failure to fulfill major role obligations due to substance use."
+  },
+  {
+    "symptom_id": "SYM_SUD_TIME",
+    "symptom_name": "Time Consuming Use",
+    "symptom_description": "The patient spends a great deal of time in activities necessary to obtain the substance, use it, or recover from its effects."
+  },
+  {
+    "symptom_id": "SYM_SUD_TOLERANCE",
+    "symptom_name": "Substance Tolerance",
+    "symptom_description": "The patient develops tolerance, requiring markedly increased amounts of the substance to achieve the desired effect, or experiencing diminished effects with the same amount."
+  },
+  {
+    "symptom_id": "SYM_SUD_WITHDRAWAL",
+    "symptom_name": "Substance Withdrawal",
+    "symptom_description": "The patient experiences characteristic withdrawal symptoms when the substance is discontinued, or takes the substance to relieve or avoid withdrawal symptoms."
+  },
+  {
+    "symptom_id": "SYM_StPD_AFFECT",
+    "symptom_name": "Constricted Affect",
+    "symptom_description": "The patient exhibits an inappropriate or constricted affect in social and interpersonal situations."
+  },
+  {
+    "symptom_id": "SYM_StPD_ANXIETY",
+    "symptom_name": "Excessive Social Anxiety",
+    "symptom_description": "The patient experiences excessive social anxiety that does not diminish with familiarity and tends to be associated with paranoid fears rather than negative judgments about self."
+  },
+  {
+    "symptom_id": "SYM_StPD_IDEAS_REF",
+    "symptom_name": "Ideas of Reference",
+    "symptom_description": "The patient experiences ideas of reference, interpreting casual incidents and external events as having a particular and unusual meaning specifically for them, excluding actual delusions of reference."
+  },
+  {
+    "symptom_id": "SYM_StPD_ODD_BEH",
+    "symptom_name": "Odd Behavior",
+    "symptom_description": "The patient exhibits behavior or an appearance that is odd, eccentric, or peculiar."
+  },
+  {
+    "symptom_id": "SYM_StPD_ODD_BELIEF",
+    "symptom_name": "Odd Beliefs",
+    "symptom_description": "The patient exhibits odd beliefs or magical thinking that influences their behavior and is inconsistent with subcultural norms."
+  },
+  {
+    "symptom_id": "SYM_StPD_PARANOID",
+    "symptom_name": "Paranoid Ideation",
+    "symptom_description": "The patient exhibits suspiciousness or paranoid ideation."
+  },
+  {
+    "symptom_id": "SYM_StPD_PERCEPTION",
+    "symptom_name": "Unusual Perceptions",
+    "symptom_description": "The patient experiences unusual perceptual experiences, including bodily illusions."
+  },
+  {
+    "symptom_id": "SYM_StPD_THINKING",
+    "symptom_name": "Odd Speech",
+    "symptom_description": "The patient displays odd thinking and speech, such as being vague, metaphorical, overelaborate, or stereotyped."
+  },
+  {
+    "symptom_id": "SYM_SzPD_COLD",
+    "symptom_name": "Emotional Coldness",
+    "symptom_description": "The patient appears emotionally cold, detached, or demonstrates a flattened affect, seeming indifferent to the praise or criticism of others."
+  },
+  {
+    "symptom_id": "SYM_SzPD_DETACH",
+    "symptom_name": "Social Detachment",
+    "symptom_description": "The patient demonstrates a pervasive pattern of detachment from social relationships and a restricted range of emotional expression."
+  },
+  {
+    "symptom_id": "SYM_SzPD_INDIFFERENCE",
+    "symptom_name": "Indifference to Others",
+    "symptom_description": "The patient appears indifferent to the praise or criticism of others."
+  },
+  {
+    "symptom_id": "SYM_SzPD_NO_FRIENDS",
+    "symptom_name": "Lacks Close Friends",
+    "symptom_description": "The patient lacks close friends or confidants other than first-degree relatives."
+  },
+  {
+    "symptom_id": "SYM_SzPD_NO_PLEASURE",
+    "symptom_name": "Anhedonia",
+    "symptom_description": "The patient takes pleasure in few, if any, activities."
+  },
+  {
+    "symptom_id": "SYM_SzPD_NO_SEX",
+    "symptom_name": "Low Sexual Interest",
+    "symptom_description": "The patient has little, if any, interest in having sexual experiences with another person."
+  },
+  {
+    "symptom_id": "SYM_SzPD_SOLITARY",
+    "symptom_name": "Prefers Solitude",
+    "symptom_description": "The patient strongly prefers solitary activities and neither desires nor enjoys close relationships, including being part of a family."
+  },
+  {
+    "symptom_id": "SYM_TBI_AMNESIA",
+    "symptom_name": "Posttraumatic Amnesia",
+    "symptom_description": "The patient experiences amnesia for the traumatic event that caused the brain injury."
+  },
+  {
+    "symptom_id": "SYM_TBI_LOC",
+    "symptom_name": "Loss of Consciousness",
+    "symptom_description": "The patient loses consciousness immediately following a traumatic head injury."
+  },
+  {
+    "symptom_id": "SYM_TBI_NEURO",
+    "symptom_name": "Neurological Signs",
+    "symptom_description": "The patient exhibits neurological signs, such as seizures, loss of smell, or hemiparesis, following a traumatic brain injury."
+  },
+  {
+    "symptom_id": "SYM_TBI_TRAUMA",
+    "symptom_name": "Head Trauma",
+    "symptom_description": "The patient has evidence of head trauma with rapid movement or displacement of the brain within the skull."
+  },
+  {
+    "symptom_id": "SYM_TD_HISTORY",
+    "symptom_name": "Persistent Tics",
+    "symptom_description": "The patient has a persistent history of experiencing multiple motor and vocal tics."
+  },
+  {
+    "symptom_id": "SYM_TIC_CHRONIC",
+    "symptom_name": "Chronic Tics",
+    "symptom_description": "The patient experiences single or multiple motor or vocal tics, but not both, persisting for longer than one year."
+  },
+  {
+    "symptom_id": "SYM_TIC_MOTOR",
+    "symptom_name": "Motor Tics",
+    "symptom_description": "The patient experiences rapid, recurrent, nonrhythmic motor movements, such as eye blinking or facial grimacing."
+  },
+  {
+    "symptom_id": "SYM_TIC_OTHER",
+    "symptom_name": "Unspecified Tics",
+    "symptom_description": "The patient exhibits tics that cause distress or impairment but do not meet the full criteria for a specific tic disorder."
+  },
+  {
+    "symptom_id": "SYM_TIC_PROV",
+    "symptom_name": "Provisional Tics",
+    "symptom_description": "The patient experiences single or multiple motor and/or vocal tics that have been present for less than one year."
+  },
+  {
+    "symptom_id": "SYM_TIC_VOCAL",
+    "symptom_name": "Vocal Tics",
+    "symptom_description": "The patient exhibits abrupt, recurrent vocalizations, such as grunting, throat clearing, or uttering specific words."
+  },
+  {
+    "symptom_id": "SYM_TRA_AROUSAL",
+    "symptom_name": "Crossdressing Arousal",
+    "symptom_description": "The patient experiences recurrent, intense sexual arousal from the act of cross-dressing."
+  },
+  {
+    "symptom_id": "SYM_TRA_DISTRESS",
+    "symptom_name": "Crossdressing Distress",
+    "symptom_description": "The patient experiences clinically significant distress or impairment in social, occupational, or other important areas of functioning due to cross-dressing fantasies, urges, or behaviors."
+  },
+  {
+    "symptom_id": "SYM_TRICH_PULL",
+    "symptom_name": "Hair Pulling",
+    "symptom_description": "The patient repeatedly pulls out their own hair, resulting in noticeable hair loss."
+  },
+  {
+    "symptom_id": "SYM_TRICH_STOP",
+    "symptom_name": "Unsuccessful Cessation",
+    "symptom_description": "The patient makes repeated, unsuccessful attempts to decrease or stop their hair-pulling behavior."
+  },
+  {
+    "symptom_id": "SYM_TR_SUBTH",
+    "symptom_name": "Subthreshold Trauma",
+    "symptom_description": "The patient experiences trauma-related symptoms that cause clinically significant distress or impairment but fall below the full diagnostic threshold."
+  },
+  {
+    "symptom_id": "SYM_TR_UNSPEC",
+    "symptom_name": "Unspecified Trauma",
+    "symptom_description": "The patient presents with trauma-related symptoms causing distress or impairment, but there is insufficient information to make a specific diagnosis."
+  },
+  {
+    "symptom_id": "SYM_UNSPEC_COMM",
+    "symptom_name": "Unspecified Communication",
+    "symptom_description": "The patient exhibits symptoms characteristic of a communication disorder that cause impairment, but there is insufficient information to specify the exact diagnosis."
+  },
+  {
+    "symptom_id": "SYM_VOY_ACTED",
+    "symptom_name": "Nonconsenting Voyeurism",
+    "symptom_description": "The patient has acted upon voyeuristic sexual urges with a nonconsenting person."
+  },
+  {
+    "symptom_id": "SYM_VOY_AGE_RULE",
+    "symptom_name": "Adult Age",
+    "symptom_description": "The patient is at least 18 years of age."
+  },
+  {
+    "symptom_id": "SYM_VOY_AROUSAL",
+    "symptom_name": "Voyeuristic Arousal",
+    "symptom_description": "The patient experiences recurrent, intense sexual arousal from observing an unsuspecting person who is naked, in the process of disrobing, or engaging in sexual activity."
+  },
+  {
+    "symptom_id": "SYM_WTH_ANX",
+    "symptom_name": "Withdrawal Anxiety",
+    "symptom_description": "The patient experiences significant anxiety as a symptom of substance withdrawal."
+  },
+  {
+    "symptom_id": "SYM_WTH_AUTO",
+    "symptom_name": "Autonomic Hyperactivity",
+    "symptom_description": "The patient exhibits autonomic hyperactivity, such as sweating or a rapid pulse, during substance withdrawal."
+  },
+  {
+    "symptom_id": "SYM_WTH_CONC",
+    "symptom_name": "Concentration Difficulty",
+    "symptom_description": "The patient experiences difficulty concentrating following the abrupt cessation or reduction of caffeine intake."
+  },
+  {
+    "symptom_id": "SYM_WTH_DYSPH",
+    "symptom_name": "Dysphoric Mood",
+    "symptom_description": "The patient experiences a depressed mood or irritability following the abrupt cessation or reduction of caffeine intake."
+  },
+  {
+    "symptom_id": "SYM_WTH_FATIGUE",
+    "symptom_name": "Withdrawal Fatigue",
+    "symptom_description": "The patient experiences marked fatigue or drowsiness following the abrupt cessation or reduction of caffeine intake."
+  },
+  {
+    "symptom_id": "SYM_WTH_FLU",
+    "symptom_name": "Flulike Symptoms",
+    "symptom_description": "The patient experiences flu-like symptoms following the abrupt cessation or reduction of caffeine intake."
+  },
+  {
+    "symptom_id": "SYM_WTH_HAL",
+    "symptom_name": "Withdrawal Hallucinations",
+    "symptom_description": "The patient experiences transient visual, tactile, or auditory hallucinations or illusions during substance withdrawal."
+  },
+  {
+    "symptom_id": "SYM_WTH_HEAD",
+    "symptom_name": "Withdrawal Headache",
+    "symptom_description": "The patient experiences headaches as a symptom of withdrawal after abruptly stopping or reducing caffeine intake."
+  },
+  {
+    "symptom_id": "SYM_WTH_NAUSEA",
+    "symptom_name": "Withdrawal Nausea",
+    "symptom_description": "The patient experiences nausea or vomiting as a symptom of substance withdrawal."
+  },
+  {
+    "symptom_id": "SYM_WTH_SEIZURE",
+    "symptom_name": "Withdrawal Seizures",
+    "symptom_description": "The patient experiences generalized tonic-clonic seizures as a severe manifestation of alcohol or substance withdrawal."
+  },
+  {
+    "symptom_id": "SYM_WTH_TREMOR",
+    "symptom_name": "Withdrawal Tremor",
+    "symptom_description": "The patient exhibits an involuntary trembling or shaking, presenting as a symptom of central nervous system overactivity following the abrupt cessation or reduction of heavy, prolonged alcohol or substance consumption."
+  }
+]

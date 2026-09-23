@@ -1,0 +1,197 @@
+[
+  {
+    "diagnosis_id": "DX_DELIRIUM",
+    "diagnosis_name": "Delirium",
+    "diagnostic_code": "F05",
+    "chapter_category": "Cognitive Disorders",
+    "threshold_count": "Disturbance in attention and awareness PLUS at least one additional cognitive deficit",
+    "duration_rule": "Short period (hours to a few days); symptoms typically fluctuate in severity",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DELIRIUM_ETIOLOGY",
+        "symptom_name": "Physiological Etiology",
+        "description": "The patient has evidence from their history, physical examination, or laboratory findings that the disturbance is a direct physiological consequence of another medical condition, substance intoxication or withdrawal, or toxin exposure."
+      },
+      {
+        "symptom_id": "SYM_COG_ATTN",
+        "symptom_name": "Impaired Attention",
+        "description": "The patient exhibits reduced awareness of the environment and difficulty directing, focusing, sustaining, or shifting attention."
+      },
+      {
+        "symptom_id": "SYM_COG_AWARE",
+        "symptom_name": "Reduced Awareness",
+        "description": "The patient exhibits reduced orientation or awareness of their environment."
+      },
+      {
+        "symptom_id": "SYM_COG_MEM",
+        "symptom_name": "Memory Deficit",
+        "description": "The patient exhibits a memory deficit, particularly difficulty learning new material or recalling recent events."
+      },
+      {
+        "symptom_id": "SYM_COG_ORIENT",
+        "symptom_name": "Disorientation",
+        "description": "The patient experiences disorientation to time, place, or person."
+      },
+      {
+        "symptom_id": "SYM_COG_LANG",
+        "symptom_name": "Language Disturbance",
+        "description": "The patient exhibits a language disturbance, such as rambling, disjointed speech, or difficulty finding words."
+      },
+      {
+        "symptom_id": "SYM_COG_VISUO",
+        "symptom_name": "Visuospatial Deficit",
+        "description": "The patient exhibits a visuospatial deficit, particularly in navigating environments."
+      },
+      {
+        "symptom_id": "SYM_COG_PERC",
+        "symptom_name": "Perceptual Deficit",
+        "description": "The patient exhibits a perceptual deficit, such as misinterpreting stimuli or experiencing hallucinations."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NCD_MAJ",
+    "diagnosis_name": "Major Neurocognitive Disorder",
+    "diagnostic_code": "F03.90",
+    "chapter_category": "Cognitive Disorders",
+    "threshold_count": "Evidence of significant decline in 1 or more domains; scores 2+ standard deviations below norm; interferes with independence",
+    "duration_rule": "Persistent/Chronic",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_NCD_DECLINE_MAJ",
+        "symptom_name": "Significant Cognitive Decline",
+        "description": "The patient shows evidence of a significant cognitive decline from a previous level of performance in one or more cognitive domains."
+      },
+      {
+        "symptom_id": "SYM_NCD_TEST_MAJ",
+        "symptom_name": "Documented Major Decline",
+        "description": "The patient has cognitive decline that is documented by standardized neuropsychological testing or another quantified clinical assessment."
+      },
+      {
+        "symptom_id": "SYM_NCD_IMPAIR_MAJ",
+        "symptom_name": "Impaired Independence",
+        "description": "The patient experiences cognitive deficits that are severe enough to interfere with their independence in everyday activities."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_DELIRIUM",
+        "symptom_name": "Not Delirium",
+        "description": "The patient exhibits symptoms that are not better explained by delirium."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NCD_MLD",
+    "diagnosis_name": "Mild Neurocognitive Disorder",
+    "diagnostic_code": "G31.84",
+    "chapter_category": "Cognitive Disorders",
+    "threshold_count": "Evidence of modest decline in 1 or more domains; scores 1–2 standard deviations below norm; does not materialsly impair independence",
+    "duration_rule": "Persistent/Chronic",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_NCD_DECLINE_MLD",
+        "symptom_name": "Modest Cognitive Decline",
+        "description": "The patient shows evidence of a modest cognitive decline from a previous level of performance in one or more cognitive domains."
+      },
+      {
+        "symptom_id": "SYM_NCD_TEST_MLD",
+        "symptom_name": "Documented Mild Decline",
+        "description": "The patient demonstrates cognitive performance that is 1 to 2 standard deviations below the norm on standardized testing."
+      },
+      {
+        "symptom_id": "SYM_NCD_INDEP_MLD",
+        "symptom_name": "Preserved Independence",
+        "description": "The patient has cognitive deficits that do not materially impair their independence in daily activities."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_DELIRIUM",
+        "symptom_name": "Not Delirium",
+        "description": "The patient exhibits symptoms that are not better explained by delirium."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NCD_ALZ",
+    "diagnosis_name": "Neurocognitive Disorder Due to Alzheimer’s Disease",
+    "diagnostic_code": "G30.9",
+    "chapter_category": "Cognitive Disorders",
+    "threshold_count": "Meets NCD criteria PLUS insidious onset and gradual progression in 2+ domains (major) or 1+ (mild)",
+    "duration_rule": "Chronic/Gradual progression",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_NCD_ALZ_ONSET",
+        "symptom_name": "Insidious Onset",
+        "description": "The patient exhibits an insidious onset of cognitive decline."
+      },
+      {
+        "symptom_id": "SYM_NCD_ALZ_PROG",
+        "symptom_name": "Gradual Progression",
+        "description": "The patient demonstrates a steady, gradual progression of cognitive decline."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_OTHER_NCD",
+        "symptom_name": "Not Other Neurocognitive",
+        "description": "The patient exhibits symptoms that are not better explained by another neurocognitive etiology."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NCD_VAS",
+    "diagnosis_name": "Vascular Neurocognitive Disorder",
+    "diagnostic_code": "F01",
+    "chapter_category": "Cognitive Disorders",
+    "threshold_count": "Meets NCD criteria PLUS onset related to 1 or more cerebrovascular events",
+    "duration_rule": "Chronic; often follows a stepwise progression",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_NCD_VAS_EVENT",
+        "symptom_name": "Cerebrovascular Event Onset",
+        "description": "The patient experiences an onset of cognitive decline related to one or more cerebrovascular events."
+      },
+      {
+        "symptom_id": "SYM_NCD_VAS_STEP",
+        "symptom_name": "Stepwise Progression",
+        "description": "The patient exhibits a stepwise progression of cognitive decline."
+      },
+      {
+        "symptom_id": "SYM_COG_EXEC",
+        "symptom_name": "Executive Dysfunction",
+        "description": "The patient exhibits a prominent decline in frontal or executive functioning, such as difficulty planning, organizing, or making decisions."
+      },
+      {
+        "symptom_id": "SYM_COG_ATTN",
+        "symptom_name": "Impaired Attention",
+        "description": "The patient exhibits reduced awareness of the environment and difficulty directing, focusing, sustaining, or shifting attention."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NCD_TBI",
+    "diagnosis_name": "Neurocognitive Disorder Due to Traumatic Brain Injury",
+    "diagnostic_code": "F02.80",
+    "chapter_category": "Cognitive Disorders",
+    "threshold_count": "Meets NCD criteria PLUS evidence of TBI with immediate post-injury symptoms (LOC, amnesia, etc.)",
+    "duration_rule": "Persists past immediate post-injury period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TBI_TRAUMA",
+        "symptom_name": "Head Trauma",
+        "description": "The patient has evidence of head trauma with rapid movement or displacement of the brain within the skull."
+      },
+      {
+        "symptom_id": "SYM_TBI_LOC",
+        "symptom_name": "Loss of Consciousness",
+        "description": "The patient loses consciousness immediately following a traumatic head injury."
+      },
+      {
+        "symptom_id": "SYM_TBI_AMNESIA",
+        "symptom_name": "Posttraumatic Amnesia",
+        "description": "The patient experiences amnesia for the traumatic event that caused the brain injury."
+      },
+      {
+        "symptom_id": "SYM_TBI_NEURO",
+        "symptom_name": "Neurological Signs",
+        "description": "The patient exhibits neurological signs, such as seizures, loss of smell, or hemiparesis, following a traumatic brain injury."
+      }
+    ]
+  }
+]

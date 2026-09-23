@@ -1,0 +1,572 @@
+[
+  {
+    "diagnosis_id": "DX_IDD",
+    "diagnosis_name": "Intellectual Developmental Disorder",
+    "diagnostic_code": "F70",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Deficits in both intellectual and adaptive functioning",
+    "duration_rule": "Onset during the developmental period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_IDD_INTEL",
+        "symptom_name": "Intellectual Deficits",
+        "description": "The patient has deficits in intellectual functions, such as reasoning, problem solving, planning, abstract thinking, judgment, and learning from experience."
+      },
+      {
+        "symptom_id": "SYM_IDD_ADAP",
+        "symptom_name": "Adaptive Deficits",
+        "description": "The patient has deficits in adaptive functioning that result in a failure to meet developmental and sociocultural standards for personal independence and social responsibility."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BIF",
+    "diagnosis_name": "Borderline Intellectual Functioning",
+    "diagnostic_code": "R41.83",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "IQ range of 71–84",
+    "duration_rule": "Not specified; typically life-long traits",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BIF_IQ",
+        "symptom_name": "Borderline IQ",
+        "description": "The patient has an IQ in the range of 71 to 84, indicating borderline intellectual functioning."
+      },
+      {
+        "symptom_id": "SYM_BIF_NO_COPING",
+        "symptom_name": "Adequate Coping",
+        "description": "The patient exhibits an absence of coping problems typically associated with intellectual developmental disorder."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ASD",
+    "diagnosis_name": "Autism Spectrum Disorder",
+    "diagnostic_code": "F84.0",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "3/3 social communication deficits AND at least 2/4 restricted/repetitive behaviors",
+    "duration_rule": "Symptoms present from early childhood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ASD_COMM_RECIPROCITY",
+        "symptom_name": "Reciprocity Deficits",
+        "description": "The patient exhibits deficits in social-emotional reciprocity, ranging from abnormal social approach and failure of normal conversation to reduced sharing of interests, emotions, or affect."
+      },
+      {
+        "symptom_id": "SYM_ASD_COMM_NONVERBAL",
+        "symptom_name": "Nonverbal Deficits",
+        "description": "The patient exhibits deficits in nonverbal communicative behaviors used for social interaction, ranging from poorly integrated communication to abnormalities in eye contact and body language."
+      },
+      {
+        "symptom_id": "SYM_ASD_COMM_RELATIONSHIPS",
+        "symptom_name": "Relationship Deficits",
+        "description": "The patient exhibits deficits in developing, maintaining, and understanding relationships, ranging from difficulties adjusting behavior to suit social contexts to difficulties in making friends."
+      },
+      {
+        "symptom_id": "SYM_ASD_BEH_STEREOTYPED",
+        "symptom_name": "Stereotyped Behaviors",
+        "description": "The patient engages in stereotyped or repetitive motor movements, use of objects, or speech, such as simple motor stereotypies, echolalia, or idiosyncratic phrases."
+      },
+      {
+        "symptom_id": "SYM_ASD_BEH_SAMENESS",
+        "symptom_name": "Inflexible Routines",
+        "description": "The patient insists on sameness, inflexible adherence to routines, or ritualized patterns of verbal or nonverbal behavior, often showing extreme distress at small changes."
+      },
+      {
+        "symptom_id": "SYM_ASD_BEH_INTERESTS",
+        "symptom_name": "Fixated Interests",
+        "description": "The patient exhibits highly restricted, fixated interests that are abnormal in intensity or focus, such as a strong attachment to unusual objects or excessively circumscribed interests."
+      },
+      {
+        "symptom_id": "SYM_ASD_BEH_SENSORY",
+        "symptom_name": "Sensory Reactivity",
+        "description": "The patient exhibits hyper- or hypo-reactivity to sensory input or an unusual interest in sensory aspects of the environment, such as indifference to pain or adverse responses to specific sounds."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_GDD",
+    "diagnosis_name": "Global Developmental Delay",
+    "diagnostic_code": "F88",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Failure to meet expected milestones in several areas of functioning",
+    "duration_rule": "Child is under the age of 5",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GDD_DELAY",
+        "symptom_name": "Developmental Delay",
+        "description": "The patient fails to meet expected developmental milestones in several areas of intellectual functioning, and is under the age of 5."
+      },
+      {
+        "symptom_id": "SYM_GDD_ASSESS",
+        "symptom_name": "Unassessable Delay",
+        "description": "The patient is unable to undergo reliable systematic assessments of intellectual functioning, typically due to being too young."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_IDD",
+    "diagnosis_name": "Unspecified Intellectual Developmental Disorder",
+    "diagnostic_code": "F79",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Cannot be reliably assessed due to physical or mental impairment",
+    "duration_rule": "Child is at least 5 years old",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_IDD_ASSESS",
+        "symptom_name": "Unassessable Intellect",
+        "description": "The patient has intellectual functioning that cannot be reliably assessed by standardized testing due to sensory, physical, or severe behavioral impairments."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_LD",
+    "diagnosis_name": "Language Disorder",
+    "diagnostic_code": "F80.2",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Reduced vocabulary, limited sentence structure, and impaired discourse",
+    "duration_rule": "Onset in the early developmental period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_LD_VOCAB",
+        "symptom_name": "Reduced Vocabulary",
+        "description": "The patient has a reduced vocabulary, demonstrating limited word knowledge and usage."
+      },
+      {
+        "symptom_id": "SYM_LD_SENT",
+        "symptom_name": "Limited Sentence Structure",
+        "description": "The patient demonstrates limited sentence structure, struggling to put words and word endings together to form sentences based on the rules of grammar and morphology."
+      },
+      {
+        "symptom_id": "SYM_LD_DISC",
+        "symptom_name": "Impaired Discourse",
+        "description": "The patient exhibits impaired discourse, struggling to connect sentences to explain or describe a topic or have a conversation."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SCD",
+    "diagnosis_name": "Social (Pragmatic) Communication Disorder",
+    "diagnostic_code": "F80.82",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Persistent difficulties in the social use of verbal and nonverbal communication",
+    "duration_rule": "Onset in the early developmental period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SCD_USE",
+        "symptom_name": "Social Communication Deficit",
+        "description": "The patient exhibits deficits in the social use of verbal and nonverbal communication."
+      },
+      {
+        "symptom_id": "SYM_SCD_CONTEXT",
+        "symptom_name": "Adapting Communication",
+        "description": "The patient has difficulty adapting their communication to fit the context or the needs of the listener."
+      },
+      {
+        "symptom_id": "SYM_SCD_RULES",
+        "symptom_name": "Conversation Rule Difficulty",
+        "description": "The patient has difficulty following the rules for conversation and storytelling, such as taking turns or rephrasing when misunderstood."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SPEECH_SOUND",
+    "diagnosis_name": "Speech Sound Disorder",
+    "diagnostic_code": "F80.0",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Persistent difficulty with speech sound production that interferes with speech intelligibility",
+    "duration_rule": "Onset in early childhood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SPEECH_SOUND_PROD",
+        "symptom_name": "Speech Production Difficulty",
+        "description": "The patient experiences persistent difficulty with speech sound production."
+      },
+      {
+        "symptom_id": "SYM_SPEECH_SOUND_LIMIT",
+        "symptom_name": "Limited Speech Intelligibility",
+        "description": "The patient has limited speech intelligibility that significantly interferes with effective communication."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_STUTTER",
+    "diagnosis_name": "Childhood-Onset Fluency Disorder (Stuttering)",
+    "diagnostic_code": "F80.81",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Frequent disruptions in the normal fluency and time patterning of speech",
+    "duration_rule": "Onset in early childhood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_STUT_FLUENCY",
+        "symptom_name": "Speech Fluency Disruptions",
+        "description": "The patient experiences frequent disruptions in the normal fluency and time patterning of their speech."
+      },
+      {
+        "symptom_id": "SYM_STUT_TENSE",
+        "symptom_name": "Speech Physical Tension",
+        "description": "The patient exhibits marked physical tension while speaking or produces words with excess tension."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SLD",
+    "diagnosis_name": "Specific Learning Disorder",
+    "diagnostic_code": "F81.0",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "At least 1 symptom in reading, math, or written expression markedly below expected level",
+    "duration_rule": "Persistent for at least 6 months despite intervention",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SLD_SKILL",
+        "symptom_name": "Low Academic Skills",
+        "description": "The patient has academic skills that are markedly below the expected level for their chronological age."
+      },
+      {
+        "symptom_id": "SYM_SLD_TEST",
+        "symptom_name": "Low Test Scores",
+        "description": "The patient scores significantly below norms on standardized tests in reading, mathematics, or writing."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_COMM",
+    "diagnosis_name": "Unspecified Communication Disorder",
+    "diagnostic_code": "F80.9",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Symptoms characteristic of communication disorder but lacking specific information",
+    "duration_rule": "Not specified",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_UNSPEC_COMM",
+        "symptom_name": "Unspecified Communication",
+        "description": "The patient exhibits symptoms characteristic of a communication disorder that cause impairment, but there is insufficient information to specify the exact diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DCD",
+    "diagnosis_name": "Developmental Coordination Disorder",
+    "diagnostic_code": "F82",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Motor skill performance is markedly below expectations for age and intelligence",
+    "duration_rule": "Onset in the early developmental period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DCD_SKILL",
+        "symptom_name": "Poor Motor Skills",
+        "description": "The patient exhibits motor skill performance that is markedly below expectations for their chronological age and intelligence."
+      },
+      {
+        "symptom_id": "SYM_DCD_INTERFERE",
+        "symptom_name": "Motor Interference",
+        "description": "The patient experiences motor coordination difficulties that significantly interfere with academic progress or activities of daily living."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SMD",
+    "diagnosis_name": "Stereotypic Movement Disorder",
+    "diagnostic_code": "F98.4",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Repetitive, seemingly driven, and purposeless motor behavior",
+    "duration_rule": "Onset in the early developmental period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_CATA_STEREOTYPY",
+        "symptom_name": "Stereotypy",
+        "description": "The patient engages in repetitive, abnormally frequent, non-goal-directed movements."
+      },
+      {
+        "symptom_id": "SYM_SMD_INTERFERE",
+        "symptom_name": "Interfering Motor Behavior",
+        "description": "The patient exhibits motor behavior that significantly interferes with their social or academic activities."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_TD",
+    "diagnosis_name": "Tourette’s Disorder",
+    "diagnostic_code": "F95.2",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Multiple motor AND 1 or more vocal tics",
+    "duration_rule": "Longer than 1 year; onset before age 18",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TIC_MOTOR",
+        "symptom_name": "Motor Tics",
+        "description": "The patient experiences rapid, recurrent, nonrhythmic motor movements, such as eye blinking or facial grimacing."
+      },
+      {
+        "symptom_id": "SYM_TIC_VOCAL",
+        "symptom_name": "Vocal Tics",
+        "description": "The patient exhibits abrupt, recurrent vocalizations, such as grunting, throat clearing, or uttering specific words."
+      },
+      {
+        "symptom_id": "SYM_TD_HISTORY",
+        "symptom_name": "Persistent Tics",
+        "description": "The patient has a persistent history of experiencing multiple motor and vocal tics."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PMVTD",
+    "diagnosis_name": "Persistent (Chronic) Motor or Vocal Tic Disorder",
+    "diagnostic_code": "F95.1",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Single or multiple motor OR vocal tics, but NOT both",
+    "duration_rule": "Longer than 1 year; onset before age 18",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TIC_CHRONIC",
+        "symptom_name": "Chronic Tics",
+        "description": "The patient experiences single or multiple motor or vocal tics, but not both, persisting for longer than one year."
+      },
+      {
+        "symptom_id": "SYM_TD_HISTORY",
+        "symptom_name": "Persistent Tics",
+        "description": "The patient has a persistent history of experiencing multiple motor and vocal tics."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PTD",
+    "diagnosis_name": "Provisional Tic Disorder",
+    "diagnostic_code": "F95.0",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Single or multiple motor and/or vocal tics",
+    "duration_rule": "Less than 1 year; onset before age 18",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TIC_PROV",
+        "symptom_name": "Provisional Tics",
+        "description": "The patient experiences single or multiple motor and/or vocal tics that have been present for less than one year."
+      },
+      {
+        "symptom_id": "SYM_TD_HISTORY",
+        "symptom_name": "Persistent Tics",
+        "description": "The patient has a persistent history of experiencing multiple motor and vocal tics."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OTTD",
+    "diagnosis_name": "Other Specified/Unspecified Tic Disorder",
+    "diagnostic_code": "F95.8",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Tics that do not meet full criteria for a specific tic disorder",
+    "duration_rule": "Not specified",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TIC_OTHER",
+        "symptom_name": "Unspecified Tics",
+        "description": "The patient exhibits tics that cause distress or impairment but do not meet the full criteria for a specific tic disorder."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ADHD",
+    "diagnosis_name": "Attention-Deficit/Hyperactivity Disorder",
+    "diagnostic_code": "F90.0",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "6 or more symptoms (5 for adults 17+) of inattention or hyperactivity",
+    "duration_rule": "6 months; onset before age 12",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ADHD_INATT_CARELESS",
+        "symptom_name": "Careless Mistakes",
+        "description": "The patient often fails to give close attention to details or makes careless mistakes in schoolwork, at work, or during other activities."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_SUSTAIN",
+        "symptom_name": "Poor Sustained Attention",
+        "description": "The patient often has difficulty sustaining attention in tasks or play activities."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_LISTEN",
+        "symptom_name": "Poor Listening",
+        "description": "The patient often does not seem to listen when spoken to directly."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_FOLLOW",
+        "symptom_name": "Incomplete Tasks",
+        "description": "The patient often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_ORGANIZE",
+        "symptom_name": "Poor Organization",
+        "description": "The patient often has difficulty organizing tasks and activities."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_AVOID",
+        "symptom_name": "Avoids Mental Effort",
+        "description": "The patient often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_LOSE",
+        "symptom_name": "Loses Things",
+        "description": "The patient often loses things necessary for tasks or activities."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_DISTRACT",
+        "symptom_name": "Easily Distracted",
+        "description": "The patient is often easily distracted by extraneous stimuli."
+      },
+      {
+        "symptom_id": "SYM_ADHD_INATT_FORGETFUL",
+        "symptom_name": "Forgetful",
+        "description": "The patient is often forgetful in daily activities."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_FIDGET",
+        "symptom_name": "Fidgets or Squirms",
+        "description": "The patient often fidgets with or taps their hands or feet, or squirms in their seat."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_LEAVE_SEAT",
+        "symptom_name": "Leaves Seat",
+        "description": "The patient often leaves their seat in situations where remaining seated is expected."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_RUN_CLIMB",
+        "symptom_name": "Inappropriate Running",
+        "description": "The patient often runs about or climbs in situations where it is inappropriate, or experiences subjective feelings of restlessness if an adolescent or adult."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_QUIET",
+        "symptom_name": "Loud Leisure",
+        "description": "The patient is often unable to play or engage in leisure activities quietly."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_ON_THE_GO",
+        "symptom_name": "Constantly Active",
+        "description": "The patient is often \"on the go,\" acting as if they are driven by a motor."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_TALK",
+        "symptom_name": "Excessive Talking",
+        "description": "The patient often talks excessively."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_BLURT",
+        "symptom_name": "Blurts Out Answers",
+        "description": "The patient often blurts out an answer before a question has been completed."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_WAIT",
+        "symptom_name": "Difficulty Waiting",
+        "description": "The patient often has difficulty waiting their turn."
+      },
+      {
+        "symptom_id": "SYM_ADHD_HYPER_INTERRUPT",
+        "symptom_name": "Interrupts Others",
+        "description": "The patient often interrupts or intrudes on others during conversations or activities."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OSADHD",
+    "diagnosis_name": "Other Specified/Unspecified ADHD",
+    "diagnostic_code": "F90.8",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Prominent symptoms of ADHD that do not fulfill full criteria",
+    "duration_rule": "Symptoms present after age 12 or below threshold count",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ADHD_SUBTH",
+        "symptom_name": "Subthreshold Symptoms",
+        "description": "The patient exhibits prominent ADHD symptoms that fall below the required diagnostic threshold count."
+      },
+      {
+        "symptom_id": "SYM_ADHD_LATE",
+        "symptom_name": "Late Onset",
+        "description": "The patient first exhibited symptoms of ADHD after age 12."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OSND",
+    "diagnosis_name": "Other Specified/Unspecified Neurodevelopmental Disorder",
+    "diagnostic_code": "F88",
+    "chapter_category": "Neurodevelopmental Disorders",
+    "threshold_count": "Symptoms characteristic of a neurodevelopmental disorder but lacking full criteria",
+    "duration_rule": "Onset before adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ND_OTHER",
+        "symptom_name": "Subthreshold Neurodevelopmental Symptoms",
+        "description": "The patient exhibits symptoms characteristic of a neurodevelopmental disorder but lacks the full criteria for a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

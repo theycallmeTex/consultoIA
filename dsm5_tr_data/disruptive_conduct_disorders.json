@@ -1,0 +1,377 @@
+[
+  {
+    "diagnosis_id": "DX_ODD",
+    "diagnosis_name": "Oppositional Defiant Disorder",
+    "diagnostic_code": "F91.3",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Multiple examples of negativistic behavior",
+    "duration_rule": "6 months or more (more or less daily for age 5 and under; weekly for older)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ODD_IRRIT",
+        "symptom_name": "Irritable Mood",
+        "description": "The patient frequently loses their temper, is touchy or easily annoyed, and is often angry and resentful."
+      },
+      {
+        "symptom_id": "SYM_ODD_ARGUE",
+        "symptom_name": "Argumentative and Defiant",
+        "description": "The patient frequently argues with authority figures or adults, and often actively defies or refuses to comply with rules."
+      },
+      {
+        "symptom_id": "SYM_ODD_VINDICTIVE",
+        "symptom_name": "Vindictiveness",
+        "description": "The patient has been spiteful or vindictive at least twice within the past six months."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CD",
+    "diagnosis_name": "Conduct Disorder",
+    "diagnostic_code": "F91.1",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "At least 3 of 15 listed behaviors across four categories",
+    "duration_rule": "12 months (with at least 1 symptom in the past 6 months)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_CD_AGGRESS_BULLY",
+        "symptom_name": "Bullies Others",
+        "description": "The patient often bullies, threatens, or intimidates others."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_FIGHTS",
+        "symptom_name": "Initiates Fights",
+        "description": "The patient often initiates physical fights."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_WEAPON",
+        "symptom_name": "Weapon Use",
+        "description": "The patient has used a weapon that can cause serious physical harm to others (e.g., a bat, brick, broken bottle, knife, or gun)."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_CRUEL_PEOPLE",
+        "symptom_name": "Cruelty to People",
+        "description": "The patient has been physically cruel to people."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_CRUEL_ANIMALS",
+        "symptom_name": "Cruelty to Animals",
+        "description": "The patient has been physically cruel to animals."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_THEFT",
+        "symptom_name": "Confrontational Theft",
+        "description": "The patient has stolen while confronting a victim (e.g., mugging, purse snatching, extortion, or armed robbery)."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_SEXUAL",
+        "symptom_name": "Sexual Coercion",
+        "description": "The patient has forced someone into sexual activity."
+      },
+      {
+        "symptom_id": "SYM_CD_DESTRUCT_FIRE",
+        "symptom_name": "Fire Setting",
+        "description": "The patient has deliberately engaged in fire setting with the intention of causing serious damage."
+      },
+      {
+        "symptom_id": "SYM_CD_DESTRUCT_OTHER",
+        "symptom_name": "Property Destruction",
+        "description": "The patient has deliberately destroyed others' property by means other than fire setting."
+      },
+      {
+        "symptom_id": "SYM_CD_DECEIT_BREAKIN",
+        "symptom_name": "Breaking and Entering",
+        "description": "The patient has broken into someone else's house, building, or car."
+      },
+      {
+        "symptom_id": "SYM_CD_DECEIT_LIES",
+        "symptom_name": "Frequent Lying",
+        "description": "The patient often lies to obtain goods or favors or to avoid obligations (i.e., \"cons\" others)."
+      },
+      {
+        "symptom_id": "SYM_CD_DECEIT_THEFT",
+        "symptom_name": "Nonconfrontational Theft",
+        "description": "The patient has stolen items of nontrivial value without confronting a victim (e.g., shoplifting without breaking and entering, or forgery)."
+      },
+      {
+        "symptom_id": "SYM_CD_RULES_OUT_NIGHT",
+        "symptom_name": "Curfew Violation",
+        "description": "The patient often stays out at night despite parental prohibitions, beginning before age 13 years."
+      },
+      {
+        "symptom_id": "SYM_CD_RULES_RUNAWAY",
+        "symptom_name": "Running Away",
+        "description": "The patient has run away from home overnight at least twice while living in the parental or parental surrogate home, or once without returning for a lengthy period."
+      },
+      {
+        "symptom_id": "SYM_CD_RULES_TRUANCY",
+        "symptom_name": "Truancy",
+        "description": "The patient is often truant from school, beginning before age 13 years."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CD_LPE",
+    "diagnosis_name": "Conduct Disorder, with Limited Prosocial Emotions",
+    "diagnostic_code": "F91.9",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "At least 2 of 4 specific emotional features in addition to CD criteria",
+    "duration_rule": "12 months or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_CD_AGGRESS_BULLY",
+        "symptom_name": "Bullies Others",
+        "description": "The patient often bullies, threatens, or intimidates others."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_FIGHTS",
+        "symptom_name": "Initiates Fights",
+        "description": "The patient often initiates physical fights."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_WEAPON",
+        "symptom_name": "Weapon Use",
+        "description": "The patient has used a weapon that can cause serious physical harm to others (e.g., a bat, brick, broken bottle, knife, or gun)."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_CRUEL_PEOPLE",
+        "symptom_name": "Cruelty to People",
+        "description": "The patient has been physically cruel to people."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_CRUEL_ANIMALS",
+        "symptom_name": "Cruelty to Animals",
+        "description": "The patient has been physically cruel to animals."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_THEFT",
+        "symptom_name": "Confrontational Theft",
+        "description": "The patient has stolen while confronting a victim (e.g., mugging, purse snatching, extortion, or armed robbery)."
+      },
+      {
+        "symptom_id": "SYM_CD_AGGRESS_SEXUAL",
+        "symptom_name": "Sexual Coercion",
+        "description": "The patient has forced someone into sexual activity."
+      },
+      {
+        "symptom_id": "SYM_CD_DESTRUCT_FIRE",
+        "symptom_name": "Fire Setting",
+        "description": "The patient has deliberately engaged in fire setting with the intention of causing serious damage."
+      },
+      {
+        "symptom_id": "SYM_CD_DESTRUCT_OTHER",
+        "symptom_name": "Property Destruction",
+        "description": "The patient has deliberately destroyed others' property by means other than fire setting."
+      },
+      {
+        "symptom_id": "SYM_CD_DECEIT_BREAKIN",
+        "symptom_name": "Breaking and Entering",
+        "description": "The patient has broken into someone else's house, building, or car."
+      },
+      {
+        "symptom_id": "SYM_CD_DECEIT_LIES",
+        "symptom_name": "Frequent Lying",
+        "description": "The patient often lies to obtain goods or favors or to avoid obligations (i.e., \"cons\" others)."
+      },
+      {
+        "symptom_id": "SYM_CD_DECEIT_THEFT",
+        "symptom_name": "Nonconfrontational Theft",
+        "description": "The patient has stolen items of nontrivial value without confronting a victim (e.g., shoplifting without breaking and entering, or forgery)."
+      },
+      {
+        "symptom_id": "SYM_CD_RULES_OUT_NIGHT",
+        "symptom_name": "Curfew Violation",
+        "description": "The patient often stays out at night despite parental prohibitions, beginning before age 13 years."
+      },
+      {
+        "symptom_id": "SYM_CD_RULES_RUNAWAY",
+        "symptom_name": "Running Away",
+        "description": "The patient has run away from home overnight at least twice while living in the parental or parental surrogate home, or once without returning for a lengthy period."
+      },
+      {
+        "symptom_id": "SYM_CD_RULES_TRUANCY",
+        "symptom_name": "Truancy",
+        "description": "The patient is often truant from school, beginning before age 13 years."
+      },
+      {
+        "symptom_id": "SYM_ASPD_REMORSE",
+        "symptom_name": "Lack Of Remorse",
+        "description": "The patient lacks remorse, showing indifference to or actively rationalizing having hurt, mistreated, or stolen from another person."
+      },
+      {
+        "symptom_id": "SYM_NPD_EMPATHY",
+        "symptom_name": "Lacks Empathy",
+        "description": "The patient lacks empathy and is unwilling to recognize or identify with the feelings and needs of others."
+      },
+      {
+        "symptom_id": "SYM_LPE_PERFORM",
+        "symptom_name": "Unconcerned About Performance",
+        "description": "The patient shows a lack of concern about their performance at school, work, or in other important activities."
+      },
+      {
+        "symptom_id": "SYM_LPE_AFFECT",
+        "symptom_name": "Shallow Affect",
+        "description": "The patient exhibits a shallow or deficient affect, demonstrating a limited expression of emotions."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_IED",
+    "diagnosis_name": "Intermittent Explosive Disorder",
+    "diagnostic_code": "F63.81",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Twice weekly aggression (no harm) OR 3 episodes causing harm/damage per year",
+    "duration_rule": "3 months for sub-destructive aggression; 1 year for destructive/harmful episodes",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_IED_OUTBURST",
+        "symptom_name": "Aggressive Outbursts",
+        "description": "The patient exhibits recurrent behavioral outbursts representing a failure to control aggressive impulses."
+      },
+      {
+        "symptom_id": "SYM_IED_DISPROPORTION",
+        "symptom_name": "Disproportionate Aggression",
+        "description": "The patient exhibits aggressiveness during outbursts that is grossly out of proportion to any provocation or precipitating psychosocial stressor."
+      },
+      {
+        "symptom_id": "SYM_IED_UNPLANNED",
+        "symptom_name": "Unplanned Outbursts",
+        "description": "The patient experiences aggressive outbursts that are impulsive, not premeditated, and not committed to achieve a tangible objective."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PYRO",
+    "diagnosis_name": "Pyromania",
+    "diagnostic_code": "F63.1",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Deliberately setting multiple fires",
+    "duration_rule": "Recurrent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PYRO_FIRE",
+        "symptom_name": "Fire Setting",
+        "description": "The patient deliberately and purposefully sets multiple fires."
+      },
+      {
+        "symptom_id": "SYM_PYRO_TENSION",
+        "symptom_name": "Tension Before Fire",
+        "description": "The patient feels tension or affective arousal before setting a fire, followed by a sense of release or pleasure afterward."
+      },
+      {
+        "symptom_id": "SYM_PYRO_INTEREST",
+        "symptom_name": "Fire Fascination",
+        "description": "The patient exhibits a fascination with or attraction to fire and its situational contexts."
+      },
+      {
+        "symptom_id": "SYM_PYRO_RELEASE",
+        "symptom_name": "Pleasure from Fire",
+        "description": "The patient experiences relief or pleasure when setting fires or witnessing their aftermath."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_KLEPTO",
+    "diagnosis_name": "Kleptomania",
+    "diagnostic_code": "F63.2",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Repeatedly acting on impulses to steal unneeded objects",
+    "duration_rule": "Recurrent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_KLEPTO_STEAL",
+        "symptom_name": "Impulse to Steal",
+        "description": "The patient recurrently fails to resist impulses to steal objects that are not needed for personal use or for their monetary value."
+      },
+      {
+        "symptom_id": "SYM_KLEPTO_TENSION",
+        "symptom_name": "Pre-Theft Tension",
+        "description": "The patient experiences an increasing sense of tension or excitement immediately before committing the theft."
+      },
+      {
+        "symptom_id": "SYM_KLEPTO_RELEASE",
+        "symptom_name": "Theft Gratification",
+        "description": "The patient experiences pleasure, gratification, or relief at the time of committing the theft."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_IEO",
+    "diagnosis_name": "Impairing Emotional Outbursts",
+    "diagnostic_code": "R45.89",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Severe emotional outbursts",
+    "duration_rule": "Persistent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_IED_OUTBURST",
+        "symptom_name": "Aggressive Outbursts",
+        "description": "The patient exhibits recurrent behavioral outbursts representing a failure to control aggressive impulses."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_DICD",
+    "diagnosis_name": "Other Specified Disruptive, Impulse-Control, and Conduct Disorder",
+    "diagnostic_code": "F91.8",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Clinically important symptoms that fall below threshold for defined disorders",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DICD_SUBTH",
+        "symptom_name": "Subthreshold Symptoms",
+        "description": "The patient exhibits clinically important disruptive, impulse-control, or conduct symptoms that fall below the diagnostic threshold for defined disorders."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_DICD",
+    "diagnosis_name": "Unspecified Disruptive, Impulse-Control, and Conduct Disorder",
+    "diagnostic_code": "F91.9",
+    "chapter_category": "Disruptive, Impulse-Control, and Conduct Disorders",
+    "threshold_count": "Disruptive behavior present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DICD_UNSPEC",
+        "symptom_name": "Unspecified Disruptive Behavior",
+        "description": "The patient exhibits disruptive behavior, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

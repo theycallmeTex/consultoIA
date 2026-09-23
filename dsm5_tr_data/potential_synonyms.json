@@ -1,0 +1,87 @@
+[
+  {
+    "symptom_id_1": "SYM_ASPD_ANGER",
+    "symptom_id_2": "SYM_ASPD_IRRIT",
+    "explanation": "Both denote the exact same clinical criteria for antisocial personality disorder characterized by irritability and aggressiveness, such as repeated physical fights."
+  },
+  {
+    "symptom_id_1": "SYM_BED_CONTROL",
+    "symptom_id_2": "SYM_BN_CONTROL",
+    "explanation": "Both describe the exact same clinical phenomenon of experiencing a loss of control over eating during a binge episode."
+  },
+  {
+    "symptom_id_1": "SYM_CAF_AGIT",
+    "symptom_id_2": "SYM_WTH_AGIT",
+    "explanation": "Both represent the exact same clinical feature of psychomotor agitation, simply occurring in the context of different substance-related states."
+  },
+  {
+    "symptom_id_1": "SYM_CAF_INSOM",
+    "symptom_id_2": "SYM_WTH_INSOM",
+    "explanation": "Both denote the exact same clinical feature of insomnia, presenting in different substance-related contexts."
+  },
+  {
+    "symptom_id_1": "SYM_MDD_CONC",
+    "symptom_id_2": "SYM_PDD_CONC",
+    "explanation": "Both describe the exact same depressive symptom of impaired concentration and difficulty making decisions (indecisiveness)."
+  },
+  {
+    "symptom_id_1": "SYM_MDD_FATIGUE",
+    "symptom_id_2": "SYM_PDD_ENERGY",
+    "explanation": "Both describe the exact same depressive symptom of fatigue and low energy."
+  },
+  {
+    "symptom_id_1": "SYM_MDD_SLEEP",
+    "symptom_id_2": "SYM_PDD_SLEEP",
+    "explanation": "Both denote the exact same depressive sleep disturbance, presenting as either insomnia or hypersomnia."
+  },
+  {
+    "symptom_id_1": "SYM_GD_CHILD_DESIRE",
+    "symptom_id_2": "SYM_GD_DESIRE_OTHER",
+    "explanation": "Both describe the exact same core feature of gender dysphoria: a strong, powerful desire to be a member of another gender, adapted for children versus adults."
+  },
+  {
+    "symptom_id_1": "SYM_GD_CHILD_WANT_CHAR",
+    "symptom_id_2": "SYM_GD_WANT_CHAR",
+    "explanation": "Both describe the exact same diagnostic criterion of strongly desiring the primary or secondary sex characteristics of another gender, adapted for children versus adults."
+  },
+  {
+    "symptom_id_1": "SYM_GD_CHILD_HATE_GEN",
+    "symptom_id_2": "SYM_GD_RID_CHAR",
+    "explanation": "Both represent the same diagnostic criterion of a strong desire to be rid of or severe dislike of one's physical sex characteristics, adapted for children versus adults."
+  },
+  {
+    "symptom_id_1": "SYM_SzPD_NO_FRIENDS",
+    "symptom_id_2": "SYM_StPD_NO_FRIENDS",
+    "explanation": "Both describe the exact same clinical phenomenon of lacking close friends or confidants outside of first-degree relatives."
+  },
+  {
+    "symptom_id_1": "SYM_NPD_EMPATHY",
+    "symptom_id_2": "SYM_LPE_EMPATHY",
+    "explanation": "Both describe the exact same underlying clinical feature of a severe lack of empathy and disregard for the feelings of others."
+  },
+  {
+    "symptom_id_1": "SYM_ASPD_REMORSE",
+    "symptom_id_2": "SYM_LPE_REMORSE",
+    "explanation": "Both describe the exact same clinical phenomenon of a pervasive lack of remorse, guilt, or concern for having harmed others."
+  },
+  {
+    "symptom_id_1": "SYM_CATA_STEREOTYPY",
+    "symptom_id_2": "SYM_SMD_BEH",
+    "explanation": "Both describe the exact same clinical phenomenon of stereotypic, repetitive, and purposeless motor behaviors."
+  },
+  {
+    "symptom_id_1": "SYM_MALE_DESIRE",
+    "symptom_id_2": "SYM_FEM_DESIRE",
+    "explanation": "Both represent the exact same clinical phenomenon of significantly reduced or absent sexual desire and erotic thoughts, specified by gender."
+  },
+  {
+    "symptom_id_1": "SYM_EJAC_DELAY",
+    "symptom_id_2": "SYM_FEM_ORGASM_DELAY",
+    "explanation": "Both describe the exact same clinical feature of marked delay or absence of orgasm/ejaculation despite normal sexual excitement, divided by gender."
+  },
+  {
+    "symptom_id_1": "SYM_IDD_ASSESS",
+    "symptom_id_2": "SYM_UNSPEC_IDEL",
+    "explanation": "Both describe the inability of a clinician to formally or reliably assess a patient's intellectual functioning due to severe impairments."
+  }
+]

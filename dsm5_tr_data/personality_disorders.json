@@ -1,0 +1,567 @@
+[
+  {
+    "diagnosis_id": "DX_PARANOID_PD",
+    "diagnosis_name": "Paranoid Personality Disorder",
+    "diagnostic_code": "F60.0",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "4 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PPD_DISTRUST",
+        "symptom_name": "Unjustified Suspicion",
+        "description": "The patient suspects, without sufficient basis, that others are exploiting, harming, or deceiving them."
+      },
+      {
+        "symptom_id": "SYM_PPD_LOYALTY",
+        "symptom_name": "Doubting Loyalty",
+        "description": "The patient is preoccupied with unjustified doubts about the loyalty or trustworthiness of friends or associates."
+      },
+      {
+        "symptom_id": "SYM_PPD_CONFIDE",
+        "symptom_name": "Reluctance to Confide",
+        "description": "The patient exhibits a reluctance to confide in others due to an unwarranted fear that the information will be used maliciously against them."
+      },
+      {
+        "symptom_id": "SYM_PPD_GRUDGE",
+        "symptom_name": "Bearing Grudges",
+        "description": "The patient persistently bears grudges and is unforgiving of perceived insults, injuries, or slights."
+      },
+      {
+        "symptom_id": "SYM_PPD_ANGER",
+        "symptom_name": "Quick to Anger",
+        "description": "The patient is quick to react angrily or to counterattack in response to perceived slights or insults."
+      },
+      {
+        "symptom_id": "SYM_PPD_FIDELITY",
+        "symptom_name": "Suspicions of Infidelity",
+        "description": "The patient has recurrent, unjustified suspicions regarding the fidelity of their spouse or sexual partner."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SCHIZOID_PD",
+    "diagnosis_name": "Schizoid Personality Disorder",
+    "diagnostic_code": "F60.1",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "4 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SzPD_DETACH",
+        "symptom_name": "Social Detachment",
+        "description": "The patient demonstrates a pervasive pattern of detachment from social relationships and a restricted range of emotional expression."
+      },
+      {
+        "symptom_id": "SYM_SzPD_SOLITARY",
+        "symptom_name": "Prefers Solitude",
+        "description": "The patient strongly prefers solitary activities and neither desires nor enjoys close relationships, including being part of a family."
+      },
+      {
+        "symptom_id": "SYM_SzPD_NO_SEX",
+        "symptom_name": "Low Sexual Interest",
+        "description": "The patient has little, if any, interest in having sexual experiences with another person."
+      },
+      {
+        "symptom_id": "SYM_SzPD_NO_PLEASURE",
+        "symptom_name": "Anhedonia",
+        "description": "The patient takes pleasure in few, if any, activities."
+      },
+      {
+        "symptom_id": "SYM_SzPD_NO_FRIENDS",
+        "symptom_name": "Lacks Close Friends",
+        "description": "The patient lacks close friends or confidants other than first-degree relatives."
+      },
+      {
+        "symptom_id": "SYM_SzPD_INDIFFERENCE",
+        "symptom_name": "Indifference to Others",
+        "description": "The patient appears indifferent to the praise or criticism of others."
+      },
+      {
+        "symptom_id": "SYM_SzPD_COLD",
+        "symptom_name": "Emotional Coldness",
+        "description": "The patient appears emotionally cold, detached, or demonstrates a flattened affect, seeming indifferent to the praise or criticism of others."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SCHIZOTYPAL_PD",
+    "diagnosis_name": "Schizotypal Personality Disorder",
+    "diagnostic_code": "F21",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "5 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_StPD_IDEAS_REF",
+        "symptom_name": "Ideas of Reference",
+        "description": "The patient experiences ideas of reference, interpreting casual incidents and external events as having a particular and unusual meaning specifically for them, excluding actual delusions of reference."
+      },
+      {
+        "symptom_id": "SYM_StPD_ODD_BELIEF",
+        "symptom_name": "Odd Beliefs",
+        "description": "The patient exhibits odd beliefs or magical thinking that influences their behavior and is inconsistent with subcultural norms."
+      },
+      {
+        "symptom_id": "SYM_StPD_PERCEPTION",
+        "symptom_name": "Unusual Perceptions",
+        "description": "The patient experiences unusual perceptual experiences, including bodily illusions."
+      },
+      {
+        "symptom_id": "SYM_StPD_THINKING",
+        "symptom_name": "Odd Speech",
+        "description": "The patient displays odd thinking and speech, such as being vague, metaphorical, overelaborate, or stereotyped."
+      },
+      {
+        "symptom_id": "SYM_StPD_PARANOID",
+        "symptom_name": "Paranoid Ideation",
+        "description": "The patient exhibits suspiciousness or paranoid ideation."
+      },
+      {
+        "symptom_id": "SYM_StPD_AFFECT",
+        "symptom_name": "Constricted Affect",
+        "description": "The patient exhibits an inappropriate or constricted affect in social and interpersonal situations."
+      },
+      {
+        "symptom_id": "SYM_StPD_ODD_BEH",
+        "symptom_name": "Odd Behavior",
+        "description": "The patient exhibits behavior or an appearance that is odd, eccentric, or peculiar."
+      },
+      {
+        "symptom_id": "SYM_SzPD_NO_FRIENDS",
+        "symptom_name": "Lacks Close Friends",
+        "description": "The patient lacks close friends or confidants other than first-degree relatives."
+      },
+      {
+        "symptom_id": "SYM_StPD_ANXIETY",
+        "symptom_name": "Excessive Social Anxiety",
+        "description": "The patient experiences excessive social anxiety that does not diminish with familiarity and tends to be associated with paranoid fears rather than negative judgments about self."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ASPD",
+    "diagnosis_name": "Antisocial Personality Disorder",
+    "diagnostic_code": "F60.2",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "3 or more traits since age 15 + evidence of Conduct Disorder before age 15",
+    "duration_rule": "Pervasive since age 15; patient is at least 18 years old",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ASPD_ILLEGAL",
+        "symptom_name": "Unlawful Behavior",
+        "description": "The patient fails to conform to social norms regarding lawful behaviors, repeatedly engaging in acts that are grounds for arrest."
+      },
+      {
+        "symptom_id": "SYM_ASPD_DECEIT",
+        "symptom_name": "Deceitfulness",
+        "description": "The patient exhibits deceitfulness, as indicated by repeated lying, use of aliases, or conning others for personal profit or pleasure."
+      },
+      {
+        "symptom_id": "SYM_ASPD_IMPULSE",
+        "symptom_name": "Impulsivity",
+        "description": "The patient exhibits impulsivity or a failure to plan ahead."
+      },
+      {
+        "symptom_id": "SYM_ASPD_IRRIT",
+        "symptom_name": "Irritability And Aggression",
+        "description": "The patient exhibits irritability and aggressiveness, as indicated by repeated physical fights or assaults."
+      },
+      {
+        "symptom_id": "SYM_ASPD_RECKLESS",
+        "symptom_name": "Reckless Disregard",
+        "description": "The patient exhibits a reckless disregard for the safety of themselves or others."
+      },
+      {
+        "symptom_id": "SYM_ASPD_IRRESP",
+        "symptom_name": "Consistent Irresponsibility",
+        "description": "The patient exhibits consistent irresponsibility, as indicated by a repeated failure to sustain consistent work behavior or honor financial obligations."
+      },
+      {
+        "symptom_id": "SYM_ASPD_REMORSE",
+        "symptom_name": "Lack Of Remorse",
+        "description": "The patient lacks remorse, showing indifference to or actively rationalizing having hurt, mistreated, or stolen from another person."
+      },
+      {
+        "symptom_id": "SYM_ASPD_CD_HISTORY",
+        "symptom_name": "Conduct Disorder History",
+        "description": "The patient has a history of conduct disorder with an onset before age 15 years."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BORDERLINE_PD",
+    "diagnosis_name": "Borderline Personality Disorder",
+    "diagnostic_code": "F60.3",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "5 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BPD_ABANDON",
+        "symptom_name": "Avoiding Abandonment",
+        "description": "The patient makes frantic efforts to avoid real or imagined abandonment."
+      },
+      {
+        "symptom_id": "SYM_BPD_UNSTABLE",
+        "symptom_name": "Unstable Relationships",
+        "description": "The patient demonstrates a pattern of unstable and intense interpersonal relationships."
+      },
+      {
+        "symptom_id": "SYM_BPD_IDENTITY",
+        "symptom_name": "Unstable Identity",
+        "description": "The patient exhibits a markedly and persistently unstable self-image or sense of self."
+      },
+      {
+        "symptom_id": "SYM_BPD_IMPULSE",
+        "symptom_name": "Self-Damaging Impulsivity",
+        "description": "The patient displays impulsivity in at least two areas that are potentially self-damaging."
+      },
+      {
+        "symptom_id": "SYM_BPD_SUICIDE",
+        "symptom_name": "Suicidal Behavior",
+        "description": "The patient engages in recurrent suicidal behavior, gestures, or self-mutilating behavior."
+      },
+      {
+        "symptom_id": "SYM_BPD_MOOD",
+        "symptom_name": "Affective Instability",
+        "description": "The patient experiences affective instability due to a marked reactivity of mood."
+      },
+      {
+        "symptom_id": "SYM_BPD_EMPTY",
+        "symptom_name": "Chronic Emptiness",
+        "description": "The patient experiences chronic feelings of emptiness or boredom."
+      },
+      {
+        "symptom_id": "SYM_BPD_ANGER",
+        "symptom_name": "Inappropriate Anger",
+        "description": "The patient exhibits inappropriate, intense anger or has difficulty controlling their anger."
+      },
+      {
+        "symptom_id": "SYM_BPD_PARANOIA",
+        "symptom_name": "Stress-Related Paranoia",
+        "description": "The patient experiences transient, stress-related paranoid ideation or severe dissociative symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_HISTRIONIC_PD",
+    "diagnosis_name": "Histrionic Personality Disorder",
+    "diagnostic_code": "F60.4",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "5 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_HPD_CENTER",
+        "symptom_name": "Needs Center Attention",
+        "description": "The patient feels uncomfortable in situations where they are not the center of attention."
+      },
+      {
+        "symptom_id": "SYM_HPD_SEDUCTIVE",
+        "symptom_name": "Seductive Behavior",
+        "description": "The patient exhibits inappropriately sexually seductive or provocative behavior in interactions with others."
+      },
+      {
+        "symptom_id": "SYM_HPD_SHALLOW",
+        "symptom_name": "Shallow Emotions",
+        "description": "The patient displays rapidly shifting and shallow expressions of emotion."
+      },
+      {
+        "symptom_id": "SYM_HPD_APPEAR",
+        "symptom_name": "Attention-Seeking Appearance",
+        "description": "The patient consistently uses their physical appearance to draw attention to themselves."
+      },
+      {
+        "symptom_id": "SYM_HPD_VAGUE",
+        "symptom_name": "Vague Speech",
+        "description": "The patient uses speech that is excessively impressionistic and lacking in detail."
+      },
+      {
+        "symptom_id": "SYM_HPD_DRAMATIC",
+        "symptom_name": "Exaggerated Emotions",
+        "description": "The patient exhibits self-dramatization, theatricality, and exaggerated emotional expression."
+      },
+      {
+        "symptom_id": "SYM_HPD_SUGGEST",
+        "symptom_name": "High Suggestibility",
+        "description": "The patient is highly suggestible and easily influenced by others or circumstances."
+      },
+      {
+        "symptom_id": "SYM_HPD_INTIMATE",
+        "symptom_name": "Overestimates Intimacy",
+        "description": "The patient considers relationships to be more intimate than they actually are."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_NARCISSISTIC_PD",
+    "diagnosis_name": "Narcissistic Personality Disorder",
+    "diagnostic_code": "F60.81",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "5 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_NPD_IMPORTANT",
+        "symptom_name": "Grandiose Self-Importance",
+        "description": "The patient exhibits a grandiose sense of self-importance, exaggerating their achievements and talents."
+      },
+      {
+        "symptom_id": "SYM_NPD_FANTASY",
+        "symptom_name": "Grandiose Fantasies",
+        "description": "The patient is preoccupied with fantasies of unlimited success, power, brilliance, beauty, or ideal love."
+      },
+      {
+        "symptom_id": "SYM_NPD_SPECIAL",
+        "symptom_name": "Belief of Specialness",
+        "description": "The patient believes they are special and unique, and can only be understood by, or should associate with, other special or high-status people."
+      },
+      {
+        "symptom_id": "SYM_NPD_ADMIRATION",
+        "symptom_name": "Requires Admiration",
+        "description": "The patient requires excessive admiration from others."
+      },
+      {
+        "symptom_id": "SYM_NPD_ENTITLED",
+        "symptom_name": "Sense of Entitlement",
+        "description": "The patient has a strong sense of entitlement, expecting unreasonable favorable treatment or automatic compliance with their expectations."
+      },
+      {
+        "symptom_id": "SYM_NPD_EXPLOIT",
+        "symptom_name": "Interpersonally Exploitative",
+        "description": "The patient is interpersonally exploitative, frequently taking advantage of others to achieve their own ends."
+      },
+      {
+        "symptom_id": "SYM_NPD_EMPATHY",
+        "symptom_name": "Lacks Empathy",
+        "description": "The patient lacks empathy and is unwilling to recognize or identify with the feelings and needs of others."
+      },
+      {
+        "symptom_id": "SYM_NPD_ENVY",
+        "symptom_name": "Envious",
+        "description": "The patient is often envious of others or believes that others are envious of them."
+      },
+      {
+        "symptom_id": "SYM_NPD_ARROGANT",
+        "symptom_name": "Arrogant Behavior",
+        "description": "The patient shows arrogant, haughty behaviors or attitudes."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_AVOIDANT_PD",
+    "diagnosis_name": "Avoidant Personality Disorder",
+    "diagnostic_code": "F60.6",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "4 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_APD_JOBS",
+        "symptom_name": "Avoids Interpersonal Work",
+        "description": "The patient avoids occupational activities that involve significant interpersonal contact due to fears of criticism, disapproval, or rejection."
+      },
+      {
+        "symptom_id": "SYM_APD_LIKED",
+        "symptom_name": "Requires Guaranteed Acceptance",
+        "description": "The patient is unwilling to get involved with people unless they are certain of being liked."
+      },
+      {
+        "symptom_id": "SYM_APD_RESTRAINT",
+        "symptom_name": "Intimacy Restraint",
+        "description": "The patient shows restraint within intimate relationships due to the fear of being shamed or ridiculed."
+      },
+      {
+        "symptom_id": "SYM_APD_CRITIC",
+        "symptom_name": "Rejection Sensitivity",
+        "description": "The patient is overly sensitive to criticism, disapproval, or rejection, leading to profound social inhibition and avoidance of interpersonal contact."
+      },
+      {
+        "symptom_id": "SYM_APD_INHIBITED",
+        "symptom_name": "Socially Inhibited",
+        "description": "The patient is inhibited in new interpersonal situations because of feelings of inadequacy."
+      },
+      {
+        "symptom_id": "SYM_APD_INFERIOR",
+        "symptom_name": "Feelings of Inferiority",
+        "description": "The patient views themselves as socially inept, personally unappealing, or inferior to others."
+      },
+      {
+        "symptom_id": "SYM_APD_RISKS",
+        "symptom_name": "Avoids Personal Risks",
+        "description": "The patient is unusually reluctant to take personal risks or to engage in any new activities because they may prove embarrassing."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DEPENDENT_PD",
+    "diagnosis_name": "Dependent Personality Disorder",
+    "diagnostic_code": "F60.7",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "5 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DPD_ADVICE",
+        "symptom_name": "Needs Excessive Advice",
+        "description": "The patient requires an excessive amount of advice and reassurance from others to make everyday decisions."
+      },
+      {
+        "symptom_id": "SYM_DPD_MAJOR",
+        "symptom_name": "Avoids Responsibility",
+        "description": "The patient needs others to assume responsibility for most major areas of their life."
+      },
+      {
+        "symptom_id": "SYM_DPD_DISAGREE",
+        "symptom_name": "Difficulty Disagreeing",
+        "description": "The patient has difficulty expressing disagreement with others due to an unrealistic fear of losing support or approval."
+      },
+      {
+        "symptom_id": "SYM_DPD_INITIATE",
+        "symptom_name": "Difficulty Initiating",
+        "description": "The patient has difficulty initiating projects or doing things on their own due to a lack of self-confidence rather than a lack of motivation or energy."
+      },
+      {
+        "symptom_id": "SYM_DPD_UNPLEASANT",
+        "symptom_name": "Seeks Excessive Nurturance",
+        "description": "The patient goes to excessive lengths to obtain nurturance and support from others, to the point of volunteering to do things that are unpleasant."
+      },
+      {
+        "symptom_id": "SYM_DPD_HELPLESS",
+        "symptom_name": "Helpless When Alone",
+        "description": "The patient feels uncomfortable or helpless when alone due to exaggerated fears of being unable to care for themselves."
+      },
+      {
+        "symptom_id": "SYM_DPD_REPLACE",
+        "symptom_name": "Urgently Seeks Relationships",
+        "description": "The patient urgently seeks another relationship as a source of care and support when a close relationship ends."
+      },
+      {
+        "symptom_id": "SYM_DPD_ABANDON",
+        "symptom_name": "Fear of Abandonment",
+        "description": "The patient is unrealistically preoccupied with fears of being left to care for themselves."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OCPD",
+    "diagnosis_name": "Obsessive–Compulsive Personality Disorder",
+    "diagnostic_code": "F60.5",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "4 or more specific traits",
+    "duration_rule": "Enduring pattern present from early adulthood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_OCPD_DETAIL",
+        "symptom_name": "Preoccupation with Details",
+        "description": "The patient is preoccupied with details, rules, lists, order, organization, or schedules to the extent that the major point of the activity is lost."
+      },
+      {
+        "symptom_id": "SYM_OCPD_PERFECTION",
+        "symptom_name": "Perfectionism",
+        "description": "The patient exhibits perfectionism that interferes with task completion."
+      },
+      {
+        "symptom_id": "SYM_OCPD_WORK",
+        "symptom_name": "Excessive Work Devotion",
+        "description": "The patient is excessively devoted to work and productivity to the exclusion of leisure activities and friendships."
+      },
+      {
+        "symptom_id": "SYM_OCPD_VALUES",
+        "symptom_name": "Inflexible Values",
+        "description": "The patient is overconscientious, scrupulous, and inflexible about matters of morality, ethics, or values."
+      },
+      {
+        "symptom_id": "SYM_OCPD_TRASH",
+        "symptom_name": "Inability to Discard",
+        "description": "The patient is unable to discard worn-out or worthless objects even when they have no sentimental value."
+      },
+      {
+        "symptom_id": "SYM_OCPD_DELEGATE",
+        "symptom_name": "Reluctance to Delegate",
+        "description": "The patient is reluctant to delegate tasks or work with others unless they submit exactly to their way of doing things."
+      },
+      {
+        "symptom_id": "SYM_OCPD_STINGY",
+        "symptom_name": "Miserly Spending",
+        "description": "The patient adopts a miserly spending style toward both themselves and others, viewing money as something to be hoarded for future catastrophes."
+      },
+      {
+        "symptom_id": "SYM_OCPD_STUBBORN",
+        "symptom_name": "Rigidity and Stubbornness",
+        "description": "The patient shows significant rigidity and stubbornness in their attitudes and behaviors."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PD_MED",
+    "diagnosis_name": "Personality Change Due to Another Medical Condition",
+    "diagnostic_code": "F07.0",
+    "chapter_category": "Personality Disorders",
+    "threshold_count": "Enduring personality disturbance following a physical condition",
+    "duration_rule": "Enduring (1+ year in children)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PDMED_PHYSIO",
+        "symptom_name": "Medical Etiology",
+        "description": "The patient exhibits a persistent personality disturbance that is the direct pathophysiological consequence of another medical condition."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

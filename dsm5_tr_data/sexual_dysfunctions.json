@@ -1,0 +1,267 @@
+[
+  {
+    "diagnosis_id": "DX_DE",
+    "diagnosis_name": "Delayed Ejaculation",
+    "diagnostic_code": "F52.32",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Marked delay in, infrequency of, or absence of ejaculation in 75%–100% of sexual activity",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MALE_ORGASM_DELAY",
+        "symptom_name": "Delayed Orgasm",
+        "description": "The patient experiences a markedly delayed, infrequent, or absent orgasm despite normal sexual excitement."
+      },
+      {
+        "symptom_id": "SYM_EJAC_ABSENT",
+        "symptom_name": "Delayed Ejaculation",
+        "description": "The patient experiences a marked delay in or complete absence of ejaculation during partnered sexual activity."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ED",
+    "diagnosis_name": "Erectile Disorder",
+    "diagnostic_code": "F52.21",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Marked difficulty obtaining, maintaining, or loss of erectile rigidity in 75%–100% of sexual activity",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ERECT_OBTAIN",
+        "symptom_name": "Obtaining Erection Difficulty",
+        "description": "The patient experiences marked difficulty obtaining an erection during sexual activity."
+      },
+      {
+        "symptom_id": "SYM_ERECT_MAINTAIN",
+        "symptom_name": "Maintaining Erection Difficulty",
+        "description": "The patient experiences marked difficulty maintaining an erection until the completion of sexual activity."
+      },
+      {
+        "symptom_id": "SYM_ERECT_RIGID",
+        "symptom_name": "Decreased Erectile Rigidity",
+        "description": "The patient experiences a marked decrease in erectile rigidity during sexual activity."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FOD",
+    "diagnosis_name": "Female Orgasmic Disorder",
+    "diagnostic_code": "F52.31",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Marked delay, infrequency, absence, or reduced intensity of orgasm in 75%–100% of sexual activity",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FEM_ORGASM_DELAY",
+        "symptom_name": "Delayed Orgasm",
+        "description": "The patient experiences markedly delayed, infrequent, or absent orgasms despite normal sexual excitement."
+      },
+      {
+        "symptom_id": "SYM_FEM_ORGASM_ABSENT",
+        "symptom_name": "Absent Orgasm",
+        "description": "The patient experiences a marked delay in, marked infrequency of, or absence of orgasm during sexual activity."
+      },
+      {
+        "symptom_id": "SYM_FEM_ORGASM_INTENSITY",
+        "symptom_name": "Reduced Orgasm Intensity",
+        "description": "The patient experiences a markedly reduced intensity of orgasmic sensations during sexual activity."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FSIAD",
+    "diagnosis_name": "Female Sexual Interest/Arousal Disorder",
+    "diagnostic_code": "F52.22",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "At least 3 of 6 symptoms (e.g., absent/reduced interest, erotic thoughts, initiation, excitement, responsiveness, sensations)",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FEM_DESIRE",
+        "symptom_name": "Reduced Sexual Interest",
+        "description": "The patient experiences significantly reduced or absent sexual interest, erotic thoughts, or arousal in response to sexual cues."
+      },
+      {
+        "symptom_id": "SYM_FEM_THOUGHTS",
+        "symptom_name": "Absent Erotic Thoughts",
+        "description": "The patient experiences a lack of or significantly reduced erotic thoughts and sexual fantasies."
+      },
+      {
+        "symptom_id": "SYM_FEM_INITIATE",
+        "symptom_name": "Lack of Initiation",
+        "description": "The patient generally does not initiate sexual activity and is typically unreceptive to a partner's attempts to initiate."
+      },
+      {
+        "symptom_id": "SYM_FEM_PLEASURE",
+        "symptom_name": "Reduced Sexual Pleasure",
+        "description": "The patient experiences reduced or absent pleasure and enjoyment during sexual activity."
+      },
+      {
+        "symptom_id": "SYM_FEM_RESPONSIVE",
+        "symptom_name": "Unresponsive to Partner",
+        "description": "The patient shows minimal or absent receptivity to a partner's sexual overtures."
+      },
+      {
+        "symptom_id": "SYM_FEM_SENSATIONS",
+        "symptom_name": "Reduced Sexual Sensation",
+        "description": "The patient experiences reduced or absent genital or nongenital sensations during sexual activity."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_GPD",
+    "diagnosis_name": "Genito-Pelvic Pain/Penetration Disorder",
+    "diagnostic_code": "F52.6",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "1 or more symptoms (e.g., difficulty with penetration, pelvic pain, fear of pain, pelvic muscle tensing)",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PENETRATE_DIFF",
+        "symptom_name": "Penetration Difficulty",
+        "description": "The patient experiences persistent or recurrent difficulties with vaginal penetration during intercourse."
+      },
+      {
+        "symptom_id": "SYM_PELVIC_PAIN",
+        "symptom_name": "Pelvic Pain",
+        "description": "The patient experiences marked vulvovaginal or pelvic pain during vaginal intercourse or penetration attempts."
+      },
+      {
+        "symptom_id": "SYM_PAIN_FEAR",
+        "symptom_name": "Fear of Penetration",
+        "description": "The patient experiences marked fear or anxiety about genito-pelvic pain or vaginal penetration."
+      },
+      {
+        "symptom_id": "SYM_PELVIC_TENSE",
+        "symptom_name": "Pelvic Muscle Tensing",
+        "description": "The patient exhibits marked tensing or tightening of the pelvic floor muscles during attempted vaginal penetration."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_MHSDD",
+    "diagnosis_name": "Male Hypoactive Sexual Desire Disorder",
+    "diagnostic_code": "F52.0",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Habitual deficiency or absence of sexual/erotic thoughts or fantasies and desire for sexual activity",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MALE_DESIRE",
+        "symptom_name": "Reduced Sexual Desire",
+        "description": "The patient experiences significantly reduced or absent sexual interest, erotic thoughts, or arousal in response to sexual cues."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_SEX",
+    "diagnosis_name": "Other Specified Sexual Dysfunction",
+    "diagnostic_code": "F52.8",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Atypical, mixed, or subthreshold symptoms of sexual dysfunction",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SEX_SUBTH",
+        "symptom_name": "Subthreshold Sexual Dysfunction",
+        "description": "The patient presents with mixed, atypical, or subthreshold symptoms of a sexual dysfunction that cause significant distress but do not meet the full criteria for a specific disorder."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PE",
+    "diagnosis_name": "Premature (Early) Ejaculation",
+    "diagnostic_code": "F52.4",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Partnered ejaculation within approximately 1 minute of vaginal penetration and before the individual wishes",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_EJAC_PREMATURE",
+        "symptom_name": "Premature Ejaculation",
+        "description": "The patient almost always ejaculates earlier than desired, generally within a minute of penetration."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SEX_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Sexual Dysfunction",
+    "diagnostic_code": "F19.99",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Prominent and severe sexual dysfunction clinically attributable to a substance",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SEX_DYSFUNCTION",
+        "symptom_name": "Induced Sexual Dysfunction",
+        "description": "The patient experiences clinically significant sexual dysfunction that appears directly caused by substance intoxication, substance withdrawal, or medication use."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_SEX",
+    "diagnosis_name": "Unspecified Sexual Dysfunction",
+    "diagnostic_code": "F52.9",
+    "chapter_category": "Sexual Dysfunctions",
+    "threshold_count": "Sexual problem present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SEX_UNSPEC",
+        "symptom_name": "Unspecified Sexual Dysfunction",
+        "description": "The patient has sexual dysfunction symptoms causing clinically significant distress, but the specific diagnostic criteria are unmet and the clinician chooses not to specify the reason."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

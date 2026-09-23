@@ -1,0 +1,252 @@
+[
+  {
+    "diagnosis_id": "DX_VOYEUR",
+    "diagnosis_name": "Voyeuristic Disorder",
+    "diagnostic_code": "F65.3",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Aroused by watching an unwary person disrobing or having sex; has repeatedly acted on the urge OR feels distress/disability",
+    "duration_rule": "6 months; patient must be at least 18 years old",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_VOY_AROUSAL",
+        "symptom_name": "Voyeuristic Arousal",
+        "description": "The patient experiences recurrent, intense sexual arousal from observing an unsuspecting person who is naked, in the process of disrobing, or engaging in sexual activity."
+      },
+      {
+        "symptom_id": "SYM_VOY_ACTED",
+        "symptom_name": "Nonconsenting Voyeurism",
+        "description": "The patient has acted upon voyeuristic sexual urges with a nonconsenting person."
+      },
+      {
+        "symptom_id": "SYM_VOY_AGE_RULE",
+        "symptom_name": "Adult Age",
+        "description": "The patient is at least 18 years of age."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_EXHIB",
+    "diagnosis_name": "Exhibitionistic Disorder",
+    "diagnostic_code": "F65.2",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Aroused by genital self-exposure to an unwary stranger; has repeatedly acted on the urge OR feels distress/disability",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_EXH_AROUSAL",
+        "symptom_name": "Exhibitionistic Arousal",
+        "description": "The patient experiences intense sexual arousal from fantasies, urges, or behaviors involving genital self-exposure to an unwary stranger."
+      },
+      {
+        "symptom_id": "SYM_EXH_ACTED",
+        "symptom_name": "Exhibitionistic Acting Out",
+        "description": "The patient has acted upon exhibitionistic urges to expose their genitals to a nonconsenting person."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FROTT",
+    "diagnosis_name": "Frotteuristic Disorder",
+    "diagnostic_code": "F65.81",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Aroused by rubbing against or feeling someone who hasn’t consented; has repeatedly acted on the urge OR feels distress/disability",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FRO_AROUSAL",
+        "symptom_name": "Frotteuristic Arousal",
+        "description": "The patient experiences intense sexual arousal from fantasies, urges, or behaviors involving touching or rubbing against a nonconsenting person."
+      },
+      {
+        "symptom_id": "SYM_FRO_ACTED",
+        "symptom_name": "Frotteuristic Acting Out",
+        "description": "The patient has acted upon sexual urges involving touching or rubbing against a nonconsenting person."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_MASOCH",
+    "diagnosis_name": "Sexual Masochism Disorder",
+    "diagnostic_code": "F65.51",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Repeated arousal from being struck, restrained, humiliated, or made to suffer; feels distress/disability OR has repeatedly acted on the urge",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MAS_AROUSAL",
+        "symptom_name": "Masochistic Arousal",
+        "description": "The patient experiences sexual arousal from being struck, restrained, or made to suffer."
+      },
+      {
+        "symptom_id": "SYM_MAS_ACTED",
+        "symptom_name": "Masochistic Acts",
+        "description": "The patient acts upon sexual masochism urges with nonconsenting partners."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SADISM",
+    "diagnosis_name": "Sexual Sadism Disorder",
+    "diagnostic_code": "F65.52",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Aroused by another person's suffering; fantasies/behaviors cause distress/impairment OR has acted upon urges with nonconsenting person",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SAD_AROUSAL",
+        "symptom_name": "Sadistic Arousal",
+        "description": "The patient experiences sexual arousal from the physical or psychological suffering of another person."
+      },
+      {
+        "symptom_id": "SYM_SAD_ACTED",
+        "symptom_name": "Nonconsensual Sadism",
+        "description": "The patient acts upon sexual sadism urges with nonconsenting persons."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PEDOPH",
+    "diagnosis_name": "Pedophilic Disorder",
+    "diagnostic_code": "F65.4",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Aroused by sex with prepubescent children; has acted on the urge OR feels severe distress/interpersonal difficulties",
+    "duration_rule": "6 months; patient must be at least 16 and at least 5 years older than the victim",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PED_AROUSAL",
+        "symptom_name": "Prepubescent Arousal",
+        "description": "The patient experiences intense and recurrent sexual arousal from fantasies, urges, or behaviors involving prepubescent children."
+      },
+      {
+        "symptom_id": "SYM_PED_ACTED",
+        "symptom_name": "Acting on Urges",
+        "description": "The patient has acted upon pedophilic sexual urges involving prepubescent children."
+      },
+      {
+        "symptom_id": "SYM_PED_AGE_RULE",
+        "symptom_name": "Age Difference",
+        "description": "The patient is at least 16 years of age and is at least 5 years older than the prepubescent child or children involved."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_FETISH",
+    "diagnosis_name": "Fetishistic Disorder",
+    "diagnostic_code": "F65.0",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Aroused by inanimate objects or body parts other than genitals; feels distress/disability OR has repeatedly acted on the urge",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_FET_AROUSAL",
+        "symptom_name": "Fetishistic Arousal",
+        "description": "The patient experiences intense sexual arousal from fantasies, urges, or behaviors involving the use of nonliving objects or a highly specific focus on nongenital body parts."
+      },
+      {
+        "symptom_id": "SYM_FET_ACTED",
+        "symptom_name": "Fetishistic Acting Out",
+        "description": "The patient has acted upon intense sexual urges involving nonliving objects or highly specific nongenital body parts."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_TRANSV",
+    "diagnosis_name": "Transvestic Disorder",
+    "diagnostic_code": "F65.1",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Arousal by cross-dressing (thoughts, behaviors, or urges) has repeatedly caused distress or impairment",
+    "duration_rule": "6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TRA_AROUSAL",
+        "symptom_name": "Crossdressing Arousal",
+        "description": "The patient experiences recurrent, intense sexual arousal from the act of cross-dressing."
+      },
+      {
+        "symptom_id": "SYM_TRA_DISTRESS",
+        "symptom_name": "Crossdressing Distress",
+        "description": "The patient experiences clinically significant distress or impairment in social, occupational, or other important areas of functioning due to cross-dressing fantasies, urges, or behaviors."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_PARAPH",
+    "diagnosis_name": "Other Specified Paraphilic Disorder",
+    "diagnostic_code": "F65.89",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Paraphilic symptoms that cause distress or impairment but do not meet full criteria for specific disorders (e.g., Zoophilia, Necrophilia)",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PAR_SUBTH",
+        "symptom_name": "Subthreshold Paraphilia",
+        "description": "The patient experiences paraphilic symptoms that cause distress but do not meet the full diagnostic criteria for a paraphilic disorder."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_PARAPH",
+    "diagnosis_name": "Unspecified Paraphilic Disorder",
+    "diagnostic_code": "F65.9",
+    "chapter_category": "Paraphilic Disorders",
+    "threshold_count": "Paraphilic disturbance present but clinician decide not to specify the reason",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PAR_UNSPEC",
+        "symptom_name": "Unspecified Paraphilia",
+        "description": "The patient exhibits a paraphilic disturbance, but the clinician chooses not to specify the reason the criteria are not met for a specific paraphilic disorder."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

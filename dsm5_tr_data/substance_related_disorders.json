@@ -1,0 +1,347 @@
+[
+  {
+    "diagnosis_id": "DX_SUD",
+    "diagnosis_name": "Substance Use Disorder (Generic)",
+    "diagnostic_code": "F19.20",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "threshold_count": "2 or more of 11 symptoms",
+    "duration_rule": "Within a 12-month period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SUD_AMOUNT",
+        "symptom_name": "Excessive Substance Use",
+        "description": "The patient frequently consumes the substance in larger amounts or over a longer period than originally intended."
+      },
+      {
+        "symptom_id": "SYM_SUD_CONTROL",
+        "symptom_name": "Inability to Control",
+        "description": "The patient expresses a persistent desire or makes unsuccessful efforts to cut down or control their substance use."
+      },
+      {
+        "symptom_id": "SYM_SUD_TIME",
+        "symptom_name": "Time Consuming Use",
+        "description": "The patient spends a great deal of time in activities necessary to obtain the substance, use it, or recover from its effects."
+      },
+      {
+        "symptom_id": "SYM_SUD_CRAVING",
+        "symptom_name": "Substance Craving",
+        "description": "The patient experiences an intense craving or a strong urge to use the specific substance."
+      },
+      {
+        "symptom_id": "SYM_SUD_OBLIGATION",
+        "symptom_name": "Unfulfilled Role Obligations",
+        "description": "The patient engages in recurrent substance use that results in a failure to fulfill major role obligations at work, school, or home."
+      },
+      {
+        "symptom_id": "SYM_SUD_SOCIAL",
+        "symptom_name": "Social Impairment",
+        "description": "The patient experiences significant interpersonal problems, withdrawal from social or recreational activities, or failure to fulfill major role obligations due to substance use."
+      },
+      {
+        "symptom_id": "SYM_SUD_ACTIVITY",
+        "symptom_name": "Reduced Activities",
+        "description": "The patient gives up or significantly reduces important social, occupational, or recreational activities due to substance use."
+      },
+      {
+        "symptom_id": "SYM_SUD_DANGER",
+        "symptom_name": "Hazardous Substance Use",
+        "description": "The patient repeatedly uses the substance in physically hazardous situations or continues use despite knowing it causes ongoing physical or psychological harm."
+      },
+      {
+        "symptom_id": "SYM_SUD_HEALTH",
+        "symptom_name": "Continued Harmful Use",
+        "description": "The patient continues to use the substance despite knowing it causes or exacerbates a persistent physical or psychological problem."
+      },
+      {
+        "symptom_id": "SYM_SUD_TOLERANCE",
+        "symptom_name": "Substance Tolerance",
+        "description": "The patient develops tolerance, requiring markedly increased amounts of the substance to achieve the desired effect, or experiencing diminished effects with the same amount."
+      },
+      {
+        "symptom_id": "SYM_SUD_WITHDRAWAL",
+        "symptom_name": "Substance Withdrawal",
+        "description": "The patient experiences characteristic withdrawal symptoms when the substance is discontinued, or takes the substance to relieve or avoid withdrawal symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ALC_INT",
+    "diagnosis_name": "Alcohol Intoxication",
+    "diagnostic_code": "F10.920",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "threshold_count": "1 or more of 6 physical/neurological signs plus maladaptive behavioral changes",
+    "duration_rule": "Shortly after drinking alcohol",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ALC_BEHAVIOR",
+        "symptom_name": "Problematic Intoxication Behavior",
+        "description": "The patient exhibits clinically significant problematic behavioral or psychological changes, such as inappropriate sexual or aggressive behavior, mood lability, or impaired judgment, during or shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_ALC_SLUR",
+        "symptom_name": "Slurred Speech",
+        "description": "The patient exhibits slurred, unclear speech shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_ALC_INCOOR",
+        "symptom_name": "Impaired Coordination",
+        "description": "The patient exhibits impaired coordination during or shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_ALC_GAIT",
+        "symptom_name": "Unsteady Gait",
+        "description": "The patient exhibits an unsteady gait and poor coordination shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_ALC_NYSTAG",
+        "symptom_name": "Nystagmus",
+        "description": "The patient exhibits nystagmus, or jerking eye movements, shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_ALC_ATTN",
+        "symptom_name": "Impaired Memory",
+        "description": "The patient exhibits an impairment in attention or memory shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_ALC_COMA",
+        "symptom_name": "Stupor or Coma",
+        "description": "The patient exhibits stupor or coma during or shortly after alcohol ingestion."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ALC_WTH",
+    "diagnosis_name": "Alcohol Withdrawal",
+    "diagnostic_code": "F10.239",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "threshold_count": "2 or more of 8 symptoms",
+    "duration_rule": "Hours to days after stopping heavy, lengthy use",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_WTH_AUTO",
+        "symptom_name": "Autonomic Hyperactivity",
+        "description": "The patient exhibits autonomic hyperactivity, such as sweating or a rapid pulse, during substance withdrawal."
+      },
+      {
+        "symptom_id": "SYM_WTH_TREMOR",
+        "symptom_name": "Withdrawal Tremor",
+        "description": "The patient exhibits an involuntary trembling or shaking, presenting as a symptom of central nervous system overactivity following the abrupt cessation or reduction of heavy, prolonged alcohol or substance consumption."
+      },
+      {
+        "symptom_id": "SYM_GEN_INSOMNIA",
+        "symptom_name": "Insomnia",
+        "description": "The patient experiences insomnia or other significant sleep disturbances."
+      },
+      {
+        "symptom_id": "SYM_WTH_NAUSEA",
+        "symptom_name": "Withdrawal Nausea",
+        "description": "The patient experiences nausea or vomiting as a symptom of substance withdrawal."
+      },
+      {
+        "symptom_id": "SYM_WTH_HAL",
+        "symptom_name": "Withdrawal Hallucinations",
+        "description": "The patient experiences transient visual, tactile, or auditory hallucinations or illusions during substance withdrawal."
+      },
+      {
+        "symptom_id": "SYM_GEN_PSYCHOMOTOR_AGITATION",
+        "symptom_name": "Psychomotor Agitation",
+        "description": "The patient exhibits psychomotor agitation, such as pacing, hand-wringing, or an inability to sit still."
+      },
+      {
+        "symptom_id": "SYM_WTH_ANX",
+        "symptom_name": "Withdrawal Anxiety",
+        "description": "The patient experiences significant anxiety as a symptom of substance withdrawal."
+      },
+      {
+        "symptom_id": "SYM_WTH_SEIZURE",
+        "symptom_name": "Withdrawal Seizures",
+        "description": "The patient experiences generalized tonic-clonic seizures as a severe manifestation of alcohol or substance withdrawal."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CAF_INT",
+    "diagnosis_name": "Caffeine Intoxication",
+    "diagnostic_code": "F15.920",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "threshold_count": "5 or more of 12 symptoms following high-dose consumption (typically 250mg+)",
+    "duration_rule": "Shortly after consuming caffeine",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_CAF_REST",
+        "symptom_name": "Restlessness",
+        "description": "The patient experiences restlessness following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_NERV",
+        "symptom_name": "Nervousness",
+        "description": "The patient experiences nervousness following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_EXCITE",
+        "symptom_name": "Excitement",
+        "description": "The patient exhibits excitement following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_INSOM",
+        "symptom_name": "Insomnia",
+        "description": "The patient experiences insomnia following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_FLUSH",
+        "symptom_name": "Flushed Face",
+        "description": "The patient exhibits a flushed face following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_DIU",
+        "symptom_name": "Diuresis",
+        "description": "The patient experiences diuresis following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_GI",
+        "symptom_name": "Gastrointestinal Disturbance",
+        "description": "The patient experiences gastrointestinal disturbance following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_TWITCH",
+        "symptom_name": "Muscle Twitching",
+        "description": "The patient experiences muscle twitching shortly after consuming an excessive amount of caffeine."
+      },
+      {
+        "symptom_id": "SYM_CAF_RAMBLE",
+        "symptom_name": "Rambling Speech",
+        "description": "The patient exhibits a rambling flow of thought and speech shortly after consuming caffeine."
+      },
+      {
+        "symptom_id": "SYM_CAF_TACHY",
+        "symptom_name": "Tachycardia",
+        "description": "The patient experiences tachycardia or cardiac arrhythmia following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_INEXHAUST",
+        "symptom_name": "Inexhaustibility",
+        "description": "The patient experiences periods of inexhaustibility following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_CAF_AGIT",
+        "symptom_name": "Psychomotor Agitation",
+        "description": "The patient exhibits psychomotor agitation following caffeine consumption."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CAF_WTH",
+    "diagnosis_name": "Caffeine Withdrawal",
+    "diagnostic_code": "F15.93",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "threshold_count": "3 or more of 5 symptoms following abrupt cessation of daily use",
+    "duration_rule": "Within 24 hours of stopping use",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_WTH_HEAD",
+        "symptom_name": "Withdrawal Headache",
+        "description": "The patient experiences headaches as a symptom of withdrawal after abruptly stopping or reducing caffeine intake."
+      },
+      {
+        "symptom_id": "SYM_WTH_FATIGUE",
+        "symptom_name": "Withdrawal Fatigue",
+        "description": "The patient experiences marked fatigue or drowsiness following the abrupt cessation or reduction of caffeine intake."
+      },
+      {
+        "symptom_id": "SYM_WTH_DYSPH",
+        "symptom_name": "Dysphoric Mood",
+        "description": "The patient experiences a depressed mood or irritability following the abrupt cessation or reduction of caffeine intake."
+      },
+      {
+        "symptom_id": "SYM_WTH_CONC",
+        "symptom_name": "Concentration Difficulty",
+        "description": "The patient experiences difficulty concentrating following the abrupt cessation or reduction of caffeine intake."
+      },
+      {
+        "symptom_id": "SYM_WTH_FLU",
+        "symptom_name": "Flulike Symptoms",
+        "description": "The patient experiences flu-like symptoms following the abrupt cessation or reduction of caffeine intake."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_GAMBLE",
+    "diagnosis_name": "Gambling Disorder",
+    "diagnostic_code": "F63.0",
+    "chapter_category": "Substance-Related and Addictive Disorders",
+    "threshold_count": "4 or more of 9 symptoms",
+    "duration_rule": "12-month period",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_GAM_INCREASE",
+        "symptom_name": "Gambling Tolerance",
+        "description": "The patient needs to gamble with increasing amounts of money in order to achieve the desired excitement."
+      },
+      {
+        "symptom_id": "SYM_GAM_RESTLESS",
+        "symptom_name": "Gambling Withdrawal",
+        "description": "The patient feels restless or irritable when attempting to cut down or stop gambling."
+      },
+      {
+        "symptom_id": "SYM_GAM_CONTROL",
+        "symptom_name": "Inability to Stop",
+        "description": "The patient has made repeated, unsuccessful efforts to control, cut back, or stop gambling."
+      },
+      {
+        "symptom_id": "SYM_GAM_PREOCC",
+        "symptom_name": "Gambling Preoccupation",
+        "description": "The patient is often preoccupied with gambling, such as reliving past gambling experiences, planning the next venture, or thinking of ways to get money to gamble."
+      },
+      {
+        "symptom_id": "SYM_GAM_STRESS",
+        "symptom_name": "Stress Gambling",
+        "description": "The patient often gambles when feeling distressed, such as when feeling helpless, guilty, anxious, or depressed."
+      },
+      {
+        "symptom_id": "SYM_GAM_CHASE",
+        "symptom_name": "Chasing Losses",
+        "description": "The patient frequently chases their losses by returning another day to gamble more in order to get even."
+      },
+      {
+        "symptom_id": "SYM_GAM_LIE",
+        "symptom_name": "Concealing Gambling",
+        "description": "The patient lies to conceal the extent of their involvement with gambling."
+      },
+      {
+        "symptom_id": "SYM_GAM_RELATION",
+        "symptom_name": "Jeopardized Relationships",
+        "description": "The patient has jeopardized or lost a significant relationship, job, or educational or career opportunity because of gambling."
+      },
+      {
+        "symptom_id": "SYM_GAM_BAILOUT",
+        "symptom_name": "Financial Bailouts",
+        "description": "The patient relies on others to provide money to relieve desperate financial situations caused by gambling."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

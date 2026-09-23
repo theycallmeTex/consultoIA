@@ -1,0 +1,212 @@
+[
+  {
+    "diagnosis_id": "DX_OCD",
+    "diagnosis_name": "Obsessive–Compulsive Disorder",
+    "diagnostic_code": "F42.2",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Presence of obsessions, compulsions, or both",
+    "duration_rule": "Symptoms occupy at least 1 hour per day",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_OCD_OBSESS",
+        "symptom_name": "Obsessions",
+        "description": "The patient experiences recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, causing marked anxiety or distress."
+      },
+      {
+        "symptom_id": "SYM_OCD_COMPULS",
+        "symptom_name": "Compulsions",
+        "description": "The patient engages in repetitive behaviors or mental acts that they feel driven to perform in response to an obsession or according to rigid rules."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BDD",
+    "diagnosis_name": "Body Dysmorphic Disorder",
+    "diagnostic_code": "F45.22",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Preoccupation with 1 or more perceived physical flaws plus repetitive behaviors or mental acts",
+    "duration_rule": "Not specified",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BDD_PREOCC",
+        "symptom_name": "Appearance Preoccupation",
+        "description": "The patient is preoccupied with one or more perceived defects or flaws in their physical appearance that are unobservable or appear slight to others."
+      },
+      {
+        "symptom_id": "SYM_BDD_BEH",
+        "symptom_name": "Repetitive Behaviors",
+        "description": "The patient performs repetitive behaviors or mental acts, such as mirror checking or excessive grooming, in response to their appearance concerns."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_HOARD",
+    "diagnosis_name": "Hoarding Disorder",
+    "diagnostic_code": "F42.3",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Overwhelming urge to accumulate plus distress when trying to discard items",
+    "duration_rule": "Persistent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_HOARD_ACCUM",
+        "symptom_name": "Difficulty Discarding Possessions",
+        "description": "The patient experiences persistent difficulty discarding or parting with possessions, regardless of their actual value."
+      },
+      {
+        "symptom_id": "SYM_HOARD_DISTRESS",
+        "symptom_name": "Hoarding Distress",
+        "description": "The patient experiences clinically significant distress or impairment in social, occupational, or other important areas of functioning due to difficulty discarding possessions."
+      },
+      {
+        "symptom_id": "SYM_HOARD_CLUTTER",
+        "symptom_name": "Cluttered Living Areas",
+        "description": "The patient accumulates possessions that congest and clutter active living areas, substantially compromising their intended use."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_TRICH",
+    "diagnosis_name": "Trichotillomania (Hair-Pulling Disorder)",
+    "diagnostic_code": "F63.3",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Repeated hair pulling resulting in hair loss plus repeated attempts to stop",
+    "duration_rule": "Recurrent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TRICH_PULL",
+        "symptom_name": "Hair Pulling",
+        "description": "The patient repeatedly pulls out their own hair, resulting in noticeable hair loss."
+      },
+      {
+        "symptom_id": "SYM_TRICH_STOP",
+        "symptom_name": "Unsuccessful Cessation",
+        "description": "The patient makes repeated, unsuccessful attempts to decrease or stop their hair-pulling behavior."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_EXCOR",
+    "diagnosis_name": "Excoriation (Skin-Picking) Disorder",
+    "diagnostic_code": "F42.4",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Repeated skin picking resulting in lesions plus repeated attempts to stop",
+    "duration_rule": "Recurrent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_EXCOR_PICK",
+        "symptom_name": "Skin Picking",
+        "description": "The patient recurrently picks at their skin, resulting in skin lesions."
+      },
+      {
+        "symptom_id": "SYM_EXCOR_STOP",
+        "symptom_name": "Inability to Stop",
+        "description": "The patient has made repeated, unsuccessful attempts to decrease or stop their skin-picking behavior."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OCD_MED",
+    "diagnosis_name": "Obsessive–Compulsive and Related Disorder Due to Another Medical Condition",
+    "diagnostic_code": "F06.8",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Obsessions, compulsions, or other related symptoms predominant in the clinical picture",
+    "duration_rule": "Not specified (physiological consequence of medical condition)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_OCD_PREDOM",
+        "symptom_name": "Prominent Obsessive-Compulsive Symptoms",
+        "description": "The patient experiences prominent obsessions, compulsions, or other obsessive-compulsive related symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OCD_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Obsessive–Compulsive and Related Disorder",
+    "diagnostic_code": "F19.988",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Obsessions, compulsions, or other related symptoms predominant in the clinical picture",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_OCD_PREDOM",
+        "symptom_name": "Prominent Obsessive-Compulsive Symptoms",
+        "description": "The patient experiences prominent obsessions, compulsions, or other obsessive-compulsive related symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_OCD",
+    "diagnosis_name": "Other Specified Obsessive–Compulsive and Related Disorder",
+    "diagnostic_code": "F42.8",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Clinically important symptoms that fall below threshold for defined disorders",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_OCD_SUBTH",
+        "symptom_name": "Subthreshold Obsessive-Compulsive Symptoms",
+        "description": "The patient exhibits clinically important obsessive-compulsive symptoms that fall below the diagnostic threshold."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_OCD",
+    "diagnosis_name": "Unspecified Obsessive–Compulsive and Related Disorder",
+    "diagnostic_code": "F42.9",
+    "chapter_category": "Obsessive–Compulsive and Related Disorders",
+    "threshold_count": "Obsessive-compulsive symptoms present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_OCD_UNSPEC",
+        "symptom_name": "Unspecified Obsessive-Compulsive Symptoms",
+        "description": "The patient presents with obsessive-compulsive symptoms, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

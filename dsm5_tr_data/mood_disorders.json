@@ -1,0 +1,577 @@
+[
+  {
+    "diagnosis_id": "DX_MDD",
+    "diagnosis_name": "Major Depressive Disorder",
+    "diagnostic_code": "F32.9",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "5 or more symptoms (must include depressed mood or loss of interest)",
+    "duration_rule": "2 weeks",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_INT",
+        "symptom_name": "Diminished Interest",
+        "description": "The patient experiences a markedly diminished interest or pleasure in all, or almost all, activities most of the day."
+      },
+      {
+        "symptom_id": "SYM_MDD_WT",
+        "symptom_name": "Appetite Changes",
+        "description": "The patient experiences significant weight loss or gain, or a decrease or increase in appetite nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_SLEEP",
+        "symptom_name": "Sleep Disturbance",
+        "description": "The patient experiences insomnia or hypersomnia nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_PSYCH",
+        "symptom_name": "Psychomotor Changes",
+        "description": "The patient exhibits psychomotor agitation or retardation that is observable by others."
+      },
+      {
+        "symptom_id": "SYM_MDD_FATIGUE",
+        "symptom_name": "Fatigue",
+        "description": "The patient experiences fatigue or a loss of energy nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_GUILT",
+        "symptom_name": "Worthlessness or Guilt",
+        "description": "The patient experiences feelings of worthlessness or excessive, inappropriate guilt nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_CONC",
+        "symptom_name": "Diminished Concentration",
+        "description": "The patient experiences a diminished ability to think or concentrate, or indecisiveness, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_SUICIDE",
+        "symptom_name": "Suicidal Ideation",
+        "description": "The patient has recurrent thoughts of death, recurrent suicidal ideation, or makes a suicide attempt."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PDD",
+    "diagnosis_name": "Persistent Depressive Disorder (Dysthymia)",
+    "diagnostic_code": "F34.1",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "At least 2 of 6 symptoms while depressed; never without symptoms for 2+ months",
+    "duration_rule": "2 years (1 year for children/adolescents)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_PDD_CONTINUITY",
+        "symptom_name": "Continuous Symptoms",
+        "description": "The patient has never been without depressive symptoms for more than 2 months at a time during the 2-year period of the disturbance."
+      },
+      {
+        "symptom_id": "SYM_PDD_APP",
+        "symptom_name": "Appetite Changes",
+        "description": "The patient experiences poor appetite or overeating while feeling depressed."
+      },
+      {
+        "symptom_id": "SYM_MDD_SLEEP",
+        "symptom_name": "Sleep Disturbance",
+        "description": "The patient experiences insomnia or hypersomnia nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_FATIGUE",
+        "symptom_name": "Fatigue",
+        "description": "The patient experiences fatigue or a loss of energy nearly every day."
+      },
+      {
+        "symptom_id": "SYM_PDD_ESTEEM",
+        "symptom_name": "Low Self-Esteem",
+        "description": "The patient suffers from low self-esteem while experiencing depression."
+      },
+      {
+        "symptom_id": "SYM_MDD_CONC",
+        "symptom_name": "Diminished Concentration",
+        "description": "The patient experiences a diminished ability to think or concentrate, or indecisiveness, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_PDD_HOPE",
+        "symptom_name": "Hopelessness",
+        "description": "The patient experiences feelings of hopelessness while depressed."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DMDD",
+    "diagnosis_name": "Disruptive Mood Dysregulation Disorder",
+    "diagnostic_code": "F34.81",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Severe tantrums 3 or more times per week; persistently irritable mood between outbursts",
+    "duration_rule": "12 months or more (never absent for 3+ months)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DMDD_TANT",
+        "symptom_name": "Severe Temper Outbursts",
+        "description": "The patient exhibits severe, recurrent temper outbursts that are out of proportion in intensity or duration to the situation or provocation."
+      },
+      {
+        "symptom_id": "SYM_DMDD_IRRIT",
+        "symptom_name": "Persistent Irritability",
+        "description": "The patient exhibits a mood that is persistently irritable or angry for most of the day, nearly every day, between temper outbursts."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PMDD",
+    "diagnosis_name": "Premenstrual Dysphoric Disorder",
+    "diagnostic_code": "F32.81",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "5 or more symptoms (at least 1 must be core mood symptom)",
+    "duration_rule": "Most menstrual cycles in the past year",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PMDD_LABLE",
+        "symptom_name": "Premenstrual Affective Lability",
+        "description": "The patient experiences marked affective lability, such as pronounced mood swings or sudden tearfulness, before menstruation."
+      },
+      {
+        "symptom_id": "SYM_PMDD_IRRIT",
+        "symptom_name": "Premenstrual Irritability",
+        "description": "The patient exhibits marked anger, irritability, or increased interpersonal conflicts during the premenstrual phase."
+      },
+      {
+        "symptom_id": "SYM_PMDD_MOOD",
+        "symptom_name": "Premenstrual Depressed Mood",
+        "description": "The patient experiences a markedly depressed mood, feelings of hopelessness, or self-deprecating thoughts before menstruation."
+      },
+      {
+        "symptom_id": "SYM_PMDD_ANX",
+        "symptom_name": "Premenstrual Anxiety",
+        "description": "The patient experiences marked anxiety, tension, or feelings of being keyed up or on edge before menstruation."
+      },
+      {
+        "symptom_id": "SYM_PMDD_INT",
+        "symptom_name": "Premenstrual Decreased Interest",
+        "description": "The patient experiences a decreased interest in usual activities before menstruation."
+      },
+      {
+        "symptom_id": "SYM_PMDD_CONC",
+        "symptom_name": "Premenstrual Concentration Difficulty",
+        "description": "The patient experiences subjective difficulty in concentrating during the premenstrual phase."
+      },
+      {
+        "symptom_id": "SYM_PMDD_LETH",
+        "symptom_name": "Premenstrual Lethargy",
+        "description": "The patient feels lethargic, easily fatigued, or has a marked lack of energy during the premenstrual phase."
+      },
+      {
+        "symptom_id": "SYM_PMDD_APP",
+        "symptom_name": "Premenstrual Appetite Changes",
+        "description": "The patient experiences a significant change in appetite, overeating, or specific food cravings during the premenstrual phase."
+      },
+      {
+        "symptom_id": "SYM_PMDD_SLEEP",
+        "symptom_name": "Premenstrual Sleep Disturbance",
+        "description": "The patient experiences hypersomnia or insomnia during the premenstrual phase."
+      },
+      {
+        "symptom_id": "SYM_PMDD_OVERWHELM",
+        "symptom_name": "Premenstrual Overwhelm",
+        "description": "The patient has a subjective sense of being overwhelmed or out of control during the premenstrual phase."
+      },
+      {
+        "symptom_id": "SYM_PMDD_PHYS",
+        "symptom_name": "Premenstrual Physical Symptoms",
+        "description": "The patient experiences physical symptoms such as breast tenderness, muscle or joint pain, a sensation of bloating, or weight gain before menstruation."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DEP_MED",
+    "diagnosis_name": "Depressive Disorder Due to Another Medical Condition",
+    "diagnostic_code": "F06.31",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Prominent and enduring depressed mood or loss of interest",
+    "duration_rule": "Persistent (physiological consequence of medical condition)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_INT",
+        "symptom_name": "Diminished Interest",
+        "description": "The patient experiences a markedly diminished interest or pleasure in all, or almost all, activities most of the day."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DEP_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Depressive Disorder",
+    "diagnostic_code": "F19.94",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Prominent and enduring depressed mood or loss of interest",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_INT",
+        "symptom_name": "Diminished Interest",
+        "description": "The patient experiences a markedly diminished interest or pleasure in all, or almost all, activities most of the day."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BPI",
+    "diagnosis_name": "Bipolar I Disorder",
+    "diagnostic_code": "F31.9",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "At least one manic episode (3 or more symptoms; 4 if only irritable)",
+    "duration_rule": "1 week (any duration if hospitalized)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MAN_MOOD",
+        "symptom_name": "Elevated Mood",
+        "description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+      },
+      {
+        "symptom_id": "SYM_MAN_ENER",
+        "symptom_name": "Increased Energy",
+        "description": "The patient exhibits a persistent, abnormal increase in goal-directed activity or energy."
+      },
+      {
+        "symptom_id": "SYM_MAN_GRAND",
+        "symptom_name": "Grandiosity",
+        "description": "The patient experiences inflated self-esteem or grandiosity."
+      },
+      {
+        "symptom_id": "SYM_MAN_SLEEP",
+        "symptom_name": "Decreased Sleep Need",
+        "description": "The patient experiences a decreased need for sleep, feeling rested after only a few hours of sleep."
+      },
+      {
+        "symptom_id": "SYM_MAN_TALK",
+        "symptom_name": "Pressured Speech",
+        "description": "The patient is more talkative than usual or feels a persistent pressure to keep talking."
+      },
+      {
+        "symptom_id": "SYM_MAN_FLIGHT",
+        "symptom_name": "Racing Thoughts",
+        "description": "The patient experiences a flight of ideas or a subjective feeling that their thoughts are racing."
+      },
+      {
+        "symptom_id": "SYM_MAN_DISTRACT",
+        "symptom_name": "Distractibility",
+        "description": "The patient is easily distracted by unimportant or irrelevant external stimuli."
+      },
+      {
+        "symptom_id": "SYM_MAN_GOAL",
+        "symptom_name": "Goal-Directed Activity",
+        "description": "The patient shows a marked increase in goal-directed activity or exhibits psychomotor agitation."
+      },
+      {
+        "symptom_id": "SYM_MAN_RISK",
+        "symptom_name": "Risky Behavior",
+        "description": "The patient excessively engages in activities that have a high potential for painful consequences, such as buying sprees, sexual indiscretions, or foolish business investments."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BPII",
+    "diagnosis_name": "Bipolar II Disorder",
+    "diagnostic_code": "F31.81",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "At least 1 hypomanic episode AND at least 1 major depressive episode",
+    "duration_rule": "4 days (hypomanic); 2 weeks (depressive)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MAN_MOOD",
+        "symptom_name": "Elevated Mood",
+        "description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+      },
+      {
+        "symptom_id": "SYM_MAN_ENER",
+        "symptom_name": "Increased Energy",
+        "description": "The patient exhibits a persistent, abnormal increase in goal-directed activity or energy."
+      },
+      {
+        "symptom_id": "SYM_MAN_GRAND",
+        "symptom_name": "Grandiosity",
+        "description": "The patient experiences inflated self-esteem or grandiosity."
+      },
+      {
+        "symptom_id": "SYM_MAN_SLEEP",
+        "symptom_name": "Decreased Sleep Need",
+        "description": "The patient experiences a decreased need for sleep, feeling rested after only a few hours of sleep."
+      },
+      {
+        "symptom_id": "SYM_MAN_TALK",
+        "symptom_name": "Pressured Speech",
+        "description": "The patient is more talkative than usual or feels a persistent pressure to keep talking."
+      },
+      {
+        "symptom_id": "SYM_MAN_FLIGHT",
+        "symptom_name": "Racing Thoughts",
+        "description": "The patient experiences a flight of ideas or a subjective feeling that their thoughts are racing."
+      },
+      {
+        "symptom_id": "SYM_MAN_DISTRACT",
+        "symptom_name": "Distractibility",
+        "description": "The patient is easily distracted by unimportant or irrelevant external stimuli."
+      },
+      {
+        "symptom_id": "SYM_MAN_GOAL",
+        "symptom_name": "Goal-Directed Activity",
+        "description": "The patient shows a marked increase in goal-directed activity or exhibits psychomotor agitation."
+      },
+      {
+        "symptom_id": "SYM_MAN_RISK",
+        "symptom_name": "Risky Behavior",
+        "description": "The patient excessively engages in activities that have a high potential for painful consequences, such as buying sprees, sexual indiscretions, or foolish business investments."
+      },
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_INT",
+        "symptom_name": "Diminished Interest",
+        "description": "The patient experiences a markedly diminished interest or pleasure in all, or almost all, activities most of the day."
+      },
+      {
+        "symptom_id": "SYM_MDD_WT",
+        "symptom_name": "Appetite Changes",
+        "description": "The patient experiences significant weight loss or gain, or a decrease or increase in appetite nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_SLEEP",
+        "symptom_name": "Sleep Disturbance",
+        "description": "The patient experiences insomnia or hypersomnia nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_PSYCH",
+        "symptom_name": "Psychomotor Changes",
+        "description": "The patient exhibits psychomotor agitation or retardation that is observable by others."
+      },
+      {
+        "symptom_id": "SYM_MDD_FATIGUE",
+        "symptom_name": "Fatigue",
+        "description": "The patient experiences fatigue or a loss of energy nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_GUILT",
+        "symptom_name": "Worthlessness or Guilt",
+        "description": "The patient experiences feelings of worthlessness or excessive, inappropriate guilt nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_CONC",
+        "symptom_name": "Diminished Concentration",
+        "description": "The patient experiences a diminished ability to think or concentrate, or indecisiveness, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MDD_SUICIDE",
+        "symptom_name": "Suicidal Ideation",
+        "description": "The patient has recurrent thoughts of death, recurrent suicidal ideation, or makes a suicide attempt."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CYCLO",
+    "diagnosis_name": "Cyclothymic Disorder",
+    "diagnostic_code": "F34.0",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Numerous periods of hypomanic and depressive symptoms below full episode threshold",
+    "duration_rule": "2 years (1 year for children/adolescents); present at least half the time",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BPL_SUBTHRESHOLD",
+        "symptom_name": "Never Met Criteria",
+        "description": "The patient has never met the full criteria for a major depressive, manic, or hypomanic episode."
+      },
+      {
+        "symptom_id": "SYM_MAN_MOOD",
+        "symptom_name": "Elevated Mood",
+        "description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+      },
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BPL_MED",
+    "diagnosis_name": "Bipolar Disorder Due to Another Medical Condition",
+    "diagnostic_code": "F06.33",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Physiological cause of manic or hypomanic symptoms",
+    "duration_rule": "Persistent (physiological consequence of medical condition)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BPL_MED_ETIOLOGY",
+        "symptom_name": "Medical Etiology",
+        "description": "The patient has evidence from their history, physical examination, or laboratory findings that the disturbance is the direct pathophysiological consequence of another medical condition."
+      },
+      {
+        "symptom_id": "SYM_MAN_MOOD",
+        "symptom_name": "Elevated Mood",
+        "description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+      },
+      {
+        "symptom_id": "SYM_MAN_ENER",
+        "symptom_name": "Increased Energy",
+        "description": "The patient exhibits a persistent, abnormal increase in goal-directed activity or energy."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BPL_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Bipolar Disorder",
+    "diagnostic_code": "F19.93",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Manic or hypomanic symptoms following substance use",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BPL_SUB_ETIOLOGY",
+        "symptom_name": "Substance Etiology",
+        "description": "The patient has evidence from their history, physical examination, or laboratory findings that the symptoms developed during or soon after substance intoxication or withdrawal, or after exposure to a medication capable of producing manic or hypomanic symptoms."
+      },
+      {
+        "symptom_id": "SYM_MAN_MOOD",
+        "symptom_name": "Elevated Mood",
+        "description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+      },
+      {
+        "symptom_id": "SYM_MAN_ENER",
+        "symptom_name": "Increased Energy",
+        "description": "The patient exhibits a persistent, abnormal increase in goal-directed activity or energy."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_DEP",
+    "diagnosis_name": "Other Specified Depressive Disorder",
+    "diagnostic_code": "F32.89",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Clinically important symptoms that fall below threshold for defined disorders",
+    "duration_rule": "Variable (e.g., recurrent brief 2–13 days; short-duration 4–13 days)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MDD_SUBTH",
+        "symptom_name": "Subthreshold Depression",
+        "description": "The patient exhibits clinically important depressive symptoms that fall below the diagnostic threshold."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_BPL",
+    "diagnosis_name": "Other Specified Bipolar and Related Disorder",
+    "diagnostic_code": "F31.89",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Clinically important symptoms that fall below threshold for defined disorders",
+    "duration_rule": "Variable (e.g., short-duration hypomania 2–3 days)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BPL_SUBTH",
+        "symptom_name": "Subthreshold Bipolar Symptoms",
+        "description": "The patient experiences clinically important bipolar symptoms that fall below the diagnostic threshold."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_MOOD",
+    "diagnosis_name": "Unspecified Mood Disorder",
+    "diagnostic_code": "F39",
+    "chapter_category": "Mood Disorders",
+    "threshold_count": "Mood symptoms present but insufficient information for specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_MOOD_UNSPEC",
+        "symptom_name": "Unspecified Mood Symptoms",
+        "description": "The patient presents with mood symptoms, but there is insufficient information for a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

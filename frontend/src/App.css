@@ -1,0 +1,455 @@
+/* ============================================================
+   Design tokens
+   ============================================================ */
+:root {
+  --ink: #232735;
+  --ink-soft: #5b5f6f;
+  --ink-faint: #8b8ea0;
+  --bg: #efedf3;
+  --surface: #ffffff;
+  --surface-soft: #f7f5fa;
+  --line: rgba(35, 39, 53, 0.1);
+  --line-strong: rgba(35, 39, 53, 0.16);
+
+  --navy: #29344a;
+  --gold: #c68a3d;
+  --gold-soft: #f1e2c8;
+  --sage: #4f7b63;
+  --sage-soft: #dee9e1;
+  --rose: #b34a4a;
+  --rose-soft: #f3dfdc;
+
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-body: "Work Sans", system-ui, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ece9f1;
+    --ink-soft: #b7b7c6;
+    --ink-faint: #7d7d8c;
+    --bg: #15161d;
+    --surface: #1d1f29;
+    --surface-soft: #24262f;
+    --line: rgba(236, 233, 241, 0.12);
+    --line-strong: rgba(236, 233, 241, 0.2);
+
+    --navy: #92a6d6;
+    --gold: #dcac5f;
+    --gold-soft: #3a3324;
+    --sage: #85b596;
+    --sage-soft: #23342b;
+    --rose: #de8686;
+    --rose-soft: #3a2524;
+  }
+}
+
+/* Modalità: un solo accento attivo per volta */
+.app--journal { --mode-accent: var(--gold); --mode-accent-soft: var(--gold-soft); }
+.app--cds { --mode-accent: var(--sage); --mode-accent-soft: var(--sage-soft); }
+
+/* ============================================================
+   Base
+   ============================================================ */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+* { box-sizing: border-box; }
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* ============================================================
+   Top nav
+   ============================================================ */
+.topnav {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.topnav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem 1.75rem 0.25rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--navy);
+}
+
+.topnav-mark {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: conic-gradient(from 210deg, var(--navy), var(--gold), var(--sage), var(--navy));
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+  padding: 0 1.75rem;
+}
+
+.tab {
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  padding: 0.7rem 0.15rem;
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.tab:hover {
+  color: var(--ink);
+}
+
+.tab.active {
+  color: var(--mode-accent, var(--navy));
+  border-bottom-color: var(--mode-accent, var(--navy));
+}
+
+/* ============================================================
+   Content shell
+   ============================================================ */
+.content {
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.75rem 1.5rem 3rem;
+}
+
+.app--journal .content { max-width: 620px; }
+.app--cds .content { max-width: 760px; }
+
+.view-header {
+  margin-bottom: 2rem;
+}
+
+.view-header h2 {
+  font-size: 1.7rem;
+  letter-spacing: -0.01em;
+}
+
+.view-header p {
+  margin: 0.5rem 0 0;
+  color: var(--ink-soft);
+  max-width: 46ch;
+}
+
+.app-footer {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  padding: 1.25rem 1.5rem 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+/* ============================================================
+   Forms
+   ============================================================ */
+textarea,
+input[type="text"] {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 0.7rem 0.85rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  resize: vertical;
+}
+
+textarea:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: var(--mode-accent, var(--navy));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--mode-accent, var(--navy)) 20%, transparent);
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: var(--ink-faint);
+}
+
+button {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.65rem 1.3rem;
+  border-radius: 10px;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--mode-accent, var(--navy));
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+button.primary {
+  background: var(--mode-accent, var(--navy));
+  border-color: transparent;
+  color: #fff;
+}
+
+button.primary:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+
+button:focus-visible,
+input:focus-visible,
+.tab:focus-visible {
+  outline: 2px solid var(--mode-accent, var(--navy));
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   Notices
+   ============================================================ */
+.notice {
+  border-radius: 10px;
+  padding: 0.7rem 0.95rem;
+  font-size: 0.88rem;
+  margin-top: 0.85rem;
+}
+
+.error, .notice-error {
+  background: var(--rose-soft);
+  color: var(--rose);
+}
+
+.warning, .notice-warning {
+  background: var(--gold-soft);
+  color: #7a5a1e;
+}
+
+.success, .notice-success {
+  background: var(--sage-soft);
+  color: var(--sage);
+}
+
+.error, .warning, .success {
+  border-radius: 10px;
+  padding: 0.7rem 0.95rem;
+  font-size: 0.88rem;
+  margin-top: 0.85rem;
+}
+
+/* ============================================================
+   Journaling — chat
+   ============================================================ */
+.chat-history {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.chat-message {
+  max-width: 78%;
+  padding: 0.75rem 1rem;
+  border-radius: 16px;
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+
+.chat-message.assistant {
+  align-self: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-bottom-left-radius: 4px;
+}
+
+.chat-message.user {
+  align-self: flex-end;
+  background: var(--mode-accent-soft, var(--surface-soft));
+  border-bottom-right-radius: 4px;
+}
+
+.chat-message.pending {
+  color: var(--ink-faint);
+}
+
+.chat-input-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.chat-input-form input {
+  flex: 1;
+}
+
+/* ============================================================
+   CDS — editorial report layout
+   ============================================================ */
+.cds-metric {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.25rem;
+}
+
+.cds-metric strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.cds-result {
+  margin-top: 2.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.cds-result-label {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.5rem;
+}
+
+.hypothesis {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1.45;
+  color: var(--ink);
+  padding-left: 1rem;
+  border-left: 3px solid var(--mode-accent);
+  margin-bottom: 2rem;
+}
+
+.cds-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 640px) {
+  .cds-columns {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.cds-column-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.85rem;
+}
+
+.cds-column-title .count {
+  color: var(--ink-faint);
+  font-weight: 400;
+}
+
+.point-list,
+.reco-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.point-list li,
+.reco-list li {
+  display: flex;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.point-list li::before,
+.reco-list li::before {
+  flex-shrink: 0;
+  margin-top: 0.5em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  content: "";
+}
+
+.point-list li::before { background: var(--navy); }
+.reco-list li::before { background: var(--sage); }
+
+.raw-json {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}
+
+.feedback-section {
+  margin-top: 2.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--line);
+}
+
+.feedback-section h3 {
+  font-size: 1.1rem;
+}
+
+.feedback-section > p {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0.4rem 0 1rem;
+  max-width: 56ch;
+}
+
+.diagnostic-code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--ink-soft);
+}
+
+.ambiguity-badge {
+  display: inline-block;
+  font-size: 0.85rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 1.25rem;
+}
+
+.ambiguity-badge.verde {
+  background: var(--sage-soft);
+  color: var(--sage);
+}
+
+.ambiguity-badge.giallo {
+  background: var(--gold-soft);
+  color: #7a5a1e;
+}
+
+.ambiguity-badge.rosso {
+  background: var(--rose-soft);
+  color: var(--rose);
+}

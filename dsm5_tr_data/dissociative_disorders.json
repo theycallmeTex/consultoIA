@@ -1,0 +1,142 @@
+[
+  {
+    "diagnosis_id": "DX_DID",
+    "diagnosis_name": "Dissociative Identity Disorder",
+    "diagnostic_code": "F44.81",
+    "chapter_category": "Dissociative Disorders",
+    "threshold_count": "At least two clearly individual personalities, each with unique attributes",
+    "duration_rule": "Not specified; typically chronic and beginning in childhood",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DID_IDENTITIES",
+        "symptom_name": "Multiple Identities",
+        "description": "The patient experiences a disruption of identity characterized by the presence of two or more distinct personality states, each with its own pattern of perceiving and interacting with the environment."
+      },
+      {
+        "symptom_id": "SYM_DID_AMNESIA",
+        "symptom_name": "Recurrent Memory Gaps",
+        "description": "The patient experiences recurrent memory gaps for everyday events, personal information, or traumatic events that exceed ordinary forgetfulness."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DA",
+    "diagnosis_name": "Dissociative Amnesia",
+    "diagnostic_code": "F44.0",
+    "chapter_category": "Dissociative Disorders",
+    "threshold_count": "Inability to recall important autobiographical information, usually of a stressful or traumatic nature",
+    "duration_rule": "Variable; can range from minutes to many years",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DA_FORGET",
+        "symptom_name": "Autobiographical Amnesia",
+        "description": "The patient is unable to recall important autobiographical information, usually of a traumatic or stressful nature, that is too extensive to be explained by ordinary forgetfulness."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DA_FUGUE",
+    "diagnosis_name": "Dissociative Amnesia, with Dissociative Fugue",
+    "diagnostic_code": "F44.1",
+    "chapter_category": "Dissociative Disorders",
+    "threshold_count": "Inability to recall personal history plus sudden, purposeful travel or bewildered wandering",
+    "duration_rule": "Variable; often brief (hours or days), but can be longer",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DA_FORGET",
+        "symptom_name": "Autobiographical Amnesia",
+        "description": "The patient is unable to recall important autobiographical information, usually of a traumatic or stressful nature, that is too extensive to be explained by ordinary forgetfulness."
+      },
+      {
+        "symptom_id": "SYM_DA_TRAVEL",
+        "symptom_name": "Dissociative Fugue",
+        "description": "The patient experiences apparently purposeful travel or bewildered wandering associated with amnesia for their identity or other important autobiographical information."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DDD",
+    "diagnosis_name": "Depersonalization/Derealization Disorder",
+    "diagnostic_code": "F48.1",
+    "chapter_category": "Dissociative Disorders",
+    "threshold_count": "Persistent or recurrent episodes of feeling detached from one's self or surroundings while reality testing remains intact",
+    "duration_rule": "Persistent or recurrent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DDD_SELF",
+        "symptom_name": "Depersonalization",
+        "description": "The patient experiences depersonalization, feeling detached from or as if they are an outside observer of their own mental processes or body."
+      },
+      {
+        "symptom_id": "SYM_DDD_WORLD",
+        "symptom_name": "Derealization",
+        "description": "The patient experiences derealization, perceiving their surroundings as unreal, dreamlike, distant, or distorted."
+      },
+      {
+        "symptom_id": "SYM_DDD_INSIGHT",
+        "symptom_name": "Intact Reality Testing",
+        "description": "The patient maintains intact reality testing during episodes of depersonalization or derealization."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_DISSOC",
+    "diagnosis_name": "Other Specified Dissociative Disorder",
+    "diagnostic_code": "F44.89",
+    "chapter_category": "Dissociative Disorders",
+    "threshold_count": "Symptoms characteristic of a dissociative disorder that cause distress but do not meet full criteria for any specific disorder",
+    "duration_rule": "Variable (e.g., acute reactions last less than 1 month)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DIS_SUBTH",
+        "symptom_name": "Subthreshold Dissociation",
+        "description": "The patient exhibits symptoms characteristic of a dissociative disorder that fall below the threshold for a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_DISSOC",
+    "diagnosis_name": "Unspecified Dissociative Disorder",
+    "diagnostic_code": "F44.9",
+    "chapter_category": "Dissociative Disorders",
+    "threshold_count": "Dissociative symptoms present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DIS_UNSPEC",
+        "symptom_name": "Unspecified Dissociation",
+        "description": "The patient exhibits dissociative symptoms, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

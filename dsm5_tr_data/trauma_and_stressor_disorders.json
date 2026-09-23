@@ -1,0 +1,467 @@
+[
+  {
+    "diagnosis_id": "DX_RAD",
+    "diagnosis_name": "Reactive Attachment Disorder",
+    "diagnostic_code": "F94.1",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "Habitual failure to seek/respond to comfort plus at least 2 social/emotional disturbances",
+    "duration_rule": "Symptoms present before age 5; child has developmental age of 9+ months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_RAD_WITHDRAW",
+        "symptom_name": "Emotional Withdrawal",
+        "description": "The patient displays a consistent pattern of inhibited, emotionally withdrawn behavior toward adult caregivers, rarely seeking or responding to comfort when distressed."
+      },
+      {
+        "symptom_id": "SYM_RAD_SOC_EMOT",
+        "symptom_name": "Minimal Responsiveness",
+        "description": "The patient exhibits minimal social and emotional responsiveness to others, often accompanied by unprovoked episodes of irritability, sadness, or fearfulness."
+      },
+      {
+        "symptom_id": "SYM_RAD_AFFECT",
+        "symptom_name": "Limited Positive Affect",
+        "description": "The patient exhibits limited positive affect in their interactions with others."
+      },
+      {
+        "symptom_id": "SYM_RAD_NEGLECT",
+        "symptom_name": "Extreme Neglect",
+        "description": "The patient has experienced a pattern of extreme insufficient care, such as social neglect, frequent changes in primary caregivers, or rearing in unusual settings."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DSED",
+    "diagnosis_name": "Disinhibited Social Engagement Disorder",
+    "diagnostic_code": "F94.2",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "At least 2 behaviors showing lack of reticence with unfamiliar adults",
+    "duration_rule": "Child has developmental age of 9+ months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_DSED_APPROACH",
+        "symptom_name": "Approaches Strangers",
+        "description": "The patient actively approaches and interacts with unfamiliar adults, lacking the expected reticence or shyness."
+      },
+      {
+        "symptom_id": "SYM_DSED_FAMILIAR",
+        "symptom_name": "Overly Familiar Behavior",
+        "description": "The patient exhibits overly familiar verbal or physical behavior with strangers that crosses age-appropriate social boundaries."
+      },
+      {
+        "symptom_id": "SYM_DSED_CHECKIN",
+        "symptom_name": "Fails to Check In",
+        "description": "The patient fails to check back with an adult caregiver after venturing away, even in unfamiliar settings."
+      },
+      {
+        "symptom_id": "SYM_RAD_NEGLECT",
+        "symptom_name": "Extreme Neglect",
+        "description": "The patient has experienced a pattern of extreme insufficient care, such as social neglect, frequent changes in primary caregivers, or rearing in unusual settings."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PTSD",
+    "diagnosis_name": "Posttraumatic Stress Disorder",
+    "diagnostic_code": "F43.10",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "1 intrusion, 1 avoidance, 2 cognitive/mood, and 2 arousal symptoms",
+    "duration_rule": "1 month or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PTSD_TRAUMA",
+        "symptom_name": "Trauma Exposure",
+        "description": "The patient has been directly exposed to, witnessed, or learned about a traumatic event involving actual or threatened death, serious injury, or sexual violence."
+      },
+      {
+        "symptom_id": "SYM_PTSD_INTRU",
+        "symptom_name": "Intrusive Reliving",
+        "description": "The patient repeatedly relives the traumatic event through distressing memories, nightmares, or dissociative flashbacks."
+      },
+      {
+        "symptom_id": "SYM_PTSD_AVOID",
+        "symptom_name": "Trauma Avoidance",
+        "description": "The patient actively avoids memories, thoughts, feelings, or external reminders associated with the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_PTSD_COG_AMNESIA",
+        "symptom_name": "Trauma Amnesia",
+        "description": "The patient is unable to remember an important aspect of the traumatic event, typically due to dissociative amnesia."
+      },
+      {
+        "symptom_id": "SYM_PTSD_COG_BELIEFS",
+        "symptom_name": "Negative Beliefs",
+        "description": "The patient holds persistent and exaggerated negative beliefs or expectations about themselves, others, or the world."
+      },
+      {
+        "symptom_id": "SYM_PTSD_COG_BLAME",
+        "symptom_name": "Distorted Blame",
+        "description": "The patient experiences persistent, distorted cognitions about the cause or consequences of the traumatic event, leading them to blame themselves or others."
+      },
+      {
+        "symptom_id": "SYM_PTSD_COG_MOOD_NEG",
+        "symptom_name": "Persistent Negative Mood",
+        "description": "The patient experiences a persistent negative emotional state, such as fear, horror, anger, guilt, or shame."
+      },
+      {
+        "symptom_id": "SYM_PTSD_COG_INTEREST",
+        "symptom_name": "Loss of Interest",
+        "description": "The patient exhibits markedly diminished interest or participation in significant activities."
+      },
+      {
+        "symptom_id": "SYM_PTSD_COG_DETACH",
+        "symptom_name": "Feeling Detached",
+        "description": "The patient experiences feelings of detachment or estrangement from others."
+      },
+      {
+        "symptom_id": "SYM_ASD_MOOD_NEGATIVE",
+        "symptom_name": "Negative Mood",
+        "description": "The patient experiences a persistent inability to experience positive emotions, such as an inability to feel happiness, satisfaction, or loving feelings."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_ANGER",
+        "symptom_name": "Angry Outbursts",
+        "description": "The patient exhibits irritable behavior and angry outbursts with little or no provocation, typically expressed as verbal or physical aggression toward people or objects."
+      },
+      {
+        "symptom_id": "SYM_PTSD_AROUSAL_RECKLESS",
+        "symptom_name": "Reckless Behavior",
+        "description": "The patient engages in reckless or self-destructive behavior."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_VIGILANCE",
+        "symptom_name": "Hypervigilance",
+        "description": "The patient exhibits hypervigilance."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_STARTLE",
+        "symptom_name": "Exaggerated Startle",
+        "description": "The patient exhibits an exaggerated startle response."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_CONC",
+        "symptom_name": "Concentration Difficulties",
+        "description": "The patient experiences problems with concentration."
+      },
+      {
+        "symptom_id": "SYM_GEN_INSOMNIA",
+        "symptom_name": "Insomnia",
+        "description": "The patient experiences insomnia or other significant sleep disturbances."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PTSD_CHILD",
+    "diagnosis_name": "Posttraumatic Stress Disorder (Preschool)",
+    "diagnostic_code": "F43.10",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "1 intrusion, 1 avoidance OR negative emotion, and 2 physiological symptoms",
+    "duration_rule": "1 month or more; child is under age 7",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PTSD_TRAUMA",
+        "symptom_name": "Trauma Exposure",
+        "description": "The patient has been directly exposed to, witnessed, or learned about a traumatic event involving actual or threatened death, serious injury, or sexual violence."
+      },
+      {
+        "symptom_id": "SYM_PTSD_INTRU",
+        "symptom_name": "Intrusive Reliving",
+        "description": "The patient repeatedly relives the traumatic event through distressing memories, nightmares, or dissociative flashbacks."
+      },
+      {
+        "symptom_id": "SYM_PTSD_CHILD_AVOID_REMINDERS",
+        "symptom_name": "Avoiding Reminders",
+        "description": "The patient avoids or makes efforts to avoid activities, places, or physical reminders that arouse recollections of the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_PTSD_CHILD_AVOID_PEOPLE",
+        "symptom_name": "Avoiding People",
+        "description": "The patient avoids or makes efforts to avoid people, conversations, or interpersonal situations that arouse recollections of the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_PTSD_CHILD_COG_NEG_EMOT",
+        "symptom_name": "Negative Emotions",
+        "description": "The patient experiences a substantially increased frequency of key negative emotional states, such as fear, sadness, guilt, or confusion."
+      },
+      {
+        "symptom_id": "SYM_PTSD_CHILD_COG_INTEREST",
+        "symptom_name": "Diminished Interest",
+        "description": "The patient exhibits markedly diminished interest or participation in significant activities, including a constriction of play."
+      },
+      {
+        "symptom_id": "SYM_PTSD_CHILD_COG_WITHDRAW",
+        "symptom_name": "Social Withdrawal",
+        "description": "The patient exhibits socially withdrawn behavior."
+      },
+      {
+        "symptom_id": "SYM_PTSD_CHILD_COG_POS_EMOT",
+        "symptom_name": "Reduced Positive Emotions",
+        "description": "The patient exhibits a persistent reduction in the expression of positive emotions."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_ANGER",
+        "symptom_name": "Angry Outbursts",
+        "description": "The patient exhibits irritable behavior and angry outbursts with little or no provocation, typically expressed as verbal or physical aggression toward people or objects."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_VIGILANCE",
+        "symptom_name": "Hypervigilance",
+        "description": "The patient exhibits hypervigilance."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_STARTLE",
+        "symptom_name": "Exaggerated Startle",
+        "description": "The patient exhibits an exaggerated startle response."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_CONC",
+        "symptom_name": "Concentration Difficulties",
+        "description": "The patient experiences problems with concentration."
+      },
+      {
+        "symptom_id": "SYM_GEN_INSOMNIA",
+        "symptom_name": "Insomnia",
+        "description": "The patient experiences insomnia or other significant sleep disturbances."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ACUTE_STRESS",
+    "diagnosis_name": "Acute Stress Disorder",
+    "diagnostic_code": "F43.0",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "9 or more symptoms from any of the five categories (intrusion, mood, dissociation, avoidance, arousal)",
+    "duration_rule": "3 days to 1 month",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PTSD_TRAUMA",
+        "symptom_name": "Trauma Exposure",
+        "description": "The patient has been directly exposed to, witnessed, or learned about a traumatic event involving actual or threatened death, serious injury, or sexual violence."
+      },
+      {
+        "symptom_id": "SYM_ASD_INTRU_MEMORIES",
+        "symptom_name": "Intrusive Memories",
+        "description": "The patient experiences recurrent, involuntary, and intrusive distressing memories of the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_ASD_INTRU_DREAMS",
+        "symptom_name": "Distressing Dreams",
+        "description": "The patient experiences recurrent distressing dreams in which the content or affect of the dream is related to the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_ASD_INTRU_FLASH",
+        "symptom_name": "Flashbacks",
+        "description": "The patient experiences dissociative reactions, such as flashbacks, in which they feel or act as if the traumatic event were recurring."
+      },
+      {
+        "symptom_id": "SYM_ASD_INTRU_DISTRESS",
+        "symptom_name": "Trigger Distress",
+        "description": "The patient experiences intense or prolonged psychological distress or marked physiological reactions in response to internal or external cues that symbolize or resemble an aspect of the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_ASD_MOOD_NEGATIVE",
+        "symptom_name": "Negative Mood",
+        "description": "The patient experiences a persistent inability to experience positive emotions, such as an inability to feel happiness, satisfaction, or loving feelings."
+      },
+      {
+        "symptom_id": "SYM_ASD_DISSOC_REALITY",
+        "symptom_name": "Altered Reality",
+        "description": "The patient experiences an altered sense of the reality of their surroundings or themselves, such as seeing themselves from another's perspective, being in a daze, or time slowing."
+      },
+      {
+        "symptom_id": "SYM_ASD_DISSOC_AMNESIA",
+        "symptom_name": "Dissociative Amnesia",
+        "description": "The patient is unable to remember an important aspect of the traumatic event, typically due to dissociative amnesia rather than other factors like head injury or substances."
+      },
+      {
+        "symptom_id": "SYM_ASD_AVOID_INTERNAL",
+        "symptom_name": "Internal Avoidance",
+        "description": "The patient makes efforts to avoid distressing memories, thoughts, or feelings about or closely associated with the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_ASD_AVOID_EXTERNAL",
+        "symptom_name": "External Avoidance",
+        "description": "The patient makes efforts to avoid external reminders, such as people, places, conversations, activities, objects, or situations, that arouse distressing memories, thoughts, or feelings associated with the traumatic event."
+      },
+      {
+        "symptom_id": "SYM_GEN_INSOMNIA",
+        "symptom_name": "Insomnia",
+        "description": "The patient experiences insomnia or other significant sleep disturbances."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_ANGER",
+        "symptom_name": "Angry Outbursts",
+        "description": "The patient exhibits irritable behavior and angry outbursts with little or no provocation, typically expressed as verbal or physical aggression toward people or objects."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_VIGILANCE",
+        "symptom_name": "Hypervigilance",
+        "description": "The patient exhibits hypervigilance."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_CONC",
+        "symptom_name": "Concentration Difficulties",
+        "description": "The patient experiences problems with concentration."
+      },
+      {
+        "symptom_id": "SYM_ASD_AROUSAL_STARTLE",
+        "symptom_name": "Exaggerated Startle",
+        "description": "The patient exhibits an exaggerated startle response."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PGD",
+    "diagnosis_name": "Prolonged Grief Disorder",
+    "diagnostic_code": "F43.81",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "Intense longing/preoccupation plus at least 3 of 8 specified grief symptoms",
+    "duration_rule": "12 months (6 months for children); present nearly every day for the past month",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PGD_DEATH",
+        "symptom_name": "Bereavement",
+        "description": "The patient has experienced the death of a close friend or relative."
+      },
+      {
+        "symptom_id": "SYM_PGD_LONGING",
+        "symptom_name": "Persistent Longing",
+        "description": "The patient experiences intense, persistent longing or yearning for the deceased person."
+      },
+      {
+        "symptom_id": "SYM_PGD_IDENTITY",
+        "symptom_name": "Identity Disruption",
+        "description": "The patient experiences identity disruption, such as feeling as though a part of oneself has died, since the death occurred."
+      },
+      {
+        "symptom_id": "SYM_PGD_DISBELIEF",
+        "symptom_name": "Disbelief About Death",
+        "description": "The patient experiences a marked sense of disbelief regarding the death of the deceased."
+      },
+      {
+        "symptom_id": "SYM_PGD_AVOID",
+        "symptom_name": "Avoidance of Reminders",
+        "description": "The patient actively avoids reminders of the deceased person."
+      },
+      {
+        "symptom_id": "SYM_PGD_PAIN",
+        "symptom_name": "Intense Emotional Pain",
+        "description": "The patient experiences intense emotional pain, such as anger, bitter grief, or sorrow, related to the death."
+      },
+      {
+        "symptom_id": "SYM_PGD_REINTEGRATE",
+        "symptom_name": "Difficulty Moving On",
+        "description": "The patient has difficulty moving on with life, such as experiencing problems engaging with friends, pursuing interests, or planning for the future."
+      },
+      {
+        "symptom_id": "SYM_PGD_NUMB",
+        "symptom_name": "Emotional Numbness",
+        "description": "The patient experiences emotional numbness, characterized by an absence or marked reduction of emotional reactivity."
+      },
+      {
+        "symptom_id": "SYM_PGD_MEANINGLESS",
+        "symptom_name": "Feeling of Meaninglessness",
+        "description": "The patient feels that life is meaningless or empty without the deceased person."
+      },
+      {
+        "symptom_id": "SYM_PGD_LONELY",
+        "symptom_name": "Intense Loneliness",
+        "description": "The patient experiences intense loneliness or feels detached from others following the death."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ADJUSTMENT",
+    "diagnosis_name": "Adjustment Disorder",
+    "diagnostic_code": "F43.21",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "Distress out of proportion to stressor OR significant functional impairment",
+    "duration_rule": "Begins within 3 months of stressor; ends within 6 months of stressor termination",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_AD_STRESSOR",
+        "symptom_name": "Stressor Response",
+        "description": "The patient develops emotional or behavioral symptoms in response to an identifiable stressor within 3 months of its onset."
+      },
+      {
+        "symptom_id": "SYM_AD_RESPONSE",
+        "symptom_name": "Disproportionate Distress",
+        "description": "The patient develops emotional or behavioral symptoms in response to a stressor that are out of proportion to the severity or intensity of the stressor."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_TRAUMA",
+    "diagnosis_name": "Other Specified Trauma- and Stressor-Related Disorder",
+    "diagnostic_code": "F43.89",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "Symptoms characteristic of trauma disorder that cause distress but do not meet full criteria",
+    "duration_rule": "Variable (e.g., adjustment-like onset > 3 months or duration > 6 months)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TR_SUBTH",
+        "symptom_name": "Subthreshold Trauma",
+        "description": "The patient experiences trauma-related symptoms that cause clinically significant distress or impairment but fall below the full diagnostic threshold."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_TRAUMA",
+    "diagnosis_name": "Unspecified Trauma- and Stressor-Related Disorder",
+    "diagnostic_code": "F43.9",
+    "chapter_category": "Trauma- and Stressor-Related Disorders",
+    "threshold_count": "Trauma/stressor symptoms present but insufficient information for specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_TR_UNSPEC",
+        "symptom_name": "Unspecified Trauma",
+        "description": "The patient presents with trauma-related symptoms causing distress or impairment, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "diagnosis_id": "DX_SCHIZ",
+    "diagnosis_name": "Schizophrenia",
+    "diagnostic_code": "F20.9",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "2 or more (at least one must be delusions, hallucinations, or disorganized speech)",
+    "duration_rule": "6 months continuous evidence (1 month active-phase symptoms)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_HAL",
+        "symptom_name": "Hallucinations",
+        "description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_SPEECH",
+        "symptom_name": "Disorganized Speech",
+        "description": "The patient exhibits speech that is noticeably incoherent, disorganized, or frequently derails from the topic."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_CAT",
+        "symptom_name": "Catatonic Behavior",
+        "description": "The patient exhibits severely abnormal psychomotor behavior, ranging from unresponsiveness to agitated, purposeless movement."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_NEG",
+        "symptom_name": "Negative Symptoms",
+        "description": "The patient displays negative symptoms, such as diminished emotional expression, restricted affect, or a lack of volition."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_IMPAIR",
+        "symptom_name": "Functional Impairment",
+        "description": "The patient experiences clinically significant impairment in occupational, academic, or social functioning due to their symptoms."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+        "symptom_name": "Not Substance Induced",
+        "description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SCHIZ_FORM",
+    "diagnosis_name": "Schizophreniform Disorder",
+    "diagnostic_code": "F20.81",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "At least 2 (at least one must be delusions, hallucinations, or disorganized speech)",
+    "duration_rule": "1 to 6 months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_HAL",
+        "symptom_name": "Hallucinations",
+        "description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_SPEECH",
+        "symptom_name": "Disorganized Speech",
+        "description": "The patient exhibits speech that is noticeably incoherent, disorganized, or frequently derails from the topic."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_CAT",
+        "symptom_name": "Catatonic Behavior",
+        "description": "The patient exhibits severely abnormal psychomotor behavior, ranging from unresponsiveness to agitated, purposeless movement."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_NEG",
+        "symptom_name": "Negative Symptoms",
+        "description": "The patient displays negative symptoms, such as diminished emotional expression, restricted affect, or a lack of volition."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+        "symptom_name": "Not Substance Induced",
+        "description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_SCHIZ_AFF",
+    "diagnosis_name": "Schizoaffective Disorder",
+    "diagnostic_code": "F25.0",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "Principal symptoms of schizophrenia coexist with a major mood episode; delusions/hallucinations for 2 weeks in absence of mood episode",
+    "duration_rule": "1 month or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SCHIZ_AFF_TIMING",
+        "symptom_name": "Psychosis Without Mood",
+        "description": "The patient has experienced delusions or hallucinations for two or more weeks in the absence of a major mood episode during the lifetime duration of the illness."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_HAL",
+        "symptom_name": "Hallucinations",
+        "description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+      },
+      {
+        "symptom_id": "SYM_MDD_MOOD",
+        "symptom_name": "Depressed Mood",
+        "description": "The patient experiences a depressed mood for most of the day, nearly every day."
+      },
+      {
+        "symptom_id": "SYM_MAN_MOOD",
+        "symptom_name": "Elevated Mood",
+        "description": "The patient experiences an abnormally and persistently elevated, expansive, or irritable mood."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+        "symptom_name": "Not Substance Induced",
+        "description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BRIEF_PSYCH",
+    "diagnosis_name": "Brief Psychotic Disorder",
+    "diagnostic_code": "F23",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "At least 1 (delusions, hallucinations, disorganized speech, or behavior)",
+    "duration_rule": "1 day to 1 month (full return to baseline)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_HAL",
+        "symptom_name": "Hallucinations",
+        "description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_SPEECH",
+        "symptom_name": "Disorganized Speech",
+        "description": "The patient exhibits speech that is noticeably incoherent, disorganized, or frequently derails from the topic."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_CAT",
+        "symptom_name": "Catatonic Behavior",
+        "description": "The patient exhibits severely abnormal psychomotor behavior, ranging from unresponsiveness to agitated, purposeless movement."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+        "symptom_name": "Not Substance Induced",
+        "description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_DEL_DIS",
+    "diagnosis_name": "Delusional Disorder",
+    "diagnostic_code": "F22",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "1 or more delusions; no other symptoms of schizophrenia",
+    "duration_rule": "1 month or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_BPL_NOT_SUBSTANCE",
+        "symptom_name": "Not Substance Induced",
+        "description": "The patient exhibits symptoms that are not attributable to the physiological effects of a substance or another medical condition."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PSYCH_MED",
+    "diagnosis_name": "Psychotic Disorder Due to Another Medical Condition",
+    "diagnostic_code": "F06.2",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "Obvious hallucinations or delusions",
+    "duration_rule": "Not specified (physiological consequence of medical condition)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PSYCH_MED_ETIOLOGY",
+        "symptom_name": "Medical Etiology",
+        "description": "The patient has a disturbance that is shown by history, physical examination, or laboratory findings to be the direct pathophysiological consequence of another medical condition."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_HAL",
+        "symptom_name": "Hallucinations",
+        "description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PSYCH_SUB",
+    "diagnosis_name": "Substance/Medication-Induced Psychotic Disorder",
+    "diagnostic_code": "F19.95",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "Hallucinations or delusions predominant in clinical picture",
+    "duration_rule": "During or soon after intoxication or withdrawal",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PSYCH_SUB_ETIOLOGY",
+        "symptom_name": "Substance Etiology",
+        "description": "The patient has symptoms that developed during or soon after substance intoxication, withdrawal, or medication exposure, with evidence that the substance is capable of producing the observed hallucinations or delusions."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_DEL",
+        "symptom_name": "Delusions",
+        "description": "The patient holds firmly fixed false beliefs that persist despite contradictory evidence."
+      },
+      {
+        "symptom_id": "SYM_SCHIZ_HAL",
+        "symptom_name": "Hallucinations",
+        "description": "The patient experiences false sensory perceptions, most commonly auditory or visual, without any external stimulus."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CATA_SPEC",
+    "diagnosis_name": "Catatonia Associated with Another Mental Disorder (Specifier)",
+    "diagnostic_code": "F06.1",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "At least 3 out of 12 characteristics",
+    "duration_rule": "Not specified (occurring during another disorder)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_CATA_STUPOR",
+        "symptom_name": "Stupor",
+        "description": "The patient exhibits stupor, characterized by a lack of psychomotor activity and unresponsiveness to the environment."
+      },
+      {
+        "symptom_id": "SYM_CATA_CATALEPSY",
+        "symptom_name": "Catalepsy",
+        "description": "The patient maintains a rigid, uncomfortable posture against gravity even when told it is not necessary to do so."
+      },
+      {
+        "symptom_id": "SYM_CATA_WAXY",
+        "symptom_name": "Waxy Flexibility",
+        "description": "The patient exhibits waxy flexibility, actively resisting attempts to change their position before yielding to pressure."
+      },
+      {
+        "symptom_id": "SYM_CATA_MUTISM",
+        "symptom_name": "Mutism",
+        "description": "The patient exhibits an absence of, or very little, verbal response despite the evident physical ability to speak."
+      },
+      {
+        "symptom_id": "SYM_CATA_NEGATIVISM",
+        "symptom_name": "Negativism",
+        "description": "The patient exhibits motiveless resistance to instructions or attempts to be moved."
+      },
+      {
+        "symptom_id": "SYM_CATA_POSTURING",
+        "symptom_name": "Posturing",
+        "description": "The patient voluntarily assumes and maintains an unnatural or uncomfortable pose."
+      },
+      {
+        "symptom_id": "SYM_CATA_MANNERISM",
+        "symptom_name": "Mannerisms",
+        "description": "The patient performs repeated movements that seem to have a goal but are excessive for the purpose."
+      },
+      {
+        "symptom_id": "SYM_CATA_STEREOTYPY",
+        "symptom_name": "Stereotypy",
+        "description": "The patient engages in repetitive, abnormally frequent, non-goal-directed movements."
+      },
+      {
+        "symptom_id": "SYM_CATA_AGITATION",
+        "symptom_name": "Catatonic Agitation",
+        "description": "The patient exhibits excessive motor activity that appears to have neither a purpose nor an external cause."
+      },
+      {
+        "symptom_id": "SYM_CATA_GRIMACE",
+        "symptom_name": "Grimacing",
+        "description": "The patient exhibits facial contortions or grimacing not made in response to a noxious stimulus."
+      },
+      {
+        "symptom_id": "SYM_CATA_ECHOLALIA",
+        "symptom_name": "Echolalia",
+        "description": "The patient exhibits verbatim, automatic repetition of someone else's words."
+      },
+      {
+        "symptom_id": "SYM_CATA_ECHOPRAXIA",
+        "symptom_name": "Echopraxia",
+        "description": "The patient automatically mimics or imitates another person's physical behavior."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_CATA_MED",
+    "diagnosis_name": "Catatonic Disorder Due to Another Medical Condition",
+    "diagnostic_code": "F06.1",
+    "chapter_category": "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "threshold_count": "At least 3 prominent symptoms of catatonia",
+    "duration_rule": "Not specified (physiological consequence of medical condition)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_CATA_STUPOR",
+        "symptom_name": "Stupor",
+        "description": "The patient exhibits stupor, characterized by a lack of psychomotor activity and unresponsiveness to the environment."
+      },
+      {
+        "symptom_id": "SYM_CATA_CATALEPSY",
+        "symptom_name": "Catalepsy",
+        "description": "The patient maintains a rigid, uncomfortable posture against gravity even when told it is not necessary to do so."
+      },
+      {
+        "symptom_id": "SYM_CATA_WAXY",
+        "symptom_name": "Waxy Flexibility",
+        "description": "The patient exhibits waxy flexibility, actively resisting attempts to change their position before yielding to pressure."
+      },
+      {
+        "symptom_id": "SYM_CATA_MUTISM",
+        "symptom_name": "Mutism",
+        "description": "The patient exhibits an absence of, or very little, verbal response despite the evident physical ability to speak."
+      },
+      {
+        "symptom_id": "SYM_CATA_NEGATIVISM",
+        "symptom_name": "Negativism",
+        "description": "The patient exhibits motiveless resistance to instructions or attempts to be moved."
+      },
+      {
+        "symptom_id": "SYM_CATA_POSTURING",
+        "symptom_name": "Posturing",
+        "description": "The patient voluntarily assumes and maintains an unnatural or uncomfortable pose."
+      },
+      {
+        "symptom_id": "SYM_CATA_MANNERISM",
+        "symptom_name": "Mannerisms",
+        "description": "The patient performs repeated movements that seem to have a goal but are excessive for the purpose."
+      },
+      {
+        "symptom_id": "SYM_CATA_STEREOTYPY",
+        "symptom_name": "Stereotypy",
+        "description": "The patient engages in repetitive, abnormally frequent, non-goal-directed movements."
+      },
+      {
+        "symptom_id": "SYM_CATA_AGITATION",
+        "symptom_name": "Catatonic Agitation",
+        "description": "The patient exhibits excessive motor activity that appears to have neither a purpose nor an external cause."
+      },
+      {
+        "symptom_id": "SYM_CATA_GRIMACE",
+        "symptom_name": "Grimacing",
+        "description": "The patient exhibits facial contortions or grimacing not made in response to a noxious stimulus."
+      },
+      {
+        "symptom_id": "SYM_CATA_ECHOLALIA",
+        "symptom_name": "Echolalia",
+        "description": "The patient exhibits verbatim, automatic repetition of someone else's words."
+      },
+      {
+        "symptom_id": "SYM_CATA_ECHOPRAXIA",
+        "symptom_name": "Echopraxia",
+        "description": "The patient automatically mimics or imitates another person's physical behavior."
+      }
+    ]
+  }
+]

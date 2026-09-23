@@ -1,0 +1,222 @@
+[
+  {
+    "diagnosis_id": "DX_AN",
+    "diagnosis_name": "Anorexia Nervosa",
+    "diagnostic_code": "F50.02",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Restriction of energy intake + intense fear of weight gain + body image distortion",
+    "duration_rule": "Persistent (typically 3 months for subtype)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_AN_RESTRICT",
+        "symptom_name": "Restricts Food Intake",
+        "description": "The patient severely restricts food intake, leading to a markedly reduced body weight that is less than minimally expected for their age and height."
+      },
+      {
+        "symptom_id": "SYM_AN_FEAR",
+        "symptom_name": "Fear of Weight",
+        "description": "The patient exhibits an intense fear of gaining weight or becoming fat, or persistently behaves in ways that interfere with weight gain."
+      },
+      {
+        "symptom_id": "SYM_AN_DISTORT",
+        "symptom_name": "Distorted Body Image",
+        "description": "The patient has a distorted self-perception of being overweight despite actually being severely underweight."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BN",
+    "diagnosis_name": "Bulimia Nervosa",
+    "diagnostic_code": "F50.2",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Eating in binges followed by inappropriate compensatory behavior",
+    "duration_rule": "Weekly for 3 or more months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BN_BINGE",
+        "symptom_name": "Binge Eating",
+        "description": "The patient recurrently consumes an objectively large amount of food in a discrete period of time, accompanied by a sense of lack of control over eating."
+      },
+      {
+        "symptom_id": "SYM_BN_CONTROL",
+        "symptom_name": "Loss Of Control",
+        "description": "The patient experiences a sense of loss of control over eating during a binge episode."
+      },
+      {
+        "symptom_id": "SYM_BN_COMPENSATE",
+        "symptom_name": "Compensatory Behaviors",
+        "description": "The patient recurrently engages in inappropriate compensatory behaviors, such as self-induced vomiting, misuse of laxatives, or excessive exercise, to prevent weight gain."
+      },
+      {
+        "symptom_id": "SYM_BN_SELF_EVAL",
+        "symptom_name": "Weight Self-Evaluation",
+        "description": "The patient's self-evaluation is unduly influenced by their body shape and weight."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_BED",
+    "diagnosis_name": "Binge-Eating Disorder",
+    "diagnostic_code": "F50.81",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Binges plus 3 or more behavioral symptoms (e.g., eating fast, eating until uncomfortably full)",
+    "duration_rule": "Weekly for 3 or more months",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_BED_BINGE",
+        "symptom_name": "Binge Eating",
+        "description": "The patient experiences recurrent episodes of binge eating involving large quantities of food."
+      },
+      {
+        "symptom_id": "SYM_BED_CONTROL",
+        "symptom_name": "Loss Of Control",
+        "description": "The patient experiences a sense of loss of control over eating during a binge episode."
+      },
+      {
+        "symptom_id": "SYM_BED_FAST",
+        "symptom_name": "Rapid Eating",
+        "description": "The patient eats much more rapidly than normal during a binge eating episode."
+      },
+      {
+        "symptom_id": "SYM_BED_FULL",
+        "symptom_name": "Uncomfortable Fullness",
+        "description": "The patient eats until feeling uncomfortably full during a binge eating episode."
+      },
+      {
+        "symptom_id": "SYM_BED_HUNGER",
+        "symptom_name": "Eating Without Hunger",
+        "description": "The patient eats large amounts of food when not feeling physically hungry."
+      },
+      {
+        "symptom_id": "SYM_BED_ALONE",
+        "symptom_name": "Eating Alone",
+        "description": "The patient eats alone because of feeling embarrassed by how much they are eating during a binge episode."
+      },
+      {
+        "symptom_id": "SYM_BED_DISGUST",
+        "symptom_name": "Post-Binge Guilt",
+        "description": "The patient feels disgusted with themselves, depressed, or very guilty after an episode of binge eating."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_PICA",
+    "diagnosis_name": "Pica",
+    "diagnostic_code": "F98.3",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Persists in eating material that is not food",
+    "duration_rule": "1 month or more; patient is at least 2 years old",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_PICA_EAT",
+        "symptom_name": "Nonnutritive Eating",
+        "description": "The patient persistently eats dirt, paper, soap, or other non-nutritional, non-food substances."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_RUMINATION",
+    "diagnosis_name": "Rumination Disorder",
+    "diagnostic_code": "F98.21",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Regurgitating and re-chewing food already eaten",
+    "duration_rule": "1 month or more",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_RUM_REGURG",
+        "symptom_name": "Food Regurgitation",
+        "description": "The patient persistently regurgitates food, which may then be re-chewed, re-swallowed, or spit out."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_ARFID",
+    "diagnosis_name": "Avoidant/Restrictive Food Intake Disorder",
+    "diagnostic_code": "F50.82",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Failure to meet nutrition/energy needs + at least 1 of 4 specified consequences",
+    "duration_rule": "Persistent",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_ARFID_AVOID",
+        "symptom_name": "Food Avoidance",
+        "description": "The patient persistently avoids or restricts food intake based on a lack of interest, sensory characteristics of food, or concern about aversive consequences of eating."
+      },
+      {
+        "symptom_id": "SYM_ARFID_WT_LOSS",
+        "symptom_name": "Weight Loss",
+        "description": "The patient exhibits significant weight loss or a failure to achieve expected weight gain due to food avoidance."
+      },
+      {
+        "symptom_id": "SYM_ARFID_DEFICIENT",
+        "symptom_name": "Nutritional Deficiency",
+        "description": "The patient experiences a significant nutritional deficiency as a result of restrictive food intake."
+      },
+      {
+        "symptom_id": "SYM_ARFID_ENTERAL",
+        "symptom_name": "Enteral Dependence",
+        "description": "The patient is dependent on enteral feeding or oral nutritional supplements to meet their nutritional needs."
+      },
+      {
+        "symptom_id": "SYM_ARFID_PSYCHOSOCIAL",
+        "symptom_name": "Psychosocial Interference",
+        "description": "The patient experiences marked interference with psychosocial functioning as a result of food avoidance."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_OS_EATING",
+    "diagnosis_name": "Other Specified Feeding or Eating Disorder",
+    "diagnostic_code": "F50.89",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Clinically important symptoms that fall below threshold for defined disorders",
+    "duration_rule": "Variable (e.g., atypical anorexia, low frequency binges)",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_EAT_SUBTH",
+        "symptom_name": "Subthreshold Eating Symptoms",
+        "description": "The patient exhibits clinically important eating symptoms that fall below the diagnostic threshold for specific eating disorders."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  },
+  {
+    "diagnosis_id": "DX_UNSPEC_EATING",
+    "diagnosis_name": "Unspecified Feeding or Eating Disorder",
+    "diagnostic_code": "F50.9",
+    "chapter_category": "Feeding and Eating Disorders",
+    "threshold_count": "Eating/feeding symptoms present but insufficient information for a specific diagnosis",
+    "duration_rule": "Variable",
+    "symptoms": [
+      {
+        "symptom_id": "SYM_EAT_UNSPEC",
+        "symptom_name": "Unspecified Eating Symptoms",
+        "description": "The patient exhibits eating or feeding symptoms, but there is insufficient information to make a specific diagnosis."
+      },
+      {
+        "symptom_id": "SYM_BPL_DISTRESS",
+        "symptom_name": "Clinically Significant Distress",
+        "description": "The patient experiences clinically important distress or impairment in social, occupational, or other important areas of functioning due to the symptoms."
+      }
+    ]
+  }
+]
