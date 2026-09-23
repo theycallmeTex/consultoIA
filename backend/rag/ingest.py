@@ -14,7 +14,7 @@ load_dotenv()
 from .embeddings import embed_documents
 from .qdrant_store import VECTOR_NAME, COLLECTION, ensure_collection, get_client
 
-DATASET_PATH = Path(__file__).resolve().parents[2] / "dsm5_tr_data" / "diagnoses.json"
+DATASET_PATH = Path(__file__).resolve().parents[1] / "dsm5_tr_data" / "diagnoses.json"
 BATCH_SIZE = 90  # limite pratico per richiesta Cohere
 
 

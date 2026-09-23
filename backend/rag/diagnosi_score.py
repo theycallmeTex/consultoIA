@@ -13,7 +13,7 @@ import math
 from functools import lru_cache
 from pathlib import Path
 
-DATASET_PATH = Path(__file__).resolve().parents[2] / "dsm5_tr_data" / "diagnoses.json"
+DATASET_PATH = Path(__file__).resolve().parents[1] / "dsm5_tr_data" / "diagnoses.json"
 
 N_FISSO = 5  # candidati considerati per l'ambiguity score, per rendere i punteggi confrontabili tra casi
 TEMPERATURA_SOFTMAX = 0.15

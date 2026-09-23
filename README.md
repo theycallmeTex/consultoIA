@@ -8,7 +8,7 @@ Applicazione con due modalità:
 ## Struttura
 
 - [`backend/`](backend/) — API FastAPI che chiama modelli via OpenRouter (SDK OpenAI-compatibile) e gestisce i feedback su CSV.
-  - [`backend/rag/`](backend/rag/) — modulo RAG: embedding multilingue (Cohere `embed-multilingual-v3.0`) + vector DB (Qdrant Cloud) sui sintomi del dataset [`dsm5_tr_data/`](dsm5_tr_data/).
+  - [`backend/rag/`](backend/rag/) — modulo RAG: embedding multilingue (Cohere `embed-multilingual-v3.0`) + vector DB (Qdrant Cloud) sui sintomi del dataset [`backend/dsm5_tr_data/`](backend/dsm5_tr_data/).
 - [`frontend/`](frontend/) — interfaccia React (Vite).
 
 ## Avvio in locale

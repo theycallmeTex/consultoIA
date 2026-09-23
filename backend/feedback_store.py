@@ -1,7 +1,9 @@
 import os
 import pandas as pd
 
-FEEDBACK_CSV = os.path.join(os.path.dirname(__file__), "feedback_esperti.csv")
+# Su Vercel il filesystem del progetto è a sola lettura: si scrive in /tmp (temporaneo, non persistente).
+_BASE_DIR = "/tmp" if os.getenv("VERCEL") else os.path.dirname(__file__)
+FEEDBACK_CSV = os.path.join(_BASE_DIR, "feedback_esperti.csv")
 
 COLUMNS = ["testo_originale", "analisi_ia", "correzione_esperto"]
 
