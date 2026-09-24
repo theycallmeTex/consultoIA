@@ -1,4 +1,4 @@
-# Consulente IA & Journaling
+# AI psychological diagnosis & Consulting
 
 Applicazione con due modalità:
 

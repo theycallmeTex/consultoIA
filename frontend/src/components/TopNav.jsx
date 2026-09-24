@@ -8,7 +8,7 @@ export default function TopNav({ mode, onModeChange }) {
     <header className="topnav">
       <div className="topnav-brand">
         <img className="topnav-mark" src="/icons8-psicologia-96.png" alt="" width="36" height="36" />
-        <span>Consulente IA</span>
+        <span>Consulente AI</span>
       </div>
 
       <nav className="tabs" role="tablist" aria-label="Modalità">

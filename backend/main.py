@@ -24,7 +24,7 @@ if not api_key:
 
 client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=api_key)
 
-app = FastAPI(title="Consulente IA & Journaling API")
+app = FastAPI(title="AI psychological diagnosis & Consulting API")
 
 app.add_middleware(
     CORSMiddleware,
