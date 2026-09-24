@@ -7,7 +7,7 @@ export default function TopNav({ mode, onModeChange }) {
   return (
     <header className="topnav">
       <div className="topnav-brand">
-        <img className="topnav-mark" src="/icons8-psicologia-96.png" alt="" width="28" height="28" />
+        <img className="topnav-mark" src="/icons8-psicologia-96.png" alt="" width="36" height="36" />
         <span>Consulente IA</span>
       </div>
 
