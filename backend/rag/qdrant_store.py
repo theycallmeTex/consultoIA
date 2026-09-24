@@ -1,4 +1,5 @@
 import os
+from urllib.parse import urlparse
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
@@ -13,7 +14,10 @@ _client = None
 def get_client() -> QdrantClient:
     global _client
     if _client is None:
-        _client = QdrantClient(url=os.environ["QDRANT_URL"], api_key=os.environ["QDRANT_API_KEY"])
+        url = os.environ["QDRANT_URL"].strip()
+        # Senza porta esplicita il client userebbe la 6333, spesso bloccata da reti/firewall: Qdrant Cloud risponde anche sulla 443.
+        port = None if urlparse(url).port else 443
+        _client = QdrantClient(url=url, port=port, api_key=os.environ["QDRANT_API_KEY"])
     return _client
 
 

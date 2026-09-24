@@ -88,11 +88,10 @@ h1, h2, h3 {
 }
 
 .topnav-mark {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
-  background: conic-gradient(from 210deg, var(--navy), var(--gold), var(--sage), var(--navy));
+  object-fit: contain;
 }
 
 .tabs {
@@ -341,6 +340,67 @@ input:focus-visible,
   margin-bottom: 2rem;
 }
 
+.stat-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 1.6rem 1rem;
+  text-align: center;
+}
+
+.stat-card.ambiguity {
+  border-left: 4px solid #ef5a52;
+}
+
+.stat-card.ambiguity.verde {
+  border-left-color: #22c55e;
+}
+
+.stat-card.ambiguity.giallo {
+  border-left-color: #eab308;
+}
+
+.stat-card-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  margin-bottom: 0.9rem;
+}
+
+.stat-card-value {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ef5a52;
+}
+
+.stat-card.ambiguity.verde .stat-card-value {
+  color: #22c55e;
+}
+
+.stat-card.ambiguity.giallo .stat-card-value {
+  color: #eab308;
+}
+
+.stat-card-value.positive {
+  color: #22c55e;
+}
+
+@media (max-width: 480px) {
+  .stat-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 .cds-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -431,25 +491,126 @@ input:focus-visible,
   color: var(--ink-soft);
 }
 
-.ambiguity-badge {
-  display: inline-block;
-  font-size: 0.85rem;
-  padding: 0.45rem 0.85rem;
-  border-radius: 999px;
-  margin-bottom: 1.25rem;
+/* ============================================================
+   Responsive / mobile
+   ============================================================ */
+.app { min-height: 100dvh; }
+
+.chat-message,
+.hypothesis,
+.point-list li,
+.reco-list li {
+  overflow-wrap: anywhere;
 }
 
-.ambiguity-badge.verde {
-  background: var(--sage-soft);
-  color: var(--sage);
+@media (max-width: 720px) {
+  .topnav-brand {
+    justify-content: center;
+    padding: 0.85rem 1rem 0.15rem;
+  }
+
+  .tabs {
+    gap: 0;
+    padding: 0 0.5rem;
+  }
+
+  .tab {
+    flex: 1;
+    padding: 0.75rem 0.25rem;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .content {
+    padding: 1.5rem 1rem 2rem;
+  }
+
+  .view-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .view-header h2 {
+    font-size: 1.45rem;
+  }
+
+  /* 16px evita lo zoom automatico di iOS al focus dei campi */
+  textarea,
+  input[type="text"] {
+    font-size: 16px;
+  }
+
+  button {
+    min-height: 44px;
+  }
+
+  .chat-message {
+    max-width: 90%;
+  }
+
+  .cds-result {
+    margin-top: 1.75rem;
+    padding-top: 1.25rem;
+  }
+
+  .hypothesis {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat-cards {
+    gap: 0.65rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat-card {
+    padding: 1.1rem 0.5rem;
+  }
+
+  .stat-card-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.65rem;
+  }
+
+  .stat-card-value {
+    font-size: 2rem;
+  }
+
+  .cds-columns[style] {
+    margin-top: 1.5rem !important;
+  }
+
+  .feedback-section {
+    margin-top: 2rem;
+  }
+
+  .feedback-section button,
+  .content > div > button.primary {
+    width: 100%;
+  }
+
+  .app-footer {
+    padding: 1rem 1rem calc(1.25rem + env(safe-area-inset-bottom, 0px));
+  }
 }
 
-.ambiguity-badge.giallo {
-  background: var(--gold-soft);
-  color: #7a5a1e;
+/* Le due card affiancate restano tali anche su telefoni stretti */
+@media (max-width: 480px) {
+  .stat-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.ambiguity-badge.rosso {
-  background: var(--rose-soft);
-  color: var(--rose);
+@media (max-width: 360px) {
+  .chat-input-form {
+    flex-direction: column;
+  }
+
+  .chat-input-form button {
+    width: 100%;
+  }
+
+  .stat-card-value {
+    font-size: 1.7rem;
+  }
 }

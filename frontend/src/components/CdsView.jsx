@@ -112,14 +112,23 @@ export default function CdsView() {
         <>
           {analisiParsata ? (
             <div className="cds-result">
-              {ambiguita && ambiguita.ambiguita !== null && (
-                <div className={`ambiguity-badge ${ambiguita.livello}`}>
-                  Indice di ambiguità: <strong>{ambiguita.ambiguita}/100</strong> — {ambiguita.descrizione}
-                </div>
-              )}
-
               <div className="cds-result-label">Ipotesi diagnostica</div>
               <p className="hypothesis">{analisiParsata.ipotesi_diagnostica}</p>
+
+              {rag && (
+                <div className="stat-cards">
+                  <div className={`stat-card ambiguity ${ambiguita?.livello || ""}`}>
+                    <div className="stat-card-label">System ambiguity score</div>
+                    <div className="stat-card-value">
+                      {ambiguita?.ambiguita != null ? `${ambiguita.ambiguita}%` : "—"}
+                    </div>
+                  </div>
+                  <div className="stat-card">
+                    <div className="stat-card-label">Potential diagnoses</div>
+                    <div className="stat-card-value positive">{rag.candidate?.conteggio ?? candidate.length}</div>
+                  </div>
+                </div>
+              )}
 
               <div className="cds-columns">
                 <div>
